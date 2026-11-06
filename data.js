@@ -251,42 +251,224 @@ window.PERKS_CATALOG = [
     "slug": "mobile",
     "name": "中国移动全球通金卡",
     "category": "通信与出行",
-    "officialUrl": "https://www.10086.cn/roaming/yewu/qqtzs/",
-    "checkedAt": "2026-11-06",
+    "officialUrl": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+    "checkedAt": "2026-11-07",
     "benefits": [
       {
-        "id": "railway-lounge",
-        "title": "高铁贵宾休息室",
-        "description": "在中国移动 App“全球通专区 → 出行/贵宾厅礼遇”查看并领取指定高铁站休息室服务。出行前查可用站点、营业时间及核销方式；本期次数、剩余次数与携伴扣次规则待本人账号确认。",
-        "source": "https://wx.10086.cn/prd-mgcenter/richtext/20230908170806_a5a2cc6f145e4aee90564dd2eea73844.html",
-        "kind": "实用出行 · 次数待确认"
+        "id": "airport-lounge",
+        "title": "机场贵宾休息室（全国）",
+        "description": "本人及同行人使用，按实际人数扣次；标准服务2小时，核销不支持截屏。出行前查询航站楼和可用网点。",
+        "section": "机场与高铁出行",
+        "quotaText": "剩余2次 · 2026-11-07账号快照",
+        "quotaRemaining": 2,
+        "quotaTotal": null,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "账号已核实",
+        "verification": "account"
       },
       {
-        "id": "airport-lounge",
-        "title": "机场贵宾休息室",
-        "description": "全球通出行礼遇提供指定机场休息室服务。使用前查机场、航站楼、安检内外位置及预约要求；本期次数与携伴规则按本人账号和网点页面确认，快速安检或餐食是否包含请查具体服务说明。",
-        "source": "https://wap.gs.10086.cn/newcard/qqt5GA?WT.ac_id=gs_hkzq_qqt5GA",
-        "kind": "实用出行 · 次数待确认"
+        "id": "railway-lounge",
+        "title": "高铁贵宾休息室（全国）",
+        "description": "本入口当前剩余0次，未据此推断总配额或已用次数。指定网点、本人及同行人使用规则以服务页为准；携程合作包的1次另列。",
+        "section": "机场与高铁出行",
+        "quotaText": "剩余0次 · 本入口当前不可按免费次数使用",
+        "quotaRemaining": 0,
+        "quotaTotal": null,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "账号已核实",
+        "verification": "account"
+      },
+      {
+        "id": "hongkong-lounge",
+        "title": "香港机场休息室（广东专属）",
+        "description": "与全国机场免费次数共用额度。兑换香港机场权益即扣次并锁定用于香港机场，无法撤销；按实际出行随用随领。付费购买或受赠机场权益不适用香港。",
+        "section": "机场与高铁出行",
+        "quotaText": "共用全国机场剩余2次；不是额外赠送2次",
+        "quotaRemaining": null,
+        "quotaTotal": null,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "账号已核实 · 共享额度",
+        "verification": "account"
+      },
+      {
+        "id": "ctrip-railway-lounge",
+        "title": "携程合作高铁休息室",
+        "description": "全球通合作权益，须在携程App购买实名本人火车票，出发站或到达站须为支持站点；兑换后按官方券码核销，仅限本人。",
+        "section": "机场与高铁出行",
+        "quotaText": "本期共1次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 需领取/绑定",
+        "verification": "account"
+      },
+      {
+        "id": "ctrip-train-assist",
+        "title": "火车票快速帮抢",
+        "description": "在携程App“帮抢/候补 → 托管等级”选全球通商旅礼遇；同一订单乘车人可享对应帮抢速率，服务不保证抢票成功。",
+        "section": "机场与高铁出行",
+        "quotaText": "本期共1次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 需领取/绑定",
+        "verification": "account"
+      },
+      {
+        "id": "hotel-discount",
+        "title": "指定酒店85折订房",
+        "description": "在合作携程入口预订带“优享会权益”标签的境内酒店（不含港澳台），订单匹配最优同类折扣；具体优惠看结算页。",
+        "section": "酒店与景区",
+        "quotaText": "订房折扣85折 · 页面标注无限次",
+        "quotaRemaining": null,
+        "quotaTotal": null,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定酒店",
+        "verification": "account"
+      },
+      {
+        "id": "hotel-coupon",
+        "title": "60元酒店优惠券",
+        "description": "限携程合作入口内带“全球通券”标签的在线付房型；下单勾选，每单限1张。不可取消订单或未入住等情形，已用券可能不退。",
+        "section": "酒店与景区",
+        "quotaText": "60元券1张 · 领取及实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "张",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 需领取/绑定",
+        "verification": "account"
+      },
+      {
+        "id": "hotel-breakfast",
+        "title": "指定酒店免费早餐",
+        "description": "预订带“会员早餐”标签的酒店及房型，适用于无早餐或仅含1份早餐房型；下单时勾选，预订成功即扣次。",
+        "section": "酒店与景区",
+        "quotaText": "本期共8次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 8,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定房型",
+        "verification": "account"
+      },
+      {
+        "id": "hotel-late-checkout",
+        "title": "指定酒店延迟退房",
+        "description": "在带“延迟退房”标签的境内酒店，下单时勾选权益，预订后不能补选；退房时间以产品承诺为准，预订成功即扣次。",
+        "section": "酒店与景区",
+        "quotaText": "本期共8次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 8,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 下单勾选",
+        "verification": "account"
+      },
+      {
+        "id": "hotel-upgrade",
+        "title": "指定酒店房型升级",
+        "description": "在带“房型升级”标签的境内酒店与房型，下单时勾选权益；预订成功即扣次，不能将权益单独取消返还。",
+        "section": "酒店与景区",
+        "quotaText": "本期共8次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 8,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定房型",
+        "verification": "account"
+      },
+      {
+        "id": "attraction-coupon",
+        "title": "40元景区优惠券",
+        "description": "合作入口带“全球通专享”标签的景区门票，每单限1张、门票单价须超过10元；需大陆身份证实名认证且出行人一致。",
+        "section": "酒店与景区",
+        "quotaText": "40元券1张 · 领取及实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "张",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 需领取/绑定",
+        "verification": "account"
+      },
+      {
+        "id": "car-rental-discount",
+        "title": "租车专享95折",
+        "description": "通过携程合作入口在线预付指定国内租车产品；仅租车费享优惠，手续费、保险服务、异地还车等附加费按产品规则。",
+        "section": "旅行消费优惠",
+        "quotaText": "95折1次 · 优惠上限以携程页面为准",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定产品",
+        "verification": "account"
+      },
+      {
+        "id": "day-tour-discount",
+        "title": "一日游会员95折",
+        "description": "携程App指定一日游产品下单勾选用券；实际抵扣和适用产品按合作权益页面，券不可叠加或折现。",
+        "section": "旅行消费优惠",
+        "quotaText": "95折1次 · 实际可用产品到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定产品",
+        "verification": "account"
+      },
+      {
+        "id": "wifi-discount",
+        "title": "旅行Wi-Fi租赁98折",
+        "description": "适用于携程App内指定漫游超人、环球漫游Wi-Fi产品的租赁费用，不含押金、邮寄及设备损坏等费用。",
+        "section": "旅行消费优惠",
+        "quotaText": "98折1次 · 实际剩余到携程核对",
+        "quotaRemaining": null,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+        "kind": "携程合作 · 指定品牌",
+        "verification": "account"
       },
       {
         "id": "roaming-5gb",
-        "title": "5GB 国际漫游流量礼包",
-        "description": "金卡可领取5GB国漫流量；适用200多个国家或地区，领取及激活须在当年12月31日前完成，激活后连续30天内有效或用完失效。需先核对目的地。",
-        "source": "https://www.10086.cn/roaming/yewu/qqtzs/",
-        "kind": "需领取"
+        "title": "5GB国际漫游礼包",
+        "description": "账号出境礼包页当前显示“已用完”。5GB是本期礼包规格，不能当作目前仍可使用的流量；下期及新礼包以官方页面为准。",
+        "section": "境外通信",
+        "quotaText": "本期5GB · 页面显示已用完",
+        "quotaRemaining": 0,
+        "quotaTotal": 5,
+        "quotaUnit": "GB",
+        "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/guoman",
+        "kind": "账号已核实 · 已用完",
+        "verification": "account"
       },
       {
         "id": "roaming-gift",
         "title": "国漫流量转赠亲友",
         "description": "金卡每年可转赠1次未激活礼包给本省移动亲友号码；转出流量从本人额度扣减。首次受让人立即生效，后续新增或修改需等待10天。",
         "source": "https://10086.cn/roaming/yewu/qqtzs/zhuanzeng/",
-        "kind": "需操作"
+        "kind": "公开规则 · 需未激活礼包",
+        "section": "境外通信",
+        "verification": "public",
+        "quotaText": "当前5GB礼包已用完；转赠次数余额未展示",
+        "quotaRemaining": null,
+        "quotaTotal": null
       }
     ],
     "notes": [
-      "机场与高铁休息室已列入重点出行权益。中国移动官方公告列有此类服务，但本期可领状态、次数、网点与携伴规则需要在老武的会员中心确认。",
-      "老武号码归属广东。广东账号本期可用次数、网点及携伴规则待会员中心确认；其他省份公开案例仅供了解，不作为广东账号额度。",
-      "5GB国漫礼包及转赠规则有公开官方说明。领取会连带开通国际/港澳台漫游功能，超出礼包资源可能按标准资费收费。"
+      "已在老武本人登录的广东全球通金卡页面核对，数据截取于2026-11-07。这里保存的是账号快照，后续领取、使用及余额变动以官方页面为准。",
+      "全国机场剩余2次、全国高铁剩余0次；香港机场权益与全国机场共享免费次数，兑换后锁定香港且不可撤销。",
+      "酒店景区页显示11项可享权益。携程合作权益须通过官方入口领取或绑定，本期总次数不等于当前剩余次数，也不并入携程钻石会员配额。",
+      "本期酒店景区及休息室权益有效至2026-12-31。升房、延迟退房、早餐等通常需下单时勾选；服务无法提供时，可向携程核实是否返还权益次数。",
+      "酒店景区合作包内的机场快速安检、机场休息室标为“升级后可享”，未计入该合作包当前可用清单；全国机场休息室的2次来自另一个入口。",
+      "休息室页另有付费专享购：机场128元/次、高铁64元/次，按当时页面和网点规则；它们不属于免费次数。5GB国漫礼包当前已用完。"
     ],
     "icon": "移",
     "owners": [
@@ -294,22 +476,23 @@ window.PERKS_CATALOG = [
     ],
     "sources": [
       {
-        "title": "甘肃移动现行全球通权益说明（确认服务类型，不据此推算全国次数）",
-        "url": "https://wap.gs.10086.cn/newcard/qqt5GA?WT.ac_id=gs_hkzq_qqt5GA"
+        "title": "本人全球通酒店景区权益及逐项规则（需登录）",
+        "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel"
       },
       {
-        "title": "中国移动：贵宾厅礼遇更新公告（2023年，确认服务类型）",
-        "url": "https://wx.10086.cn/prd-mgcenter/richtext/20230908170806_a5a2cc6f145e4aee90564dd2eea73844.html"
+        "title": "全球通综合入口：底部“休息室”（需登录）",
+        "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel"
       },
       {
-        "title": "新华网：山东移动全球通出行权益（2026-04-03，地区案例）",
-        "url": "https://www.xinhuanet.com/info/20260403/0cf3cae9ce0a4fbb8283e66d6dcc08aa/c.html"
+        "title": "本人出境礼包状态（需登录）",
+        "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/guoman"
       },
       {
-        "title": "中国移动：全球通专属国漫礼包规则",
+        "title": "中国移动公开国漫领取及转赠规则",
         "url": "https://www.10086.cn/roaming/yewu/qqtzs/"
       }
-    ]
+    ],
+    "verification": "account"
   },
   {
     "slug": "ctrip",
