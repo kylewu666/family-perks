@@ -1,0 +1,1668 @@
+{
+  "membershipId": "wu-ctrip",
+  "owner": "wu",
+  "slug": "ctrip",
+  "status": "本轮草稿已定稿：21项核心，较原14项新增7项；27条新观察，明确未核细则，不宣称官方21项全条款全部核完。",
+  "baselineCheckedAt": "2026-11-13",
+  "baselineObservations": {
+    "checkedAt": "2026-11-13",
+    "reviewStatus": "本轮十四项核心整理完成，未遍历全部二十一项或核完条款",
+    "verifiedTier": "钻石贵宾 V5",
+    "displayedEntitlementCount": 21,
+    "hotelEntitlements": [
+      {
+        "title": "房型升级",
+        "observedRemaining": 3,
+        "displayedTotal": 4
+      },
+      {
+        "title": "免费酒店早餐",
+        "observedRemaining": 4,
+        "displayedTotal": 4
+      },
+      {
+        "title": "酒店免费取消",
+        "observedRemaining": 3,
+        "displayedTotal": 4
+      },
+      {
+        "title": "延迟退房",
+        "observedRemaining": 3,
+        "displayedTotal": 4
+      },
+      {
+        "title": "优享会酒店",
+        "displayedOffer": "8.5折起"
+      },
+      {
+        "title": "积分加速",
+        "displayedMultiplier": 2
+      }
+    ],
+    "lockedUpgradeOnly": [
+      {
+        "title": "客服特权",
+        "unlockTier": "金钻",
+        "displayedStatus": "灰色锁定"
+      },
+      {
+        "title": "奢华酒店礼遇",
+        "unlockTier": "金钻",
+        "displayedStatus": "灰色锁定"
+      },
+      {
+        "title": "行政酒廊",
+        "unlockTier": "金钻",
+        "displayedStatus": "灰色锁定"
+      }
+    ],
+    "independentEntitlementsNote": "这是携程本体会员记录；中国移动合作包的八次酒店服务和一次高铁休息室另记在移动，不能相加。高铁休息室暂仅见总配置，当前剩余待核；不从剩余反向推定已用次数或未见的总额。",
+    "pendingReview": [
+      "高铁休息室当前剩余",
+      "具体参与机场与车站",
+      "完整使用条件及办理流程",
+      "各配额周期"
+    ],
+    "agentActions": {
+      "claimPerformed": false,
+      "purchasePerformed": false,
+      "bookingPerformed": false,
+      "redemptionPerformed": false
+    },
+    "transportEntitlements": [
+      {
+        "title": "机场快速安检",
+        "displayedTotal": 2,
+        "observedRemaining": 2,
+        "observedRemainingText": "剩余2次 | 共2次"
+      },
+      {
+        "title": "机场休息室",
+        "displayedTotal": 1,
+        "observedRemaining": 0,
+        "observedRemainingText": "剩余0次 | 共1次"
+      },
+      {
+        "title": "高铁休息室",
+        "displayedTotal": 2,
+        "observedRemaining": null
+      },
+      {
+        "title": "火车在线换座",
+        "observedRemaining": 30,
+        "displayedTotal": 30,
+        "observedRemainingText": "剩余30次 | 共30次"
+      },
+      {
+        "title": "火车安心退改",
+        "observedRemaining": 2,
+        "displayedTotal": null,
+        "unverifiedConditions": [
+          "后半段文字未完整读取，不推断境外部分权益或次数"
+        ]
+      }
+    ],
+    "pointsZone": {
+      "displayedOptions": [
+        "会员抽奖：一积分抽奖",
+        "积分抵现：抵用现金",
+        "积分加速：两倍"
+      ],
+      "note": "抽奖不保证中奖；抵现按产品限制，不是可提现现金"
+    }
+  },
+  "catalogReconciliation": {
+    "displayedCount": 21,
+    "raw21CardIndex": [],
+    "knownNamedEntries": [
+      {
+        "title": "房型升级",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "本轮余额、最低等级、标签下单流程及积分路径已核；房晚扣次和周期待核",
+        "benefitId": "hotel-room-upgrade"
+      },
+      {
+        "title": "免费酒店早餐",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "本轮余额、最低等级、标签下单流程及积分路径已核；房晚扣次和周期待核",
+        "benefitId": "hotel-free-breakfast"
+      },
+      {
+        "title": "酒店免费取消",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "本轮余额、最低等级、标签下单流程及积分路径已核；房晚扣次和周期待核",
+        "benefitId": "hotel-free-cancel"
+      },
+      {
+        "title": "延迟退房",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "本轮余额、最低等级、标签下单流程及积分路径已核；房晚扣次和周期待核",
+        "benefitId": "hotel-late-checkout"
+      },
+      {
+        "title": "优享会酒店",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "本轮已重读余额或价格及主要流程，旧截断或未读状态已补全；余下细则见currentUnverifiedItems",
+        "benefitId": "preferred-hotel-discount"
+      },
+      {
+        "title": "积分加速",
+        "sourceArea": "酒店／权益表",
+        "currentStatus": "已见账号条目，详情待补",
+        "benefitId": "points-2x"
+      },
+      {
+        "title": "机场快速安检",
+        "sourceArea": "交通／权益表",
+        "currentStatus": "本轮2／2及本人流程已核，国内目标机场行与国际当前四行已读，实际按可选航线及机场规则",
+        "benefitId": "airport-fast-security"
+      },
+      {
+        "title": "机场休息室",
+        "sourceArea": "交通／权益表",
+        "currentStatus": "本轮新兑换0／1及本人流程已核；原已兑券核销状态未查看",
+        "benefitId": "airport-lounge"
+      },
+      {
+        "title": "高铁休息室",
+        "sourceArea": "交通／权益表",
+        "currentStatus": "本轮已核2／2、兑换家庭规则及深圳北/广州南厅；免费券时长、会员扣次及周期仍未读",
+        "benefitId": "railway-lounge"
+      },
+      {
+        "title": "火车在线换座",
+        "sourceArea": "交通／权益表",
+        "currentStatus": "本轮已重读余额或价格及主要流程，旧截断或未读状态已补全；余下细则见currentUnverifiedItems",
+        "benefitId": "train-online-seat-change"
+      },
+      {
+        "title": "火车安心退改",
+        "sourceArea": "交通／权益表",
+        "currentStatus": "本轮已重读余额或价格及主要流程，旧截断或未读状态已补全；余下细则见currentUnverifiedItems",
+        "benefitId": "train-change-refund-support"
+      },
+      {
+        "title": "会员抽奖",
+        "sourceArea": "积分区",
+        "currentStatus": "已见一积分抽奖入口",
+        "benefitId": "points-cash-and-lottery"
+      },
+      {
+        "title": "积分抵现",
+        "sourceArea": "积分区",
+        "currentStatus": "已见入口，产品限制待补",
+        "benefitId": "points-cash-and-lottery"
+      },
+      {
+        "title": "客服特权",
+        "sourceArea": "权益表",
+        "currentStatus": "金钻解锁／灰色锁定，非当前钻石可用",
+        "benefitId": null
+      },
+      {
+        "title": "奢华酒店礼遇",
+        "sourceArea": "权益表",
+        "currentStatus": "金钻解锁／灰色锁定，非当前钻石可用",
+        "benefitId": null
+      },
+      {
+        "title": "行政酒廊",
+        "sourceArea": "权益表",
+        "currentStatus": "金钻解锁／灰色锁定，非当前钻石可用",
+        "benefitId": null
+      },
+      {
+        "title": "接送机升车型",
+        "sourceArea": "用车权益详情",
+        "currentStatus": "本轮已查看当前钻石规则及流程",
+        "benefitId": "airport-transfer-vehicle-upgrade"
+      },
+      {
+        "title": "租车专享价",
+        "sourceArea": "用车权益详情",
+        "currentStatus": "本轮已查看当前钻石规则及流程",
+        "benefitId": "rental-member-price"
+      },
+      {
+        "title": "汽车票优先出票特权",
+        "sourceArea": "汽车出票特权详情",
+        "currentStatus": "本轮已读剩余4次和下单勾选流程；各4次含义未展开",
+        "benefitId": "bus-priority-ticketing"
+      },
+      {
+        "title": "旅游线路会员价",
+        "sourceArea": "旅游权益主卡及详情",
+        "currentStatus": "本轮已读当前钻石价格和产品标签，适用范围分别记录",
+        "benefitId": "tour-member-prices"
+      },
+      {
+        "title": "一日游会员价",
+        "sourceArea": "旅游权益主卡及详情",
+        "currentStatus": "本轮已读当前钻石价格和产品标签，适用范围分别记录",
+        "benefitId": "tour-member-prices"
+      },
+      {
+        "title": "外币兑换优惠",
+        "sourceArea": "本轮权益主卡及详情",
+        "currentStatus": "当前会员条件及流程已读，具体未核项另列",
+        "benefitId": "foreign-currency-exchange-offers"
+      },
+      {
+        "title": "分期免息",
+        "sourceArea": "本轮权益主卡及详情",
+        "currentStatus": "当前会员条件及流程已读，具体未核项另列",
+        "benefitId": "installment-interest-offer"
+      },
+      {
+        "title": "火车全能托管",
+        "sourceArea": "本轮权益主卡及详情",
+        "currentStatus": "当前会员条件及流程已读，具体未核项另列",
+        "benefitId": "train-managed-ticketing"
+      }
+    ],
+    "publicSupplementIds": [
+      "checkin-bonus",
+      "hotel-points-redemption"
+    ],
+    "countScopeConfirmed": false,
+    "note": "当前21项核心含合并权益和两项公开补充；已知名称来自不同区域并含更高等级锁项，不能将核心数或名称数直接等同于官方页面21原卡全条款已核。"
+  },
+  "recheckPriorities": [
+    {
+      "focus": "高铁",
+      "status": "本轮余额、兑换家庭规则及广东厅已核",
+      "known": "2／2，合资格票及本人/满七天家庭规则、深圳北/广州南厅及核验路径已读",
+      "remaining": [
+        "会员次数扣次、重置与返还",
+        "免费券时长及同行细则"
+      ]
+    },
+    {
+      "focus": "机场",
+      "status": "本轮本人流程及目标安检名单已读",
+      "known": "安检2／2，休息室新兑换0／1；国内目标部分行与国际当前四行分开记录",
+      "remaining": [
+        "实际航班可选产品和当期休息室清单",
+        "会员扣次、重置及取消返还"
+      ]
+    },
+    {
+      "focus": "酒店",
+      "status": "四项及优享会本轮已核",
+      "known": "房升3／4、早餐4／4、取消3／4、延迟3／4；标签下单流程及积分路径已读，优享会钻石8.5折起",
+      "remaining": [
+        "早餐份数／房晚",
+        "退房时点、取消窗口、升级安排",
+        "次数扣减及周期、免费次数返还"
+      ]
+    },
+    {
+      "focus": "火车服务",
+      "status": "旧截断说明已补全",
+      "known": "在线换座30／30、安心退改国内2／2及境外部分产品不限次、全能托管2／2及每票/不足余额规则已核",
+      "remaining": [
+        "国内返现比例上限、境外具体线路期限",
+        "帮抢及相关服务取消返还、重置周期"
+      ]
+    },
+    {
+      "focus": "目录与公开补充",
+      "status": "核心整理完成，非官方逐卡全条款核完",
+      "known": "21核心包含合并项和两项public补充；原14ID均保留",
+      "remaining": [
+        "完整原21逐卡索引",
+        "两项公开补充当前账号细则"
+      ]
+    },
+    {
+      "focus": "价格与金融条件",
+      "status": "只读当前会员条件",
+      "known": "租车97折上折、线路95折、日游91折、外币2次免加急、指定金额和渠道三期分期1／1分别记录",
+      "remaining": [
+        "实际产品结算",
+        "分期申请授信及一般支付条款，不推已开通"
+      ]
+    }
+  ],
+  "newObservations": [
+    {
+      "observationId": "2026-11-13-railway-lounge-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "railway-lounge"
+      ],
+      "displayedRemainingText": "剩余2次 | 共2次",
+      "quotaRemaining": 2,
+      "quotaTotal": 2,
+      "quotaUnit": "次",
+      "displayedRules": [
+        "铂金及以上贵宾在携程预订合资格火车票，于指定站点享高铁贵宾厅、餐食体验厅或餐食外带权益",
+        "往返、联程及配送票订单除外",
+        "激活条件：账户已实名、近两年有成交酒店订单"
+      ],
+      "displayedFlow": [
+        "兑换权益",
+        "使用权益"
+      ],
+      "pendingDetails": [
+        "兑换权益详情链接",
+        "指定站点及服务",
+        "车票与权益核验和扣次",
+        "服务时长与携伴",
+        "配额周期"
+      ],
+      "agentActions": {
+        "usedNowButtonClicked": false,
+        "exchanged": false,
+        "redeemed": false
+      },
+      "privacyNote": "仅保留通用激活规则；未保存实名资料、实际酒店行程或订单信息。"
+    },
+    {
+      "observationId": "2026-11-13-railway-lounge-2",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "railway-lounge"
+      ],
+      "displayedExchangeMethods": [
+        {
+          "method": "随火车票预订",
+          "conditions": [
+            "账户实名人或合资格家庭账户子成员有携程未出行火车票订单",
+            "出发或到达站为权益兑换站点",
+            "可用对应等级权益免费兑换线下服务",
+            "目前不支持商旅订单"
+          ]
+        },
+        {
+          "method": "高铁休息室补订页面",
+          "displayedSteps": [
+            "选择服务",
+            "下单"
+          ],
+          "specificOrderPriceAndConditions": "未实际下单，按页面规则"
+        }
+      ],
+      "displayedUsageFlow": [
+        "服务券码发送至订单预留手机号",
+        "到站贵宾厅前台出示二维码"
+      ],
+      "codeRetrievalPath": "携程App → 会员中心 → 我的特权 → 高铁休息室 → E权益码",
+      "familyEligibilityBoundary": "合资格家庭账户子成员可享，不等于任意同行人免费；同行人数及扣次单位仍未读。",
+      "pendingDetails": [
+        "流程后半及例外",
+        "参与站点",
+        "服务时长",
+        "同行规则及扣次单位",
+        "配额周期"
+      ],
+      "agentActions": {
+        "exchanged": false,
+        "orderPlaced": false,
+        "redeemed": false
+      },
+      "privacyNote": "仅记录服务发码及查看路径，不保存预留手机号、二维码、车票、实名或家庭成员身份信息。"
+    },
+    {
+      "observationId": "2026-11-13-railway-lounge-3",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "railway-lounge"
+      ],
+      "ruleEffectiveSince": "2026-10-23",
+      "displayedFamilyExchangeRules": {
+        "perEligibleOrderCumulativeFreeExchangeLimit": 2,
+        "eligiblePersons": [
+          "本人",
+          "已添加满七天的携程家庭账户成员"
+        ],
+        "under18RuleText": "订单中18周岁以下儿童不占用权益兑换上限额度",
+        "memberQuotaDeductionUnitConfirmed": false,
+        "note": "订单的权益兑换上限与会员剩余次数不是已确认的同一计额口径；不推定任意未成年人无限免费或不扣会员次数。"
+      },
+      "partnershipBoundary": "该高铁页的联名、万事达、全球通合作权益仅限本人，与钻石等级家庭共享区分。",
+      "selectedPaidSku": {
+        "station": "上海虹桥",
+        "displayedPriceCny": 65,
+        "serviceHours": 2,
+        "validityAfterPurchaseDays": 30,
+        "scope": "服务页当前默认所选站点的普通付费SKU，不代表用户实际位置，也不代表所有站点或免费权益券。"
+      },
+      "agentActions": {
+        "purchased": false,
+        "exchanged": false,
+        "redeemed": false
+      },
+      "pendingDetails": [
+        "广东参与站点",
+        "免费权益具体服务时长",
+        "同行及会员次数扣减单位",
+        "配额周期及核销例外"
+      ]
+    },
+    {
+      "observationId": "2026-11-13-railway-lounge-4",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "railway-lounge"
+      ],
+      "stationSelectionsSeen": [
+        "深圳北",
+        "上海虹桥"
+      ],
+      "shenzhenNorthServicePoint": {
+        "name": "深圳北高铁休息室服务点",
+        "nameBrandConfirmed": false,
+        "openingHours": "07:00—21:00",
+        "addressTextAsRead": "安检前西进站口右侧…或安检后往A20检票口方向走",
+        "scope": "本轮查看的携程服务点，位置营业须按当期页、券面及现场确认；不是移动或支付宝的悦途A9/A10网点。"
+      },
+      "selectedPaidSku": {
+        "station": "深圳北",
+        "displayedPriceCny": 65,
+        "serviceHours": 2,
+        "validityAfterPurchaseDays": 30,
+        "scope": "当前所选站点的普通付费产品示例；不推广所有站点，不用于确认免费权益券的期限或服务时长。"
+      },
+      "shanghaiHongqiaoScope": "站点选择中也可见，但未查看位置，不套用深圳北地点或所有站统一时长价格。",
+      "agentActions": {
+        "purchased": false,
+        "exchanged": false,
+        "redeemed": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-railway-lounge-5",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "railway-lounge"
+      ],
+      "stationSelectionSeen": "广州南站",
+      "guangzhouSouthServicePoint": {
+        "name": "广州南站易登车商务休息厅",
+        "openingHours": "07:00—21:00",
+        "routes": [
+          {
+            "for": "驾车前往",
+            "text": "广州南站西出发平台外左侧，经独立进站安检通道验票后进入"
+          },
+          {
+            "for": "已进站旅客",
+            "text": "自行前往B26检票口左侧按指示牌入厅"
+          }
+        ],
+        "scope": "到厅路线说明，不构成额外快速安检权益或免排队承诺。"
+      },
+      "selectedPaidSku": {
+        "station": "广州南",
+        "displayedPriceCny": 65,
+        "serviceHours": 2,
+        "validityAfterPurchaseDays": 30,
+        "scope": "当前所选站点普通付费产品，不推定所有站点或免费券固定期限、价格。"
+      },
+      "guangdongServicePointPagesRead": [
+        "深圳北",
+        "广州南"
+      ],
+      "agentActions": {
+        "purchased": false,
+        "exchanged": false,
+        "redeemed": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "displayedRemainingText": "剩余2次 | 共2次",
+      "quotaRemaining": 2,
+      "quotaTotal": 2,
+      "displayedEligibilityRules": [
+        "钻石及以上贵宾",
+        "在携程预订机票时",
+        "贵宾本人使用",
+        "部分航线指定机场快速安检通道"
+      ],
+      "activationConditionsRules": [
+        "账户已实名",
+        "近两年有成交酒店订单"
+      ],
+      "activationConditionsShown": "2/2 已满足",
+      "pendingDetails": [
+        "流程详情",
+        "支持机场及航线",
+        "核验及扣次时机",
+        "配额周期"
+      ],
+      "privacyNote": "仅保留通用规则及条件已满足状态；未保存实名资料、实际酒店订单或行程。"
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-2",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "displayedExchangeFlow": [
+        "在携程App预订机票",
+        "进入优选服务页",
+        "选择快速安检产品加入行程",
+        "按合资格条件享免费快速安检"
+      ],
+      "displayedUsageFlow": [
+        "兑换成功后验票二维码以短信发送至订单联系手机",
+        "在机场完成值机并取得登机牌",
+        "到指定安检通道入口出示二维码通过"
+      ],
+      "personScope": "仅本人",
+      "airportScope": "流程页有开通机场列表链接，尚在读取；不推全国或任意机场可用。",
+      "agentActions": {
+        "exchanged": false,
+        "orderPlaced": false,
+        "redeemed": false
+      },
+      "privacyNote": "仅保留发码规则，无实际手机号码、二维码、机票或登机牌信息。"
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-3",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "listPageTitle": "快速安检权益机场",
+      "displayedFlightGroups": [
+        "国内航班（大陆境内）",
+        "国际航班（出境／中国港澳台／境外）"
+      ],
+      "domesticRowsPartlyRead": [
+        {
+          "airport": "包头东河",
+          "rulesFullyRead": false
+        },
+        {
+          "airport": "北京首都",
+          "terminalsSeen": [
+            "T2",
+            "T3"
+          ],
+          "rulesFullyRead": false
+        },
+        {
+          "airport": "北京大兴",
+          "laneTextAsRead": "T CHUM通道西／东分航司",
+          "rulesFullyRead": false
+        },
+        {
+          "airport": "常州奔牛",
+          "rulesFullyRead": false
+        },
+        {
+          "airport": "长春龙嘉",
+          "rowComplete": false,
+          "rulesFullyRead": false
+        }
+      ],
+      "restrictionsSeen": "所读国内行有经济舱／超级经济舱适用条件，部分通道还限航司或时段；未逐列完整核实，不泛化全部机场或舱位。",
+      "notYetRead": [
+        "广东机场名单",
+        "杭州机场名单",
+        "国际航班具体机场清单"
+      ],
+      "interruption": "镜像读取突发失败，等待用户恢复后再继续；不补猜未读名单。",
+      "agentActions": {
+        "exchanged": false,
+        "orderPlaced": false,
+        "redeemed": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-4",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "flightGroup": "国内",
+      "rowsRead": [
+        {
+          "airport": "广州白云",
+          "terminal": "T2",
+          "lane": "机场通专属通道",
+          "hours": "07:00—21:30",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ],
+          "flightDateLimitAsRead": "支持2026-12-31前航班使用"
+        },
+        {
+          "airport": "广州白云",
+          "terminal": "T3",
+          "lane": "机场通专属通道",
+          "hours": "05:30—21:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ],
+          "flightDateLimitAsRead": null
+        }
+      ],
+      "note": "T2航班日期限制不套用T3；实际仍需机票优选服务产品及航线/航司匹配。"
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-5",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "flightGroup": "国内",
+      "rowsRead": [
+        {
+          "airport": "杭州萧山",
+          "terminals": [
+            "T3",
+            "T4"
+          ],
+          "lane": "嘉宾安检通道",
+          "hours": "06:30—22:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "深圳宝安",
+          "terminal": "T3",
+          "lane": "空港快速通服务",
+          "hours": "06:00—22:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "上海浦东",
+          "terminals": [
+            "T1",
+            "T2"
+          ],
+          "lane": "会员专属通道",
+          "hours": "06:00—20:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "上海虹桥",
+          "terminal": "T2",
+          "lane": "会员专属通道",
+          "hours": "06:00—20:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        }
+      ],
+      "otherDateLimitSeen": {
+        "airportRow": "三亚T1",
+        "flightDateLimitAsRead": "2026-12-14前航班",
+        "fullRowRecorded": false
+      },
+      "note": "仅保存已读行；不同通道航班日期限制不同，不统一套12月31日。"
+    },
+    {
+      "observationId": "2026-11-13-airport-fast-security-6",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-fast-security"
+      ],
+      "flightGroup": "国际",
+      "pageSubtitle": "出境／中国港澳台／境外航班使用",
+      "currentVisibleRowCount": 4,
+      "currentVisibleRowsRead": [
+        {
+          "airport": "北京大兴",
+          "terminalAsRead": "T",
+          "lane": "CHUM嘉宾快速通道",
+          "hours": "06:30—22:30",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "重庆江北",
+          "terminal": "T3",
+          "lane": "国际头等舱安检通道",
+          "hours": "06:00—22:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "上海浦东",
+          "terminal": "T2",
+          "lane": "会员专属通道",
+          "hours": "06:00—20:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        },
+        {
+          "airport": "上海浦东",
+          "terminal": "T1",
+          "lane": "会员专属通道",
+          "hours": "06:00—20:00",
+          "cabins": [
+            "经济舱",
+            "超级经济舱"
+          ]
+        }
+      ],
+      "note": "当前整屏四行、右侧B/C/S索引、底部留白；只见以上国内出发机场，不据副标题推定海外机场已支持。国内广州/深圳/杭州不自动适用于国际。"
+    },
+    {
+      "observationId": "2026-11-13-airport-lounge-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-lounge"
+      ],
+      "quotaRemaining": 0,
+      "quotaTotal": 1,
+      "balanceMeaning": "当前新兑换名额，未查看原兑换券是否已核销或仍待用",
+      "eligibility": [
+        "钻石及以上",
+        "携程预订机票",
+        "仅贵宾本人",
+        "指定机场免费休息室"
+      ],
+      "activationRules": [
+        "账户实名",
+        "近两年有成交酒店订单"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "exchangeFlow": [
+        "机票优选服务页加入贵宾休息室产品",
+        "兑换成功短信发至订单联系手机"
+      ],
+      "usageFlow": [
+        "找到指定贵宾室",
+        "出示二维码"
+      ],
+      "airportListBoundary": "名单仅为当前合作列表，航线实际可用以产品页为准",
+      "doNotAutoMarkUsed": true,
+      "agentActions": {
+        "exchanged": false,
+        "orderPlaced": false,
+        "redeemed": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-hotel-late-checkout-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "hotel-late-checkout"
+      ],
+      "quotaRemaining": 3,
+      "quotaTotal": 4,
+      "quotaUnit": "次",
+      "minimumTier": "白银及以上",
+      "labelAsRecorded": "延迟退房",
+      "bookingFlow": [
+        "筛选对应权益标签",
+        "选择含标签商家下单"
+      ],
+      "pointsPathRules": [
+        "免费次数用完后可用携程积分按等级积分折扣兑换",
+        "积分兑换的权益不可单独取消，需取消订单重订，积分按规则原路退还",
+        "酒店无法提供或实际未使用时可联系核实后原路退积分",
+        "上述返还说明仅对积分兑换，不保证免费次数自动恢复"
+      ],
+      "note": "未提供每份对应订单/房/晚扣次及重置周期；不复制其他平台填单勾选流程。"
+    },
+    {
+      "observationId": "2026-11-13-hotel-free-cancel-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "hotel-free-cancel"
+      ],
+      "quotaRemaining": 3,
+      "quotaTotal": 4,
+      "quotaUnit": "次",
+      "minimumTier": "白银及以上",
+      "labelAsRecorded": "对应会员取消权益标签",
+      "bookingFlow": [
+        "筛选对应权益标签",
+        "选择含标签商家下单"
+      ],
+      "pointsPathRules": [
+        "免费次数用完后可用携程积分按等级积分折扣兑换",
+        "积分兑换的权益不可单独取消，需取消订单重订，积分按规则原路退还",
+        "酒店无法提供或实际未使用时可联系核实后原路退积分",
+        "上述返还说明仅对积分兑换，不保证免费次数自动恢复"
+      ],
+      "note": "未提供每份对应订单/房/晚扣次及重置周期；不复制其他平台填单勾选流程。"
+    },
+    {
+      "observationId": "2026-11-13-hotel-free-breakfast-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "hotel-free-breakfast"
+      ],
+      "quotaRemaining": 4,
+      "quotaTotal": 4,
+      "quotaUnit": "次",
+      "minimumTier": "黄金及以上",
+      "labelAsRecorded": "免费兑早餐",
+      "bookingFlow": [
+        "筛选对应权益标签",
+        "选择含标签商家下单"
+      ],
+      "pointsPathRules": [
+        "免费次数用完后可用携程积分按等级积分折扣兑换",
+        "积分兑换的权益不可单独取消，需取消订单重订，积分按规则原路退还",
+        "酒店无法提供或实际未使用时可联系核实后原路退积分",
+        "上述返还说明仅对积分兑换，不保证免费次数自动恢复"
+      ],
+      "note": "未提供每份对应订单/房/晚扣次及重置周期；不复制其他平台填单勾选流程。"
+    },
+    {
+      "observationId": "2026-11-13-hotel-room-upgrade-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "hotel-room-upgrade"
+      ],
+      "quotaRemaining": 3,
+      "quotaTotal": 4,
+      "quotaUnit": "次",
+      "minimumTier": "黄金及以上",
+      "labelAsRecorded": "免费升房",
+      "bookingFlow": [
+        "筛选对应权益标签",
+        "选择含标签商家下单"
+      ],
+      "pointsPathRules": [
+        "免费次数用完后可用携程积分按等级积分折扣兑换",
+        "积分兑换的权益不可单独取消，需取消订单重订，积分按规则原路退还",
+        "酒店无法提供或实际未使用时可联系核实后原路退积分",
+        "上述返还说明仅对积分兑换，不保证免费次数自动恢复"
+      ],
+      "note": "未提供每份对应订单/房/晚扣次及重置周期；不复制其他平台填单勾选流程。"
+    },
+    {
+      "observationId": "2026-11-13-airport-transfer-vehicle-upgrade-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-transfer-vehicle-upgrade"
+      ],
+      "quotaRemaining": 2,
+      "quotaTotal": 2,
+      "minimumTier": "钻石及以上",
+      "displayedUpgrade": "经济5座免费升舒适5座",
+      "activationRules": [
+        "账户实名",
+        "近两年有成交酒店订单"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "excludedHigherTierBenefits": [
+        "黑钻舒适5座升尊享专车",
+        "黑钻境外携程专车不限次免费取消"
+      ],
+      "note": "不是整段免费打车，不推定需先有携程机票；原行程费用仍需支付。"
+    },
+    {
+      "observationId": "2026-11-13-airport-transfer-vehicle-upgrade-2",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "airport-transfer-vehicle-upgrade"
+      ],
+      "entryPaths": [
+        "接送机／包车频道选择目的地",
+        "已有行程页预约",
+        "预订机票时选择接送机产品"
+      ],
+      "flow": [
+        "选择带免费升车型标签的产品",
+        "在套餐或服务中勾选升级权益"
+      ],
+      "productScope": "页面包含接送机／接送火车入口，是否适用按带标签可选产品，不能推定全部接送站都享有",
+      "agentActions": {
+        "purchased": false,
+        "reserved": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-rental-member-price-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "rental-member-price"
+      ],
+      "minimumTier": "黄金及以上",
+      "currentDiamondRateAsRead": "97折上折",
+      "normalizedRate": "9.7折上折",
+      "productLabel": "等级贵宾",
+      "otherTiersAsRead": {
+        "黑钻": "95",
+        "金钻": "96"
+      },
+      "activationRules": [
+        "账户实名",
+        "近两年有成交酒店订单"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "quotaOrCycleRead": false,
+      "note": "不将更高等级95或96折算入当前钻石，不推无限次、金额上限或次数周期。",
+      "agentActions": {
+        "purchased": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-bus-priority-ticketing-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "bus-priority-ticketing"
+      ],
+      "displayedQuotaText": "剩余4次 | 各4次",
+      "quotaRemaining": 4,
+      "quotaTotalMeaningConfirmed": false,
+      "minimumTier": "黄金及以上",
+      "displayedServiceLabel": "汽车票5分钟优先快速出票通道",
+      "flow": [
+        "预订汽车票选择对应车次",
+        "在订单填写页勾选会员权益",
+        "下单使用"
+      ],
+      "diagramOnlyServices": [
+        "极速出票",
+        "免服务费"
+      ],
+      "unverifiedConditions": [
+        "各4次具体含义",
+        "免服务费是否为当前钻石独立权益及实际余额",
+        "具体出票时效条件"
+      ],
+      "boundary": "只新增优先出票一条，不推免服务费另有四次，不保证任意票五分钟出票，不免车票本身费用。",
+      "agentActions": {
+        "booked": false,
+        "paid": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-tour-member-prices-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "tour-member-prices"
+      ],
+      "displayedCards": [
+        {
+          "title": "旅游线路会员价",
+          "currentDiamondRateAsRead": "95折",
+          "normalizedRate": "9.5折",
+          "channel": "携程跟团游频道",
+          "scope": "境内（不含港澳台）五钻产品或私家团",
+          "productLabel": "贵宾价"
+        },
+        {
+          "title": "一日游会员价",
+          "currentDiamondRateAsRead": "91折",
+          "normalizedRate": "9.1折",
+          "channel": "一日游频道",
+          "productLabel": "会员价",
+          "note": "本卡未写前一项内地或五钻限制，不跨套。"
+        }
+      ],
+      "quotaOrCycleRead": false,
+      "pricingBoundary": "旅游线路9.5折不是折上折；租车才明确97折上折。均按标价与实际结算，非所有跟团、海外旅游或日游无条件统一优惠。",
+      "agentActions": {
+        "paidActivation": false,
+        "purchased": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-foreign-currency-exchange-offers-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "foreign-currency-exchange-offers"
+      ],
+      "quotaRemaining": 2,
+      "displayedDiamondTable": "2次免加急费；不限次专享汇率",
+      "rules": [
+        "铂金及以上预订携程外币兑换产品享会员专享价",
+        "黄金及以上外币当日或次日取钞加急订单享加急费减免"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "boundary": "次数2仅对应免加急费；汇率按具体币种产品，不扩大为任意币种无条件无限优惠。",
+      "agentActions": {
+        "used": false,
+        "exchanged": false,
+        "activated": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-installment-interest-offer-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "installment-interest-offer"
+      ],
+      "displayedCardName": "分期免息",
+      "quotaRemaining": 1,
+      "quotaTotal": 1,
+      "rules": [
+        "携程旅行App预订产品",
+        "单笔订单金额1000元以内",
+        "选拿去花信用购分期服务确认订单后享三期分期息费优惠"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "boundary": "仅会员条件卡片；未核金融产品申请、授信或一般支付条款，不表示已开通拿去花，不建议申请或支付。",
+      "agentActions": {
+        "used": false,
+        "exchanged": false,
+        "activated": false,
+        "paid": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-train-managed-ticketing-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "train-managed-ticketing"
+      ],
+      "quotaRemaining": 2,
+      "quotaTotal": 2,
+      "currentTierService": "钻石2次尊享帮抢",
+      "rules": [
+        "每张火车票消耗一次抢票权益",
+        "余额少于本单抢购票数时，使用当前全部余额支持该订单全部票抢票"
+      ],
+      "higherTierExcluded": [
+        "黑钻12次VIP",
+        "金钻6次VIP"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "unverified": [
+        "成功率",
+        "取消退款或次数返还",
+        "重置周期"
+      ],
+      "agentActions": {
+        "booked": false,
+        "paid": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-train-change-refund-support-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "train-change-refund-support"
+      ],
+      "displayedQuotaText": "剩余2次 | 境外无限；国内2次",
+      "domesticQuotaRemaining": 2,
+      "domesticQuotaTotal": 2,
+      "rules": [
+        "黄金及以上购买单程火车票，填写订单页勾选安心退改",
+        "国内优惠预订/定制座席通道票手续费按一定比例返现，抢票除外",
+        "部分境外火车退票手续费全免，支持产品不限次"
+      ],
+      "domesticClaimFlow": [
+        "关注携程火车票公众号",
+        "输入安心退改",
+        "按引导提交信息理赔"
+      ],
+      "overseasFlow": [
+        "携程订单详情提交退票申请",
+        "系统按适用规则自动减免"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "unverified": [
+        "国内返现比例和上限",
+        "境外适用国家线路及期限",
+        "次数重置周期"
+      ],
+      "agentActions": {
+        "booked": false,
+        "claimed": false,
+        "refunded": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-train-online-seat-change-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "train-online-seat-change"
+      ],
+      "quotaRemaining": 30,
+      "quotaTotal": 30,
+      "minimumTier": "白银及以上",
+      "rules": [
+        "携程可为12306账号下所有火车订单换座，不限携程平台订单",
+        "在线换座选择待出行订单",
+        "可选具体座位、靠窗/过道、指定车厢或多人换座产品",
+        "无需换座套餐费，车票差价需用户支付"
+      ],
+      "activationConditionsShown": "2/2已满足",
+      "boundary": "不保证有座或必成功，未记录12306账号及个人车票。",
+      "agentActions": {
+        "booked": false,
+        "exchanged": false,
+        "paid": false
+      }
+    },
+    {
+      "observationId": "2026-11-13-preferred-hotel-discount-1",
+      "checkedAt": "2026-11-13",
+      "benefitIds": [
+        "preferred-hotel-discount"
+      ],
+      "minimumTier": "白银及以上",
+      "currentDiamondRate": "8.5折起",
+      "labels": [
+        "优享会",
+        "优享 权益精选"
+      ],
+      "quotaOrCycleRead": false,
+      "boundary": "对应等级、带标酒店产品，不是全酒店固定折扣。",
+      "agentActions": {
+        "booked": false,
+        "paid": false
+      }
+    }
+  ],
+  "proposedOverride": {
+    "name": "携程钻石贵宾 V5",
+    "checkedAt": "2026-11-13",
+    "verification": "account",
+    "benefits": [
+      {
+        "id": "points-2x",
+        "title": "会员积分加速两倍",
+        "description": "当前钻石贵宾积分区展示两倍积分加速；适用产品、计分基数、发放及不计分情形以业务订单规则为准，不是订单金额翻倍。",
+        "kind": "账号积分待遇",
+        "section": "积分与活动",
+        "scenes": [
+          "出行交通",
+          "酒店住宿"
+        ]
+      },
+      {
+        "id": "checkin-bonus",
+        "title": "连续签到额外积分",
+        "description": "钻石等指定等级连续签到7天、14天以上，可获得更多积分；实际奖励以会员每日签到页面为准。",
+        "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
+        "kind": "需签到",
+        "verification": "public",
+        "section": "公开积分规则",
+        "quotaText": "2026-11-06 公开资料 · 当期账号条件未逐项核实",
+        "scenes": [
+          "会员服务"
+        ]
+      },
+      {
+        "id": "hotel-points-redemption",
+        "title": "积分兑换酒店权益",
+        "description": "在标注“积分兑换”的国内酒店，可用积分兑换早餐、延迟退房、房型升级、免费取消或首晚房费等，依具体产品和库存；这是积分通用兑换能力，不是钻石自动免费赠送。",
+        "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
+        "kind": "需积分兑换",
+        "verification": "public",
+        "section": "公开积分规则",
+        "quotaText": "2026-11-06 公开资料 · 当期账号条件未逐项核实",
+        "scenes": [
+          "酒店住宿"
+        ]
+      },
+      {
+        "id": "hotel-room-upgrade",
+        "title": "酒店房型升级",
+        "description": "黄金及以上可按“免费升房”标签筛选，选择含标签商家及适用房型下单。具体升级房型、房态及提供方式按产品和酒店安排，不推定统一升级等级。",
+        "kind": "黄金及以上 · 对应酒店标签",
+        "section": "酒店服务",
+        "quotaRemaining": 3,
+        "quotaTotal": 4,
+        "quotaText": "剩余 3 次／共 4 次（2026-11-13复核）",
+        "quotaUnit": "次",
+        "scenes": [
+          "酒店住宿"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "hotel-free-breakfast",
+        "title": "酒店免费早餐",
+        "description": "黄金及以上可按“免费兑早餐”标签筛选，选择含标签商家下单。每次早餐份数、适用日期和房晚以下单房型为准；配额单位为次，不能直接把四次当四份或四晚早餐。",
+        "kind": "黄金及以上 · 对应酒店标签",
+        "section": "酒店服务",
+        "quotaRemaining": 4,
+        "quotaTotal": 4,
+        "quotaText": "剩余 4 次／共 4 次（2026-11-13复核）",
+        "quotaUnit": "次",
+        "scenes": [
+          "酒店住宿"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "hotel-free-cancel",
+        "title": "酒店免费取消",
+        "description": "白银及以上可筛选对应会员取消权益标签，选择含标签商家下单。具体取消时限及费用范围以酒店房型和订单为准，不等于普通房价自带免费取消或任意时点无条件退。",
+        "kind": "白银及以上 · 对应酒店标签",
+        "section": "酒店服务",
+        "quotaRemaining": 3,
+        "quotaTotal": 4,
+        "quotaText": "剩余 3 次／共 4 次（2026-11-13复核）",
+        "quotaUnit": "次",
+        "scenes": [
+          "酒店住宿"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "hotel-late-checkout",
+        "title": "酒店延迟退房",
+        "description": "白银及以上预订带“延迟退房”标签的酒店产品可享免费权益；筛选该标签后选择含标签商家下单。具体退房时点及是否能提供以酒店房间实际情况和订单为准，不推定统一时间。",
+        "kind": "白银及以上 · 对应酒店标签",
+        "section": "酒店服务",
+        "quotaRemaining": 3,
+        "quotaTotal": 4,
+        "quotaText": "剩余 3 次／共 4 次（2026-11-13复核）",
+        "quotaUnit": "次",
+        "scenes": [
+          "酒店住宿"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "preferred-hotel-discount",
+        "title": "优享会酒店 8.5 折起",
+        "description": "白银及以上预订带“优享会”及“优享 权益精选”标识的参与酒店产品，可享对应等级会员折扣；当前钻石为 8.5 折起。房型、入住日期和实际价格以下单产品及结算为准，并非所有酒店。",
+        "kind": "参与酒店 · 当前钻石折扣",
+        "section": "酒店服务",
+        "scenes": [
+          "酒店住宿"
+        ],
+        "checkedAt": "2026-11-13",
+        "quotaText": "当前钻石 8.5 折起 · 按带标产品结算"
+      },
+      {
+        "id": "airport-lounge",
+        "title": "机场休息室",
+        "description": "钻石及以上在携程订机票，于“优选服务”加入指定机场贵宾休息室产品可免费兑换；本人收到短信二维码后，到指定贵宾室出示。当前新兑换名额为零，已兑换券是否仍待使用须查看原订单，不能据此判为已核销。",
+        "kind": "指定机场 · 当前新兑换名额为零",
+        "section": "机场与铁路",
+        "quotaRemaining": 0,
+        "quotaTotal": 1,
+        "quotaText": "新兑换剩余 0 次／共 1 次（2026-11-13复核）· 已兑券状态按订单查",
+        "quotaUnit": "次",
+        "scenes": [
+          "出行交通"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "airport-fast-security",
+        "title": "机场快速安检",
+        "description": "钻石及以上在携程 App 订机票，于“优选服务”页将符合航线、机场及舱位条件的快速安检产品加入行程，可免费兑换。仅本人；收到短信验票二维码后，先值机取得登机牌，再到指定通道出码。开通范围按订票当前可选列表，部分通道另限航司和时段。",
+        "kind": "免费快速安检 · 本人及指定机场航线",
+        "section": "机场与铁路",
+        "quotaRemaining": 2,
+        "quotaTotal": 2,
+        "quotaText": "剩余 2 次／共 2 次（2026-11-13复核）· 仅本人",
+        "quotaUnit": "次",
+        "scenes": [
+          "出行交通"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "railway-lounge",
+        "title": "高铁休息室",
+        "description": "持携程合资格未出行火车票且出发或到达为支持站点，可随购票免费兑换等级服务；往返、联程、配送票及商旅订单除外。每单本人及添加满七天的携程家庭账户成员累计可兑两份，儿童计额见规则。另有补订入口，须先兑券再到厅核验；当前已见深圳北、广州南、上海虹桥可选。",
+        "kind": "账号铁路权益 · 合资格车票及指定站点",
+        "section": "机场与铁路",
+        "quotaTotal": 2,
+        "quotaText": "剩余 2 次／共 2 次（2026-11-13复核）",
+        "quotaUnit": "次",
+        "scenes": [
+          "出行交通"
+        ],
+        "quotaRemaining": 2,
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "train-online-seat-change",
+        "title": "火车在线换座",
+        "description": "白银及以上可在携程在线换座功能，对 12306 账号下待出行火车订单申请免费换座，不限携程下单；可选具体座位、靠窗／过道、车厢或多人换座等。免换座套餐费，车票差价需自行支付，是否成功视实际余位。",
+        "kind": "免换座套餐费 · 票价差额自付",
+        "section": "机场与铁路",
+        "quotaRemaining": 30,
+        "quotaTotal": 30,
+        "quotaText": "剩余 30 次／共 30 次（2026-11-13复核）· 车票差价自付",
+        "quotaUnit": "次",
+        "scenes": [
+          "出行交通"
+        ],
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "train-change-refund-support",
+        "title": "火车安心退改",
+        "description": "黄金及以上购买指定通道单程火车票，在填单页勾选安心退改。国内“优惠预订／定制座席”通道票（抢票除外）产生退改手续费，可按规则申请一定比例返现；部分境外产品退票手续费全免且不限次，具体按适用线路和订单。",
+        "kind": "指定产品 · 手续费返现／减免",
+        "section": "机场与铁路",
+        "quotaRemaining": 2,
+        "quotaText": "国内剩余 2 次／共 2 次（2026-11-13复核）· 境外适用产品不限次",
+        "quotaUnit": "次",
+        "scenes": [
+          "出行交通"
+        ],
+        "quotaTotal": 2,
+        "quotaScope": "国内",
+        "checkedAt": "2026-11-13"
+      },
+      {
+        "id": "points-cash-and-lottery",
+        "title": "积分抵现与抽奖入口",
+        "description": "积分区提供积分抵现及一积分抽奖入口。抵现受参与产品及规则限制，不是可提现现金；抽奖仅提供参与机会，不保证中奖或获得特定奖品。",
+        "kind": "需积分 · 依活动规则",
+        "section": "积分与活动",
+        "scenes": [
+          "会员服务"
+        ]
+      },
+      {
+        "id": "airport-transfer-vehicle-upgrade",
+        "title": "接送机升车型",
+        "description": "钻石及以上在参与的接送机产品中，可将经济五座免费升为舒适五座，原行程仍需付费。选目的地后选择带“免费升车型”标签的产品，并在套餐或服务中勾选升级；是否可用按实际产品，不是所有车自动升级。",
+        "kind": "车型升级",
+        "section": "用车服务",
+        "scenes": [
+          "出行交通"
+        ],
+        "quotaRemaining": 2,
+        "quotaTotal": 2,
+        "quotaUnit": "次",
+        "checkedAt": "2026-11-13",
+        "quotaText": "升车型剩余 2 次／共 2 次（2026-11-13复核）"
+      },
+      {
+        "id": "rental-member-price",
+        "title": "租车专享价",
+        "description": "黄金及以上预订租车时，选择带“等级贵宾”标签的参与产品可享会员价；当前钻石档为 9.7 折上折（平台原文“97折上折”），具体按参与产品及实际订单结算。",
+        "kind": "会员价格",
+        "section": "用车服务",
+        "scenes": [
+          "出行交通"
+        ],
+        "checkedAt": "2026-11-13",
+        "quotaText": "当前钻石档97折上折 · 按参与产品结算"
+      },
+      {
+        "id": "bus-priority-ticketing",
+        "title": "汽车票优先出票特权",
+        "description": "黄金及以上预订参与的汽车票车次时，在填写订单页勾选对应会员权益，可使用优先出票服务。适用车次、实际时效及具体服务以订单为准，车票费用仍需支付。",
+        "kind": "汽车票优先服务",
+        "section": "其他出行服务",
+        "scenes": [
+          "出行交通"
+        ],
+        "quotaRemaining": 4,
+        "quotaUnit": "次",
+        "checkedAt": "2026-11-13",
+        "quotaText": "剩余 4 次（2026-11-13复核）· 具体服务按订单"
+      },
+      {
+        "id": "tour-member-prices",
+        "title": "旅游线路与一日游会员价",
+        "description": "当前钻石旅游线路价为 9.5 折，限跟团游频道境内（不含港澳台）五钻产品或私家团，须有“贵宾价”标签；一日游当前 9.1 折，需在一日游频道选择“会员价”标签产品。两类适用范围各按对应产品和结算，不跨套条件。",
+        "kind": "会员价格",
+        "section": "旅行优惠",
+        "scenes": [
+          "出行交通"
+        ],
+        "checkedAt": "2026-11-13",
+        "quotaText": "钻石线路 9.5 折／一日游 9.1 折 · 按带标产品结算"
+      },
+      {
+        "id": "foreign-currency-exchange-offers",
+        "title": "外币兑换优惠",
+        "description": "铂金及以上可享携程外币兑换产品会员专享价；黄金及以上在当日或次日取钞的加急订单可按规则减免加急费。当前钻石免加急费剩两次，专享汇率以具体币种和产品实际展示为准。",
+        "kind": "外币产品条件优惠",
+        "section": "支付优惠",
+        "scenes": [
+          "支付服务",
+          "出行交通"
+        ],
+        "quotaRemaining": 2,
+        "quotaUnit": "次",
+        "checkedAt": "2026-11-13",
+        "quotaText": "免加急费剩余 2 次（2026-11-13复核）· 汇率按产品展示"
+      },
+      {
+        "id": "installment-interest-offer",
+        "title": "三期分期息费优惠",
+        "description": "在携程旅行 App 预订产品，单笔订单金额 1000 元以内，选择“拿去花信用购”分期服务并确认订单后，可按规则享三期分期息费优惠。限对应产品、金额及支付服务条件，不表示任意渠道或全部费用自动减免。",
+        "kind": "条件优惠",
+        "section": "支付优惠",
+        "scenes": [
+          "支付服务"
+        ],
+        "quotaRemaining": 1,
+        "quotaTotal": 1,
+        "quotaUnit": "次",
+        "checkedAt": "2026-11-13",
+        "quotaText": "剩余 1 次／共 1 次（2026-11-13复核）· 指定金额和分期服务"
+      },
+      {
+        "id": "train-managed-ticketing",
+        "title": "火车全能托管（尊享帮抢）",
+        "description": "当前钻石为尊享帮抢，每张火车票消耗一次权益；当本单抢购票数多于剩余次数时，可按规则使用全部剩余次数支持该订单所有火车票抢票。结果以实际出票为准，不构成必出票承诺。",
+        "kind": "尊享帮抢特权",
+        "section": "机场与铁路",
+        "scenes": [
+          "出行交通"
+        ],
+        "quotaRemaining": 2,
+        "quotaTotal": 2,
+        "quotaUnit": "次",
+        "checkedAt": "2026-11-13",
+        "quotaText": "尊享帮抢剩余 2 次／共 2 次（2026-11-13复核）"
+      }
+    ],
+    "notes": [
+      "2026-11-13 已核当前携程钻石贵宾 V5。本轮整理21项核心记录，其中含合并条目及两项公开规则补充，不能与页面“21项权益”直接等同，也不声称每个分项全部条款均已核完。",
+      "本轮已重读主要交通、四项酒店及用车等余额；按“剩余／共”保留，不反推已使用次数。不能仅凭总配置推定剩余，高铁本轮已分别核实剩余2次／共2次。次数重置周期、酒店每次对应订单／房／晚的扣次口径仍未明确。",
+      "四项酒店权益按各自标签筛选，再选含标签商家下单。免费次数用完可按等级积分折扣兑换；积分权益不可单独取消，需取消订单重订并按规则退积分，无法提供或实际未用可联系核实退积分。返积分说明只针对积分路径，不保证免费次数自动恢复。",
+      "高铁规则自2026-10-23起：每个符合票条件订单可为本人及添加满七天的携程家庭账户成员累计兑换两份；未满十八岁儿童不占“权益兑换上限”，不据此推定任意儿童无限免费或不扣会员次数。该高铁页的联名、万事达、全球通合作权益仅本人使用，和等级家庭共享分开。",
+      "高铁券码按流程短信发订单预留手机号，或在携程App→会员中心→我的特权→高铁休息室→E权益码查看，到厅前台出示二维码。补订页服务及费用按实际产品；所选付费SKU的两小时、65元和购后30天不套用于全部站点或免费券。",
+      "携程深圳北服务点页标07:00—21:00，地址涉及西进站口安检前右侧，或安检后A20方向；广州南易登车商务休息厅页标07:00—21:00，驾车由西出发平台外左侧经通道验票入厅，已进站旅客往B26左侧。完整路线及开放以券面、当期页和现场为准，不混其他平台A9/A10网点。",
+      "安检国内表本轮已读白云T2/T3、宝安T3、萧山T3/T4及沪两场部分通道；国际表当前四行为大兴、江北、浦东对应通道，不能把国内名单套到国际或据此认定海外机场支持。所读行仅经济／超级经济舱，另须航线、航司、时段匹配；部分行有航班日期上限，白云T2的2026-12-31前航班限制不套T3或全部通道。",
+      "机场休息室当前零次只指新兑换名额，已兑券是否仍待用须查原订单，不据此标记已使用。机场安检及休息室仅本人；高铁家庭共享规则不套机场。具体可用机场／休息室及航线以下单当前可选产品和合作名单为准。",
+      "国内安心退改为手续费按规则返现，不是无条件免费退改：关注“携程火车票”公众号，输入“安心退改”按引导申请。境外仅部分适用线路退票手续费全免，在携程订单详情发起退票按规则处理；国内比例、上限、境外线路与期限仍待核。",
+      "接送机升级可从接送机／包车频道、已有行程或机票加购入口进入，接送火车产品是否可升级仍看带标服务；原行程费用须付。黑钻更高车型或境外专车取消待遇未算入当前钻石；租车9.7折上折与旅游线路9.5折、一日游9.1折分别按各自标签及范围，不能互套。",
+      "已读部分激活入口要求实名及近两年有成交酒店订单，并显示条件2/2满足；只记录通用条件及资格状态，不保存个人订单或实名资料。分期只读会员息费优惠卡，未核金融产品申请、授信及一般支付条款，不表示已开通拿去花或建议开通。",
+      "连续签到及积分兑换酒店权益两项仍为2026-11-06公开官方积分规则，单项标public，与账号免费次数分开。中国移动合作包酒店八次及高铁一次也不并入携程本体。客服特权、奢华酒店礼遇及行政酒廊等金钻锁项未列当前可用。",
+      "具体早餐份数／覆盖晚数、延迟时间、取消窗口、升级房型及免费次数返还须按实际房型订单；安检实际航班、休息室清单、退改返现比例与线路、重置周期等仍待核。本轮仅查看页面，未领取、兑换、开通、购买、预订、支付或核销。"
+    ],
+    "sources": [
+      {
+        "title": "2026-11-06 公开资料：携程积分说明",
+        "url": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html"
+      }
+    ]
+  },
+  "scopeRules": [
+    "只有root提供的新手机观察才能更新提议；未重读的配额继续保留原核查日期，不自动视为实时。",
+    "不能仅凭总配置推定剩余；本轮高铁已分别核实剩余2次／共2次。机场休息室0仅为新兑换名额，不能据此推断既有券已核销。",
+    "不混入中国移动合作包酒店八次或高铁一次，也不合并支付宝、88VIP、美团等合作入口额度。",
+    "金钻灰色锁定项目不列为当前钻石可用；不猜新增用车、贵宾厅或酒店福利。",
+    "不领取、兑换、购买、预订或核销；只保留会员级别及权益规则，不保存账号身份、积分余额、订单等个人数据。",
+    "原权益ID及scenes保留，避免改变用户已使用标记的键。",
+    "高铁家庭共享规则不套用于机场快速安检；机场安检当前所读规则仅限本人。"
+  ],
+  "airportFastSecurityLists": {
+    "checkedAt": "2026-11-13",
+    "domesticReadScope": "部分已读行，不是完整国内清单",
+    "domesticConfirmedRows": [
+      {
+        "airport": "广州白云",
+        "terminal": "T2",
+        "lane": "机场通专属通道",
+        "hours": "07:00—21:30",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ],
+        "flightDateLimitAsRead": "支持2026-12-31前航班使用"
+      },
+      {
+        "airport": "广州白云",
+        "terminal": "T3",
+        "lane": "机场通专属通道",
+        "hours": "05:30—21:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ],
+        "flightDateLimitAsRead": null
+      },
+      {
+        "airport": "杭州萧山",
+        "terminals": [
+          "T3",
+          "T4"
+        ],
+        "lane": "嘉宾安检通道",
+        "hours": "06:30—22:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "深圳宝安",
+        "terminal": "T3",
+        "lane": "空港快速通服务",
+        "hours": "06:00—22:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "上海浦东",
+        "terminals": [
+          "T1",
+          "T2"
+        ],
+        "lane": "会员专属通道",
+        "hours": "06:00—20:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "上海虹桥",
+        "terminal": "T2",
+        "lane": "会员专属通道",
+        "hours": "06:00—20:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      }
+    ],
+    "internationalReadScope": "当前列表已读四行",
+    "internationalConfirmedRows": [
+      {
+        "airport": "北京大兴",
+        "terminalAsRead": "T",
+        "lane": "CHUM嘉宾快速通道",
+        "hours": "06:30—22:30",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "重庆江北",
+        "terminal": "T3",
+        "lane": "国际头等舱安检通道",
+        "hours": "06:00—22:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "上海浦东",
+        "terminal": "T2",
+        "lane": "会员专属通道",
+        "hours": "06:00—20:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      },
+      {
+        "airport": "上海浦东",
+        "terminal": "T1",
+        "lane": "会员专属通道",
+        "hours": "06:00—20:00",
+        "cabins": [
+          "经济舱",
+          "超级经济舱"
+        ]
+      }
+    ],
+    "usageBoundary": "均需实际机票优选服务可选，按航线、舱位、航司和各通道时段/航班日期条件；国内国际分开。"
+  },
+  "baselineObservationsAreHistorical": true,
+  "observationsAreChronologicalNotAllCurrent": true,
+  "historyNote": "baseline及早期观察保留当时未读状态；当前已核事实及剩余缺口以proposedOverride、currentUnverifiedItems和recheckPriorities为准。",
+  "currentUnverifiedItems": [
+    "各权益次数重置周期、酒店每单／每房／每晚及高铁会员次数的具体扣次口径",
+    "早餐份数及覆盖晚数、延迟退房具体时间、实际房型升级安排、酒店取消窗口及免费次数返还规则",
+    "实际机票航线的可选安检产品、当期休息室清单，以及部分通道具体航班日期限制",
+    "安心退改国内返现比例／上限、境外支持国家线路和期限",
+    "高铁免费券具体服务时长、同行计额、取消与会员次数返还细则",
+    "分期金融产品申请、授信及一般支付条款；外币各币种实际汇率与产品条件",
+    "完整官方21项逐卡索引；签到及积分兑酒店仍保留公开来源而非本轮账户明文"
+  ],
+  "summary": {
+    "coreBenefitCount": 21,
+    "originalIdsPreserved": 14,
+    "newBenefitCount": 7,
+    "newBenefitIds": [
+      "airport-transfer-vehicle-upgrade",
+      "rental-member-price",
+      "bus-priority-ticketing",
+      "tour-member-prices",
+      "foreign-currency-exchange-offers",
+      "installment-interest-offer",
+      "train-managed-ticketing"
+    ],
+    "accountBenefitCount": 19,
+    "publicSupplementCount": 2,
+    "newObservationCount": 27,
+    "official21AllClausesVerified": false
+  },
+  "selfReview": {
+    "status": "通过",
+    "coreCount": 21,
+    "newCount": 7,
+    "observationCount": 27,
+    "checks": [
+      "原14ID及scenes保留",
+      "两public补充仍独立标识",
+      "国内/国际机场及日期限制不跨套",
+      "休息室零新名额不等于已用券",
+      "酒店积分退还不推广免费次数必返",
+      "高铁家庭及合作本人边界分别记录",
+      "国内安心退改返现与境外部分免手续费不混同",
+      "新增价格及升级优惠不夸大为免费行程",
+      "notes/status/当前gaps计数与已核状态一致"
+    ]
+  }
+}
