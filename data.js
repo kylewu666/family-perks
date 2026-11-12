@@ -11,28 +11,40 @@ window.PERKS_CATALOG = [
         "title": "自营商品无限免邮",
         "description": "购买京东自营商品可享 PLUS 无限免邮；第三方商家商品不在本权益范围，特殊商品及配送费以结算页为准。",
         "source": "https://help.jd.com/user/issue/893-4380.html",
-        "kind": "持续会籍待遇"
+        "kind": "持续会籍待遇",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "exclusive-markdown",
         "title": "PLUS 专享立减",
         "description": "正式会员购买带“专享立减”标识的实物商品，按页面在普通用户到手价基础上立减；官方说明不限次数、不限优惠总金额。",
         "source": "https://help.jd.com/user/issue/893-4451.html",
-        "kind": "持续会籍待遇"
+        "kind": "持续会籍待遇",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "replacement-180",
         "title": "指定电器 180 天只换不修",
         "description": "正式会员购买有对应标识的自营电器，签收180天内发生三包内硬件性能故障，审核后可换新一次；苹果换新可能为准新/99新主机，保修期不重算。",
         "source": "https://help.jd.com/user/issue/321-4542.html",
-        "kind": "按条件享用"
+        "kind": "按条件享用",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "life-service-points",
         "title": "生活服务包兑换",
         "description": "可按账户生活服务包页面，使用积分兑换生活服务；兑换项目、所需积分、城市覆盖及名额以当前页面为准。",
         "source": "https://pro.m.jd.com/mall/active/ZcqSvXAybC5bajknx6myWcAJNVd/index.html",
-        "kind": "需领取 / 兑换"
+        "kind": "需领取 / 兑换",
+        "scenes": [
+          "购物生活"
+        ]
       }
     ],
     "notes": [
@@ -63,7 +75,88 @@ window.PERKS_CATALOG = [
     "owners": [
       "jin",
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "京东 PLUS",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "self-operated-shipping",
+            "title": "自营商品无限免邮",
+            "description": "购买京东自营商品可享 PLUS 无限免邮；第三方商家商品不在本权益范围，特殊商品及配送费以结算页为准。",
+            "source": "https://help.jd.com/user/issue/893-4380.html",
+            "kind": "持续会籍待遇",
+            "verification": "public",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "exclusive-markdown",
+            "title": "PLUS 专享立减",
+            "description": "正式会员购买带“专享立减”标识的实物商品，按页面在普通用户到手价基础上立减；官方说明不限次数、不限优惠总金额。",
+            "source": "https://help.jd.com/user/issue/893-4451.html",
+            "kind": "持续会籍待遇",
+            "verification": "public",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "replacement-180",
+            "title": "指定电器 180 天只换不修",
+            "description": "正式会员购买有对应标识的自营电器，签收180天内发生三包内硬件性能故障，审核后可换新一次；苹果换新可能为准新/99新主机，保修期不重算。",
+            "source": "https://help.jd.com/user/issue/321-4542.html",
+            "kind": "按条件享用",
+            "verification": "public",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "life-service-points",
+            "title": "生活服务包兑换状态",
+            "description": "账号服务包当前可用积分为 0。家政保洁、快递寄件、养车等部分项目显示“已兑换”，不等于已经核销；已兑券是否有效及仍可使用须到券包确认。洗衣、问诊、体检口腔、读书等入口显示积分不足，不能据此记为当前可兑换服务。",
+            "kind": "账号服务包 · 兑换状态",
+            "quotaRemaining": 0,
+            "quotaUnit": "积分",
+            "quotaText": "当前 0 积分可用 · 部分项目显示已兑换",
+            "scenes": [
+              "购物生活"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 在本人京东 App 核实 PLUS 会籍有效。前三项购物权益保留 2026-11-06 的公开官方资料，并非本次逐项查看账号待遇；本次账号核查重点为生活服务包。",
+          "查看路径：PLUS → 生活服务 → 日常服务。部分家政、寄件、养车及惊喜项目显示已兑换，券包详情尚未查看；未把已兑换解释为已核销、仍有效或可以再次兑换。",
+          "养车详情显示“0积分可用”“兑换达上限，不能再兑换”，免费洗车项目限一次，工作日轿车标准洗需一积分；已兑洗车券当前有效性及使用状态待券包确认。",
+          "惊喜权益每月 8 日 10 点更新，当期黄天鹅鸡蛋项目显示已兑换；后续商品、积分门槛及名额按当期页面，未拆成额外可用服务。",
+          "180天服务仅适用于正式会员2025-01-08零点后下单且展示权益标识的商品；人为损坏、软件问题、正常损耗等不适用。",
+          "未把旧版最高3%返京豆与专享立减叠加计算：官方说明返利已升级为专享立减，账号切换规则另行适用。",
+          "本记录不把历史生活服务包积分或免费次数宣传当作当前固定配额；本次未兑换、购买或核销。"
+        ],
+        "sources": [
+          {
+            "title": "京东帮助中心：第三方商品是否享PLUS无限免邮",
+            "url": "https://help.jd.com/user/issue/893-4380.html"
+          },
+          {
+            "title": "京东帮助中心：PLUS购物返利升级专享立减",
+            "url": "https://help.jd.com/user/issue/893-4451.html"
+          },
+          {
+            "title": "京东帮助中心：PLUS180天只换不修",
+            "url": "https://help.jd.com/user/issue/321-4542.html"
+          },
+          {
+            "title": "京东官方生活服务包权益领取页",
+            "url": "https://pro.m.jd.com/mall/active/ZcqSvXAybC5bajknx6myWcAJNVd/index.html"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "meituan",
@@ -77,14 +170,21 @@ window.PERKS_CATALOG = [
         "title": "惊喜多选 1",
         "description": "官方 2026 活动每周五刷新权益池，可选饮品、餐饮或出行等 1 项；部分需先消费解锁，按当期惊喜值、会员资格和门店库存领取。不是固定每周免费咖啡。",
         "source": "https://source.meituan.com/meituan-member/surprise-pick-1",
-        "kind": "当期活动 · 先查资格"
+        "kind": "当期活动 · 先查资格",
+        "scenes": [
+          "出行交通",
+          "餐饮外卖"
+        ]
       },
       {
         "id": "ihg-linked-member",
         "title": "洲际联合会员礼遇",
         "description": "在美团 / 大众点评活动页注册或绑定洲际优悦会，可参与指定订单积分、房晚累计和会员价；须绑定并符合订单规则。活动至 2027-07-27，不等于直接获得洲际高等级。",
         "source": "https://source.meituan.com/meituan-member/meituan-ihg-united-membership",
-        "kind": "当期活动 · 先查资格"
+        "kind": "当期活动 · 先查资格",
+        "scenes": [
+          "酒店住宿"
+        ]
       }
     ],
     "notes": [
@@ -109,7 +209,210 @@ window.PERKS_CATALOG = [
     "owners": [
       "jin",
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "美团白金",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "assured-after-sales",
+            "title": "安心售后",
+            "description": "当前白金基础权益列有安心售后；适用订单、具体服务范围及保障标准按参与订单中的规则，细则尚未深入核实。",
+            "kind": "参与订单 · 规则待核",
+            "section": "外卖与日常",
+            "scenes": [
+              "会员服务"
+            ]
+          },
+          {
+            "id": "paid-coupon-package",
+            "title": "白金神券包",
+            "description": "页面展示白金神券包低至 2.99 元，属于付费券包优惠。实际购买价、券内容、可用商户及期限以活动和结算页为准。",
+            "kind": "付费券包",
+            "section": "外卖与日常",
+            "quotaText": "低至 2.99 元 · 未购买",
+            "scenes": [
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "daily-coupons",
+            "title": "每日领券",
+            "description": "白金页提供每日领券入口；券种、金额、商户、门槛及库存按当期活动，不能据入口推定每日固定返现。",
+            "kind": "当期活动 · 需领取",
+            "section": "外卖与日常",
+            "scenes": [
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "takeaway-100-25",
+            "title": "外卖满 100 元减 25 元券",
+            "description": "白金基础权益展示满 100 元减 25 元外卖券，标示不限次；商家、商品、金额计算及使用期限以各券面为准。",
+            "kind": "门槛券 · 指定商家商品",
+            "section": "外卖与日常",
+            "quotaText": "页面标示不限次 · 按券面条件使用",
+            "scenes": [
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "takeaway-on-time-protection",
+            "title": "外卖准时宝",
+            "description": "页面列有准时宝超时自动赔服务；仅按适用订单及保障规则判断，是否享有、超时认定和赔付条件以订单页面为准。",
+            "kind": "适用订单 · 超时保障",
+            "section": "外卖与日常",
+            "scenes": [
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "marriott-linked-membership",
+            "title": "万豪旅享家会籍直通入口",
+            "description": "白金酒店权益列有万豪旅享家会员会籍直通，匹配等级、绑定流程及实际领取资格尚未核实，不能默认已取得 Marriott Gold。",
+            "kind": "会籍直通 · 等级待核",
+            "section": "酒店与旅行",
+            "quotaText": "待确认匹配等级与绑定资格",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-points-benefits",
+            "title": "酒店积分抵现与加速",
+            "description": "酒店权益展示积分抵现最高 20% 及积分加速 1.2 倍。参与订单、抵扣上限和实际计分条件以酒店订单规则为准。",
+            "kind": "参与订单 · 积分待遇",
+            "section": "酒店与旅行",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-room-upgrade",
+            "title": "酒店免费升房",
+            "description": "白金配置每季度两次，核查时详情页显示剩余两次。需找到带升房权益标签的酒店，选择适用房型，并在填写订单时勾选使用；不适用于所有酒店或订单。",
+            "kind": "需选标签酒店与房型",
+            "section": "酒店与旅行",
+            "quotaText": "本季剩余 2 次（核查时）· 下单时勾选",
+            "quotaRemaining": 2,
+            "quotaTotal": 2,
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-free-breakfast",
+            "title": "酒店免费早餐",
+            "description": "白金配置每季度两次，核查时详情页显示剩余两次。需找到带早餐权益标签的酒店，选择适用房型，并在填写订单时勾选使用；以对应订单权益为准。",
+            "kind": "需选标签酒店与房型",
+            "section": "酒店与旅行",
+            "quotaText": "本季剩余 2 次（核查时）· 下单时勾选",
+            "quotaRemaining": 2,
+            "quotaTotal": 2,
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-booking-discount",
+            "title": "酒店预订 8.5 折起",
+            "description": "白金酒店权益列有预订 8.5 折起优惠，参与酒店、房型、入住日期及实际到手价以预订和结算页为准。",
+            "kind": "参与酒店 · 折扣起价",
+            "section": "酒店与旅行",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-late-checkout",
+            "title": "酒店延迟退房",
+            "description": "页面配置延迟退房不限次；参与酒店、可延迟时段及使用条件按对应订单，未核实具体退房时间。",
+            "kind": "参与酒店 · 时段按订单",
+            "section": "酒店与旅行",
+            "quotaText": "配置不限次 · 具体时间待订单确认",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-flexible-cancel",
+            "title": "酒店无忧取消",
+            "description": "白金页配置每季度两次无忧取消；尚未读取实际剩余，适用订单、取消窗口和费用处理条件以订单规则为准。",
+            "kind": "配置权益 · 剩余未核",
+            "section": "酒店与旅行",
+            "quotaText": "配置 2 次／季 · 实际剩余未核",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-early-checkin",
+            "title": "酒店提前入住",
+            "description": "白金页配置每季度两次提前入住；尚未读取实际剩余，参与酒店、可入住时段及条件以对应订单为准。",
+            "kind": "配置权益 · 剩余未核",
+            "section": "酒店与旅行",
+            "quotaText": "配置 2 次／季 · 实际剩余未核",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-welcome-fruit",
+            "title": "酒店欢迎水果",
+            "description": "白金页配置每季度一次欢迎水果；尚未读取实际剩余，参与酒店及提供条件以对应订单权益为准。",
+            "kind": "配置权益 · 剩余未核",
+            "section": "酒店与旅行",
+            "quotaText": "配置 1 次／季 · 实际剩余未核",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "surprise-pick-one",
+            "title": "惊喜多选 1（当前 B+ 档）",
+            "description": "当前惊喜档位为 B+，本期可选零元领取餐饮或骑行类项目；实物礼须完成消费任务解锁。具体选项及库存按当前活动，不把展示的实物礼当作固定免费赠品。",
+            "kind": "当期活动 · 资格与任务条件",
+            "section": "会员活动",
+            "quotaText": "当前 B+ 档 · 选项及库存按活动",
+            "scenes": [
+              "出行交通",
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "ihg-linked-member",
+            "title": "洲际联合会员礼遇",
+            "description": "在美团 / 大众点评活动页注册或绑定洲际优悦会，可参与指定订单积分、房晚累计和会员价；须绑定并符合订单规则。活动至 2027-07-27，不等于直接获得洲际高等级。",
+            "source": "https://source.meituan.com/meituan-member/meituan-ihg-united-membership",
+            "kind": "公开活动 · 账号资格未确认",
+            "verification": "public",
+            "section": "公开合作活动",
+            "quotaText": "2026-11-06 公开资料 · 账号资格未确认",
+            "scenes": [
+              "酒店住宿"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 在本人美团 App 核实当前为白金，会员页显示可享 15／33。按使用场景整理已读的白金基础权益，积分抵现与加速合并；另列本期惊喜活动和一项公开合作活动。",
+          "升房及早餐详情已读取实际剩余各两次；无忧取消、提前入住、欢迎水果及延迟退房仅核对方案配置，不把配置直接当成当前余额，也不推定具体入住或退房时间。",
+          "酒店标签权益使用流程：找带相应权益标签的酒店 → 选择适用房型 → 在填写订单时勾选使用。是否适用以订单展示为准，不代表全部酒店或全部订单都享有。",
+          "锁定的黑金海昌、乐高、排队加速，以及黑钻外卖一对一急送等升级权益未列为当前白金可用。惊喜实物礼需消费任务解锁，不能将活动展示视为已免费取得。",
+          "洲际联合会员活动保留自 2026-11-06 官方公开资料，单项标为公开来源，当前账号参与资格未确认；它与本次美团页的万豪会籍直通是不同合作入口，不能混同或视为已持有高等级会籍。",
+          "其余账号事实依据本人手机会员页及已读详情，无可分享账号详情链接。券包价格、库存、适用商家、商品、门槛及服务条件以当期页面为准；本次未领取、购买或下单。"
+        ],
+        "sources": [
+          {
+            "title": "2026-11-06 公开资料：美团·洲际联合会员活动规则",
+            "url": "https://source.meituan.com/meituan-member/meituan-ihg-united-membership"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "alipay",
@@ -156,7 +459,10 @@ window.PERKS_CATALOG = [
             "quotaText": "本季度剩余 1 次（核查时）",
             "quotaRemaining": 1,
             "quotaTotal": 1,
-            "quotaUnit": "次"
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
           },
           {
             "id": "platinum-airport-fast-security",
@@ -167,7 +473,10 @@ window.PERKS_CATALOG = [
             "quotaText": "本月剩余 1 次（核查时）· 领取特权码后按网点核销",
             "quotaRemaining": 1,
             "quotaTotal": 1,
-            "quotaUnit": "次"
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
           },
           {
             "id": "platinum-travel-points-choice",
@@ -175,7 +484,11 @@ window.PERKS_CATALOG = [
             "description": "每月 1 日 10 点起，9 积分可在当期选项中任选一项。本次看到酒店折扣券（封顶减 68 元）、快速安检、机场电瓶车；适用地点及库存以兑换页为准。",
             "kind": "积分兑换 · 限量",
             "section": "出行与酒店",
-            "quotaText": "任选一项 · 需 9 积分 · 当期库存有限"
+            "quotaText": "任选一项 · 需 9 积分 · 当期库存有限",
+            "scenes": [
+              "出行交通",
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-hotel-red-packet",
@@ -183,7 +496,10 @@ window.PERKS_CATALOG = [
             "description": "页面提供最高减 200 元的酒店惊喜红包领取入口。实际优惠取决于红包档位、适用酒店、房型及金额门槛，以领券和结算页为准。",
             "kind": "需领取 · 酒店优惠",
             "section": "出行与酒店",
-            "quotaText": "待领取 · 实际优惠以订单结算为准"
+            "quotaText": "待领取 · 实际优惠以订单结算为准",
+            "scenes": [
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-fliggy-coupons",
@@ -191,7 +507,11 @@ window.PERKS_CATALOG = [
             "description": "飞猪不同入口展示境内机票满 300 元减 25 元、满 800 元减 15 元，以及酒店满 220 元减 18 元等券。携程另有到香港西九龙站火车票减 3 元、火车 5 元券和酒店 9.8 折券（封顶减 25 元）。各入口券档不同，不表示可以叠加。",
             "kind": "需领取 · 门槛券",
             "section": "出行与酒店",
-            "quotaText": "核查时显示可领取 · 库存实时变化"
+            "quotaText": "核查时显示可领取 · 库存实时变化",
+            "scenes": [
+              "出行交通",
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-mobility-connectivity-offers",
@@ -199,7 +519,10 @@ window.PERKS_CATALOG = [
             "description": "网约车满 100 元减 20 元券限指定出行场景；单车另有每日一次的 0.3 元抵扣券。境外上网提供购卡满 12.9 元减 2 元、充值满 25 元减 6 元等消费券，充值券须先购卡；适用地区及服务按券面。",
             "kind": "出行优惠券 · 需消费",
             "section": "出行与酒店",
-            "quotaText": "当期领取入口 · 指定场景及购卡条件以页面为准"
+            "quotaText": "当期领取入口 · 指定场景及购卡条件以页面为准",
+            "scenes": [
+              "出行交通"
+            ]
           },
           {
             "id": "platinum-atour-membership",
@@ -207,7 +530,10 @@ window.PERKS_CATALOG = [
             "description": "铂金入口可领取亚朵联合会员，匹配页仅称“亚朵会员”，未显示金会员。页面列有房价折扣、早餐券、延时券等礼遇，券量、期限及适用酒店按领取页。",
             "kind": "会籍匹配 · 待领取",
             "section": "酒店会籍",
-            "quotaText": "待领取 · 未确认已持有亚朵会籍"
+            "quotaText": "待领取 · 未确认已持有亚朵会籍",
+            "scenes": [
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-hilton-silver",
@@ -215,7 +541,10 @@ window.PERKS_CATALOG = [
             "description": "铂金可申请匹配希尔顿银会员，页面列有奖励积分、延迟退房、餐饮礼遇及第二位客人免费等服务，具体条件按希尔顿规则。须按流程申请或绑定；金会员匹配属于支付宝钻石等级。",
             "kind": "会籍匹配 · 待申请",
             "section": "酒店会籍",
-            "quotaText": "待申请或绑定 · 未确认已持有希尔顿银会籍"
+            "quotaText": "待申请或绑定 · 未确认已持有希尔顿银会籍",
+            "scenes": [
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-fliggy-f3",
@@ -223,7 +552,10 @@ window.PERKS_CATALOG = [
             "description": "主卡每年可享一次，详情为“飞猪联合 F3 会员”，列有一卡通百卡、酒店特权价、延迟退房等礼遇。须按飞猪流程授权或绑定，适用服务以会籍规则为准。",
             "kind": "会籍匹配 · 待申请",
             "section": "酒店会籍",
-            "quotaText": "页面标示每年一次 · 待授权或绑定"
+            "quotaText": "页面标示每年一次 · 待授权或绑定",
+            "scenes": [
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-other-hotel-entry",
@@ -231,7 +563,10 @@ window.PERKS_CATALOG = [
             "description": "另有华住会、万豪旅享家、锦江荟、万达万悦会、美高梅美狮荟、雅高心悦界、复游会、滨海湾金沙及金沙旅享等入口。会籍、新客礼及线下入会礼的资格与等级待逐品牌确认；万豪匹配等级未核实，不能作为 Gold 会籍依据。",
             "kind": "会籍与入会礼 · 条件待确认",
             "section": "酒店会籍",
-            "quotaText": "需逐品牌确认资格 · 部分需线下办理"
+            "quotaText": "需逐品牌确认资格 · 部分需线下办理",
+            "scenes": [
+              "酒店住宿"
+            ]
           },
           {
             "id": "platinum-entertainment-offers",
@@ -239,7 +574,10 @@ window.PERKS_CATALOG = [
             "description": "优酷 VIP 季卡限时付费 35 元，另有限时剧集观看名额。淘票票当期指定新片有 8 元券，标示每周限领一次、领后七天内使用；片单、名额及适用场次随活动更新。",
             "kind": "限时活动 · 含付费优惠",
             "section": "影音娱乐",
-            "quotaText": "当期活动入口 · 不表示已领券或已购会员"
+            "quotaText": "当期活动入口 · 不表示已领券或已购会员",
+            "scenes": [
+              "影音网盘"
+            ]
           },
           {
             "id": "platinum-food-delivery-offers",
@@ -247,7 +585,11 @@ window.PERKS_CATALOG = [
             "description": "外卖券如淘宝闪购 12 元满 35 元、美团 18 元满 38 元；古茗另有减 3 元、指定饮品八折、满 25 元减 6 元券。麦当劳三件套券后 14.9 元、中薯买一送一 13.5 元均需付费。机场／高铁指定场景另有瑞幸五折、星巴克及肯德基九折，按指定站点、商品使用。",
             "kind": "领券优惠 · 含付费套餐",
             "section": "餐饮与外卖",
-            "quotaText": "核查时展示可领取 · 价格和券档随活动更新"
+            "quotaText": "核查时展示可领取 · 价格和券档随活动更新",
+            "scenes": [
+              "餐饮外卖",
+              "出行交通"
+            ]
           },
           {
             "id": "platinum-shopping-offers",
@@ -255,7 +597,10 @@ window.PERKS_CATALOG = [
             "description": "盒马有 9 元满 129 元、11 元满 149 元、12 元满 169 元券，单笔仅用一张，本期核销截止 11 月 30 日。好物专区每周可领一次“钻铂专属购物红包”券包，宣传最高减 210 元，实际券档及门槛待确认；会员市集另有满 300 元减 50 元券。",
             "kind": "购物券包 · 有门槛",
             "section": "购物与生活",
-            "quotaText": "当期可领入口 · 最高优惠不等于无门槛现金"
+            "quotaText": "当期可领入口 · 最高优惠不等于无门槛现金",
+            "scenes": [
+              "购物生活"
+            ]
           },
           {
             "id": "platinum-delivery-moving-coupons",
@@ -263,7 +608,10 @@ window.PERKS_CATALOG = [
             "description": "当期券包括京东快递满 10 元减 3 元、哈啰跑腿 5 元无门槛、货拉拉 6 元无门槛，另有菜鸟、货运、洗护及保洁活动券。服务范围、期限和叠加条件按各券面。",
             "kind": "生活服务券 · 需领取",
             "section": "购物与生活",
-            "quotaText": "核查时展示领取入口 · 具体条件按券面"
+            "quotaText": "核查时展示领取入口 · 具体条件按券面",
+            "scenes": [
+              "购物生活"
+            ]
           },
           {
             "id": "platinum-lifestyle-discounts",
@@ -271,7 +619,10 @@ window.PERKS_CATALOG = [
             "description": "海马体妆造有 8.5 折付费服务优惠；门店、服务项目、日期及原价基准按活动页面和实际结算。",
             "kind": "付费服务 · 折扣优惠",
             "section": "购物与生活",
-            "quotaText": "需支付服务费用 · 适用范围按活动规则"
+            "quotaText": "需支付服务费用 · 适用范围按活动规则",
+            "scenes": [
+              "购物生活"
+            ]
           },
           {
             "id": "platinum-birthday-gift",
@@ -279,7 +630,10 @@ window.PERKS_CATALOG = [
             "description": "生日皮肤及 88 积分须在生日所在自然月领取；核查时账号按钮显示“未到可领取时间”。",
             "kind": "生日当月 · 当前未开放",
             "section": "生日礼遇",
-            "quotaText": "当前未到领取时间 · 生日所在自然月可领"
+            "quotaText": "当前未到领取时间 · 生日所在自然月可领",
+            "scenes": [
+              "会员服务"
+            ]
           },
           {
             "id": "platinum-credit-card-repayment-fee-quota",
@@ -287,7 +641,10 @@ window.PERKS_CATALOG = [
             "description": "页面列每月 2000 元免手续费还款额度，超出部分可用 1 积分兑换 3 元额外额度。此为免手续费的还款金额额度，不是现金、替还本金或等额手续费抵扣；不表示铂金独享。",
             "kind": "支付服务 · 手续费减免",
             "section": "支付与账户服务",
-            "quotaText": "规则额度 2000 元／月 · 当前剩余额度未核实"
+            "quotaText": "规则额度 2000 元／月 · 当前剩余额度未核实",
+            "scenes": [
+              "支付服务"
+            ]
           },
           {
             "id": "platinum-withdrawal-fee-quota-exchange",
@@ -295,7 +652,10 @@ window.PERKS_CATALOG = [
             "description": "详情列“积分兑换 3 元免费提现额度”，用于提现或转账到银行卡的免手续费额度，不是现金。同一身份证下多个实名账户共享，积分使用后不退；所需积分数量及兑换上限以页面为准。",
             "kind": "积分兑换 · 手续费减免",
             "section": "支付与账户服务",
-            "quotaText": "需积分兑换 · 每份所需积分及上限以页面为准"
+            "quotaText": "需积分兑换 · 每份所需积分及上限以页面为准",
+            "scenes": [
+              "支付服务"
+            ]
           },
           {
             "id": "platinum-overseas-offline-exchange-rate",
@@ -303,7 +663,10 @@ window.PERKS_CATALOG = [
             "description": "境外支持门店使用支付宝线下扫码付款时自动换算，按会员等级享对应汇率优惠，不限次数。汇率实时波动，以实际付款为准；指定商户的额外黑钻汇率券须另领，不自动包含在铂金特权中。",
             "kind": "境外线下支付 · 会员汇率",
             "section": "支付与账户服务",
-            "quotaText": "页面标示不限次数 · 实际汇率按支付时展示"
+            "quotaText": "页面标示不限次数 · 实际汇率按支付时展示",
+            "scenes": [
+              "支付服务"
+            ]
           },
           {
             "id": "platinum-account-security-insurance-entry",
@@ -311,7 +674,10 @@ window.PERKS_CATALOG = [
             "description": "黄金及以上会员可按页面领取或提升 500 万元账户安全险保额，服务由蚂蚁保险提供。限合法持有支付宝账户、年满 18 岁且具完全民事行为能力的中国大陆公民，保险期一年；生效、保障及赔付以正式保单条款为准，当前未核投保状态。",
             "kind": "需领取／提升 · 以保单为准",
             "section": "支付与账户服务",
-            "quotaText": "可按页面申请 · 未核实当前投保状态"
+            "quotaText": "可按页面申请 · 未核实当前投保状态",
+            "scenes": [
+              "支付服务"
+            ]
           },
           {
             "id": "platinum-aesthetic-care-new-customer-choice",
@@ -319,7 +685,10 @@ window.PERKS_CATALOG = [
             "description": "光子嫩肤、水光补水、皮肤舒敏护理免费体验三选一，活动期间可领一次，并标注高价值权益一年一次。须先激活，再于 365 天内预约一次，限所选门店新客；门店、项目、设备和排期以预约页为准。",
             "kind": "需激活 · 门店新客限定",
             "section": "健康与生活",
-            "quotaText": "活动期间可领 1 次 · 待激活 · 门店新客资格需确认"
+            "quotaText": "活动期间可领 1 次 · 待激活 · 门店新客资格需确认",
+            "scenes": [
+              "健康服务"
+            ]
           },
           {
             "id": "platinum-adult-dental-choice",
@@ -330,7 +699,10 @@ window.PERKS_CATALOG = [
             "quotaText": "账号显示已使用 · 每 365 天一次",
             "quotaRemaining": 0,
             "quotaTotal": 1,
-            "quotaUnit": "次"
+            "quotaUnit": "次",
+            "scenes": [
+              "健康服务"
+            ]
           },
           {
             "id": "platinum-paid-medical-service-offers",
@@ -338,7 +710,10 @@ window.PERKS_CATALOG = [
             "description": "儿童高端门诊就医单次卡首单 1119 元，需提前一天提交就医需求；1v1 就医陪诊单次四小时 259 元，服务时段 07:00—22:00。两项均为付费服务，首单资格、城市、医院及具体服务范围以预约页为准，会员价不限次不代表免费就医。",
             "kind": "付费服务 · 资格待确认",
             "section": "健康与生活",
-            "quotaText": "未购买 · 首单资格及预约范围按服务页"
+            "quotaText": "未购买 · 首单资格及预约范围按服务页",
+            "scenes": [
+              "健康服务"
+            ]
           }
         ],
         "notes": [
@@ -373,28 +748,41 @@ window.PERKS_CATALOG = [
         "title": "指定商品会员优惠",
         "description": "官方协议列明指定商品折扣、红包卡券、积分返还或赠礼资格；是否参与、折扣和优惠额度须在会员中心及结算页确认，并非全店通用。",
         "source": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201903151049_99115.html",
-        "kind": "权益类型 · 待账号确认"
+        "kind": "权益类型 · 待账号确认",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "points-exchange",
         "title": "会员积分专享兑换",
         "description": "可参与会员中心展示的天猫积分专享兑换或抵扣活动；所需积分、商品库存及抵扣条件按当期规则。",
         "source": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201903151049_99115.html",
-        "kind": "权益类型 · 待账号确认"
+        "kind": "权益类型 · 待账号确认",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "dedicated-support",
         "title": "88VIP 专属客服",
         "description": "从淘宝 App“我的淘宝 → 会员中心”使用专属客服权益；处理范围和具体服务按页面展示。",
         "source": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201903151049_99115.html",
-        "kind": "权益类型 · 待账号确认"
+        "kind": "权益类型 · 待账号确认",
+        "scenes": [
+          "会员服务"
+        ]
       },
       {
         "id": "partner-benefits",
         "title": "联名合作权益领取",
         "description": "按已购套餐在会员中心领取第三方合作权益；部分需激活或绑定本人第三方账号，具体品牌、可选项和期限不能按其他用户套餐推定。",
         "source": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_tmall/suit_bu1_tmall201903151049_99115.html",
-        "kind": "权益类型 · 待账号确认"
+        "kind": "权益类型 · 待账号确认",
+        "scenes": [
+          "出行交通",
+          "酒店住宿"
+        ]
       }
     ],
     "notes": [
@@ -420,7 +808,155 @@ window.PERKS_CATALOG = [
     "owners": [
       "jin",
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "淘宝 88VIP 生活卡",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "streaming-membership-choice",
+            "title": "优酷／芒果会员二选一",
+            "description": "生活卡展示优酷、芒果会员二选一领取入口；需选定并按流程领取或绑定，服务期及具体适用账号条件以领取页为准。",
+            "kind": "二选一 · 待领取",
+            "section": "影音与数字服务",
+            "quotaText": "优酷／芒果任选一项 · 待领取",
+            "scenes": [
+              "影音网盘"
+            ]
+          },
+          {
+            "id": "flash-food-super-card",
+            "title": "淘宝闪购超级吃货卡",
+            "description": "页面列 240 元红包、48 个无门槛红包，并显示每月可领四张 5 元红包。以上为方案配置，当前待领取；实际适用商户、商品、期限及剩余情况按卡和券面。",
+            "kind": "红包方案 · 待领取",
+            "section": "餐饮与购物",
+            "quotaText": "每月可领 4 张 × 5 元 · 当前待领取",
+            "scenes": [
+              "餐饮外卖"
+            ]
+          },
+          {
+            "id": "partner-benefits",
+            "title": "出行与酒店四项特权",
+            "description": "页面列高德打车 VIP 里程直充、万豪金卡 VIP 专享房价、希尔顿会员一住升金及飞猪直通 F3。均需按入口领取、绑定或完成挑战；万豪卡名不能证明已匹配 Gold，希尔顿涉及入住条件，深层条款待核。",
+            "kind": "领取／绑定／挑战 · 条件待核",
+            "section": "出行与酒店",
+            "quotaText": "四项合作入口 · 不表示已取得对应会籍",
+            "scenes": [
+              "出行交通",
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "movie-coupons",
+            "title": "观影优惠券",
+            "description": "当前页面展示两张 5 元观影券，满 5.01 元可用，领取后当月有效。适用影院及场次按券面；当前展示不用于推算每月固定次数或全年张数。",
+            "kind": "门槛券 · 待领取",
+            "section": "影音与数字服务",
+            "quotaText": "当前展示 2 张 5 元券 · 待领取",
+            "scenes": [
+              "影音网盘"
+            ]
+          },
+          {
+            "id": "health-family-trial",
+            "title": "阿里健康全家卡体验卡",
+            "description": "页面列开卡送 5 元守护金、三甲问诊 12 次配置、指定药品报销及一对一专送每月四次。配置不等于当前剩余；卡期、项目及费用条件待详情确认，不视为全额保险或无限免费医疗。",
+            "kind": "体验卡 · 待领取",
+            "section": "健康服务",
+            "quotaText": "配置待领取 · 服务期及项目条件待确认",
+            "scenes": [
+              "健康服务"
+            ]
+          },
+          {
+            "id": "netease-black-vip",
+            "title": "网易云黑胶 VIP 入口",
+            "description": "页面展示黑胶 VIP 曲库、每月 300 首下载、无损音质等服务。领取绑定状态及会员服务期尚未核实，实际可用内容按对应账号和服务规则。",
+            "kind": "联名会员 · 领取状态待确认",
+            "section": "影音与数字服务",
+            "quotaText": "每月 300 首下载为方案配置 · 绑定与服务期未核",
+            "scenes": [
+              "影音网盘"
+            ]
+          },
+          {
+            "id": "return-shipping",
+            "title": "退货包运费",
+            "description": "退货上门取件单次最高抵 25 元、每月最高 50 元，可与退货宝叠加。适用订单和费用按页面，当前剩余抵扣额度尚未核实。",
+            "kind": "退货服务 · 有额度上限",
+            "section": "餐饮与购物",
+            "quotaText": "单次上限 25 元 · 月上限 50 元 · 当前剩余未核",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "exclusive-shopping-offers",
+            "title": "指定商品会员九五折",
+            "description": "指定大牌及天猫超市、天猫国际、阿里健康参与商品享九五折，页面称覆盖 1000 多家官方旗舰店。具体参与商品及优惠以结算为准，并非全淘宝通用九五折。",
+            "kind": "指定商品 · 以结算为准",
+            "section": "餐饮与购物",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "cainiao-shipping",
+            "title": "菜鸟裹裹超级寄件",
+            "description": "标准寄件展示折上 8.8 折、单单可享，另有 386 元面值券包。券包须满足各券门槛使用，不是现金；参与服务、线路及费用以寄件页面和券面为准。",
+            "kind": "寄件折扣 · 券包有门槛",
+            "section": "寄件服务",
+            "quotaText": "386 元为券包面值 · 按券面条件使用",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "points-exchange",
+            "title": "88 积分兑换消费红包",
+            "description": "页面展示 2000 个 88 积分兑 20 元红包、1000 个积分兑 10 元红包。兑换门槛、库存及红包使用条件按页面，红包用于消费，不是现金提现。",
+            "kind": "需积分兑换",
+            "section": "餐饮与购物",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "quark-cloud",
+            "title": "夸克网盘 6 TB 会员入口",
+            "description": "页面列 6 TB 网盘会员、自动备份、五倍速、PDF 转换和云解压等服务。领取绑定状态及卡期尚未核实，实际功能与可用期以绑定后的服务页为准。",
+            "kind": "联名服务 · 领取状态待确认",
+            "section": "影音与数字服务",
+            "quotaText": "6 TB 为方案容量 · 绑定与服务期未核",
+            "scenes": [
+              "影音网盘"
+            ]
+          },
+          {
+            "id": "dedicated-support",
+            "title": "专属客服入口",
+            "description": "会员中心已看到专属客服入口，可按页面联系会员客服；受理范围、联系渠道及服务时段以当前客服页为准，问题处理按实际情况和平台规则。",
+            "kind": "会员服务入口",
+            "section": "会员服务",
+            "scenes": [
+              "会员服务"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 在本人淘宝 App 核实卡种为“88VIP生活卡”，按全部权益中已读的关键主卡整理；未将其改称其他卡种，也未核完全部营销活动。",
+          "查看路径：淘宝 → 我的淘宝 → 88VIP → 全部权益。各合作会员、体验卡及优惠须按入口领取、激活或绑定；本次未操作领取、激活或绑定，不表示已持有第三方会籍。",
+          "红包总配置、问诊次数、下载数量和容量不等于当前剩余或已到账。券包面值及最高优惠不视为现金；具体卡期、适用商品、门店、费用和服务条件按官方详情。",
+          "万豪“金卡VIP专享房价”是页面权益名称，匹配等级待核，不能仅据名称认定已获 Marriott Gold。希尔顿一住升金需要满足入住挑战；飞猪 F3、高德里程仍须按各自流程领取或绑定。",
+          "品牌内购、分期、话费等其他入口仅浏览到，具体活动及适用条件未细核，暂不作为稳定核心权益列入。",
+          "账号依据为本人 iPhone 的淘宝会员页面，未取得可分享的详情链接；不把公开协议或普通官网链接当作本次账号领取状态的证据。"
+        ],
+        "sources": []
+      }
+    }
   },
   {
     "slug": "jd-finance",
@@ -484,7 +1020,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "账号已核实",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "railway-lounge",
@@ -497,7 +1036,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "账号已核实",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "hongkong-lounge",
@@ -510,7 +1052,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "账号已核实 · 共享额度",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "ctrip-railway-lounge",
@@ -523,7 +1068,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 需领取/绑定",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "ctrip-train-assist",
@@ -536,7 +1084,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 需领取/绑定",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "hotel-discount",
@@ -549,7 +1100,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定酒店",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "hotel-coupon",
@@ -562,7 +1116,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "张",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 需领取/绑定",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "hotel-breakfast",
@@ -575,7 +1132,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定房型",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "hotel-late-checkout",
@@ -588,7 +1148,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 下单勾选",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "hotel-upgrade",
@@ -601,7 +1164,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定房型",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "attraction-coupon",
@@ -614,7 +1180,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "张",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 需领取/绑定",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "car-rental-discount",
@@ -627,7 +1196,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定产品",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "day-tour-discount",
@@ -640,7 +1212,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定产品",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "wifi-discount",
@@ -653,7 +1228,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "次",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
         "kind": "携程合作 · 指定品牌",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "roaming-5gb",
@@ -666,7 +1244,10 @@ window.PERKS_CATALOG = [
         "quotaUnit": "GB",
         "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/guoman",
         "kind": "账号已核实 · 已用完",
-        "verification": "account"
+        "verification": "account",
+        "scenes": [
+          "出行交通"
+        ]
       },
       {
         "id": "roaming-gift",
@@ -678,7 +1259,10 @@ window.PERKS_CATALOG = [
         "verification": "public",
         "quotaText": "当前5GB礼包已用完；转赠次数余额未展示",
         "quotaRemaining": null,
-        "quotaTotal": null
+        "quotaTotal": null,
+        "scenes": [
+          "出行交通"
+        ]
       }
     ],
     "notes": [
@@ -711,7 +1295,301 @@ window.PERKS_CATALOG = [
         "url": "https://www.10086.cn/roaming/yewu/qqtzs/"
       }
     ],
-    "verification": "account"
+    "verification": "account",
+    "accountOverrides": {
+      "wu": {
+        "name": "中国移动全球通金卡",
+        "checkedAt": "2026-11-07",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "airport-lounge",
+            "title": "机场贵宾休息室（全国）",
+            "description": "本人及同行人使用，按实际人数扣次；标准服务2小时，核销不支持截屏。出行前查询航站楼和可用网点。",
+            "section": "机场与高铁出行",
+            "quotaText": "2026-11-13复核：剩余2次（当日快照）",
+            "quotaRemaining": 2,
+            "quotaTotal": null,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "账号已核实",
+            "verification": "account",
+            "checkedAt": "2026-11-13",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "railway-lounge",
+            "title": "高铁贵宾休息室（全国）",
+            "description": "本入口当前剩余0次，未据此推断总配额或已用次数。指定网点、本人及同行人使用规则以服务页为准；携程合作包的1次另列。",
+            "section": "机场与高铁出行",
+            "quotaText": "2026-11-13复核：剩余0次（当日快照）",
+            "quotaRemaining": 0,
+            "quotaTotal": null,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "账号已核实",
+            "verification": "account",
+            "checkedAt": "2026-11-13",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "hongkong-lounge",
+            "title": "香港机场休息室（广东专属）",
+            "description": "与全国机场免费次数共用额度。兑换香港机场权益即扣次并锁定用于香港机场，无法撤销；按实际出行随用随领。付费购买或受赠机场权益不适用香港。",
+            "section": "机场与高铁出行",
+            "quotaText": "共用全国机场剩余2次；不是额外赠送2次",
+            "quotaRemaining": null,
+            "quotaTotal": null,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "账号已核实 · 共享额度",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "ctrip-railway-lounge",
+            "title": "携程合作高铁休息室",
+            "description": "全球通合作权益，须在携程App购买实名本人火车票，出发站或到达站须为支持站点；兑换后按官方券码核销，仅限本人。",
+            "section": "机场与高铁出行",
+            "quotaText": "本期共1次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 需领取/绑定",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "ctrip-train-assist",
+            "title": "火车票快速帮抢",
+            "description": "在携程App“帮抢/候补 → 托管等级”选全球通商旅礼遇；同一订单乘车人可享对应帮抢速率，服务不保证抢票成功。",
+            "section": "机场与高铁出行",
+            "quotaText": "本期共1次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 需领取/绑定",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "hotel-discount",
+            "title": "指定酒店85折订房",
+            "description": "在合作携程入口预订带“优享会权益”标签的境内酒店（不含港澳台），订单匹配最优同类折扣；具体优惠看结算页。",
+            "section": "酒店与景区",
+            "quotaText": "订房折扣85折 · 页面标注无限次",
+            "quotaRemaining": null,
+            "quotaTotal": null,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定酒店",
+            "verification": "account",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-coupon",
+            "title": "60元酒店优惠券",
+            "description": "限携程合作入口内带“全球通券”标签的在线付房型；下单勾选，每单限1张。不可取消订单或未入住等情形，已用券可能不退。",
+            "section": "酒店与景区",
+            "quotaText": "60元券1张 · 领取及实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "张",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 需领取/绑定",
+            "verification": "account",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-breakfast",
+            "title": "指定酒店免费早餐",
+            "description": "预订带“会员早餐”标签的酒店及房型，适用于无早餐或仅含1份早餐房型；下单时勾选，预订成功即扣次。",
+            "section": "酒店与景区",
+            "quotaText": "本期共8次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 8,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定房型",
+            "verification": "account",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-late-checkout",
+            "title": "指定酒店延迟退房",
+            "description": "在带“延迟退房”标签的境内酒店，下单时勾选权益，预订后不能补选；退房时间以产品承诺为准，预订成功即扣次。",
+            "section": "酒店与景区",
+            "quotaText": "本期共8次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 8,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 下单勾选",
+            "verification": "account",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-upgrade",
+            "title": "指定酒店房型升级",
+            "description": "在带“房型升级”标签的境内酒店与房型，下单时勾选权益；预订成功即扣次，不能将权益单独取消返还。",
+            "section": "酒店与景区",
+            "quotaText": "本期共8次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 8,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定房型",
+            "verification": "account",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "attraction-coupon",
+            "title": "40元景区优惠券",
+            "description": "合作入口带“全球通专享”标签的景区门票，每单限1张、门票单价须超过10元；需大陆身份证实名认证且出行人一致。",
+            "section": "酒店与景区",
+            "quotaText": "40元券1张 · 领取及实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "张",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 需领取/绑定",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "car-rental-discount",
+            "title": "租车专享95折",
+            "description": "通过携程合作入口在线预付指定国内租车产品；仅租车费享优惠，手续费、保险服务、异地还车等附加费按产品规则。",
+            "section": "旅行消费优惠",
+            "quotaText": "95折1次 · 优惠上限以携程页面为准",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定产品",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "day-tour-discount",
+            "title": "一日游会员95折",
+            "description": "携程App指定一日游产品下单勾选用券；实际抵扣和适用产品按合作权益页面，券不可叠加或折现。",
+            "section": "旅行消费优惠",
+            "quotaText": "95折1次 · 实际可用产品到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定产品",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "wifi-discount",
+            "title": "旅行Wi-Fi租赁98折",
+            "description": "适用于携程App内指定漫游超人、环球漫游Wi-Fi产品的租赁费用，不含押金、邮寄及设备损坏等费用。",
+            "section": "旅行消费优惠",
+            "quotaText": "98折1次 · 实际剩余到携程核对",
+            "quotaRemaining": null,
+            "quotaTotal": 1,
+            "quotaUnit": "次",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+            "kind": "携程合作 · 指定品牌",
+            "verification": "account",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "roaming-5gb",
+            "title": "5GB国际漫游礼包",
+            "description": "账号出境礼包页当前显示“已用完”。5GB是本期礼包规格，不能当作目前仍可使用的流量；下期及新礼包以官方页面为准。",
+            "section": "境外通信",
+            "quotaText": "2026-11-13复核：5GB国际漫游礼包已用完（当日快照）",
+            "quotaRemaining": 0,
+            "quotaTotal": 5,
+            "quotaUnit": "GB",
+            "source": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/guoman",
+            "kind": "账号已核实 · 已用完",
+            "verification": "account",
+            "checkedAt": "2026-11-13",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "roaming-gift",
+            "title": "国漫流量转赠亲友",
+            "description": "金卡每年可转赠1次未激活礼包给本省移动亲友号码；转出流量从本人额度扣减。首次受让人立即生效，后续新增或修改需等待10天。",
+            "source": "https://10086.cn/roaming/yewu/qqtzs/zhuanzeng/",
+            "kind": "公开规则 · 需未激活礼包",
+            "section": "境外通信",
+            "verification": "public",
+            "quotaText": "当前5GB礼包已用完；转赠次数余额未展示",
+            "quotaRemaining": null,
+            "quotaTotal": null,
+            "scenes": [
+              "出行交通"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 在本人手机复核当前全球通金卡等级，以及标准机场休息室剩余两次、高铁休息室剩余零次、5GB 国际漫游礼包已用完。仅这三项标注新核查日；其余未标新日期的十三项配额和规则仍为 2026-11-07 快照，不应视为实时余额。",
+          "全国机场剩余2次、全国高铁剩余0次；香港机场权益与全国机场共享免费次数，兑换后锁定香港且不可撤销。",
+          "酒店景区页显示11项可享权益。携程合作权益须通过官方入口领取或绑定，本期总次数不等于当前剩余次数，也不并入携程钻石会员配额。",
+          "本期酒店景区及休息室权益有效至2026-12-31。升房、延迟退房、早餐等通常需下单时勾选；服务无法提供时，可向携程核实是否返还权益次数。",
+          "酒店景区合作包内的机场快速安检、机场休息室标为“升级后可享”，未计入该合作包当前可用清单；全国机场休息室的2次来自另一个入口。",
+          "休息室页另有付费专享购：机场128元/次、高铁64元/次，按当时页面和网点规则；它们不属于免费次数。5GB国漫礼包当前已用完。",
+          "出境页另见国际语音及交通住宿、乐园优惠入口，领取资格、产品和门槛未核，暂不作为固定免费或现金权益列入核心清单。"
+        ],
+        "sources": [
+          {
+            "title": "本人全球通酒店景区权益及逐项规则（需登录）",
+            "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel"
+          },
+          {
+            "title": "全球通综合入口：底部“休息室”（需登录）",
+            "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel"
+          },
+          {
+            "title": "本人出境礼包状态（需登录）",
+            "url": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/guoman"
+          },
+          {
+            "title": "中国移动公开国漫领取及转赠规则",
+            "url": "https://www.10086.cn/roaming/yewu/qqtzs/"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "ctrip",
@@ -725,21 +1603,31 @@ window.PERKS_CATALOG = [
         "title": "订单积分 2.0 倍系数",
         "description": "钻石贵宾预订成交积分按业务订单消费积分×2.0计算；不是订单金额直接翻倍。不同业务计算比例、发放时间及不计积分项目各异。",
         "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
-        "kind": "等级待遇"
+        "kind": "等级待遇",
+        "scenes": [
+          "出行交通",
+          "酒店住宿"
+        ]
       },
       {
         "id": "checkin-bonus",
         "title": "连续签到额外积分",
         "description": "钻石等指定等级连续签到7天、14天以上，可获得更多积分；实际奖励以会员每日签到页面为准。",
         "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
-        "kind": "需签到"
+        "kind": "需签到",
+        "scenes": [
+          "会员服务"
+        ]
       },
       {
         "id": "hotel-points-redemption",
         "title": "积分兑换酒店权益",
         "description": "在标注“积分兑换”的国内酒店，可用积分兑换早餐、延迟退房、房型升级、免费取消或首晚房费等，依具体产品和库存；这是积分通用兑换能力，不是钻石自动免费赠送。",
         "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
-        "kind": "需积分兑换"
+        "kind": "需积分兑换",
+        "scenes": [
+          "酒店住宿"
+        ]
       }
     ],
     "notes": [
@@ -748,7 +1636,212 @@ window.PERKS_CATALOG = [
     "icon": "携",
     "owners": [
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "携程钻石贵宾 V5",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "points-2x",
+            "title": "会员积分加速两倍",
+            "description": "当前钻石贵宾积分区展示两倍积分加速；适用产品、计分基数、发放及不计分情形以业务订单规则为准，不是订单金额翻倍。",
+            "kind": "账号积分待遇",
+            "section": "积分与活动",
+            "scenes": [
+              "出行交通",
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "checkin-bonus",
+            "title": "连续签到额外积分",
+            "description": "钻石等指定等级连续签到7天、14天以上，可获得更多积分；实际奖励以会员每日签到页面为准。",
+            "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
+            "kind": "需签到",
+            "verification": "public",
+            "section": "公开积分规则",
+            "quotaText": "2026-11-06 公开资料 · 当期账号条件未逐项核实",
+            "scenes": [
+              "会员服务"
+            ]
+          },
+          {
+            "id": "hotel-points-redemption",
+            "title": "积分兑换酒店权益",
+            "description": "在标注“积分兑换”的国内酒店，可用积分兑换早餐、延迟退房、房型升级、免费取消或首晚房费等，依具体产品和库存；这是积分通用兑换能力，不是钻石自动免费赠送。",
+            "source": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html",
+            "kind": "需积分兑换",
+            "verification": "public",
+            "section": "公开积分规则",
+            "quotaText": "2026-11-06 公开资料 · 当期账号条件未逐项核实",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-room-upgrade",
+            "title": "酒店房型升级",
+            "description": "账号权益页显示剩余三次、共四次。须在携程参与酒店或带相应权益标识的产品中匹配下单，房型、房态及具体使用流程按订单和详情。",
+            "kind": "账号酒店权益",
+            "section": "酒店服务",
+            "quotaRemaining": 3,
+            "quotaTotal": 4,
+            "quotaText": "剩余 3 次／共 4 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-free-breakfast",
+            "title": "酒店免费早餐",
+            "description": "账号权益页显示剩余四次、共四次。须在参与酒店及适用房型中按订单使用，早餐份数、用餐日期和使用流程以对应产品为准。",
+            "kind": "账号酒店权益",
+            "section": "酒店服务",
+            "quotaRemaining": 4,
+            "quotaTotal": 4,
+            "quotaText": "剩余 4 次／共 4 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-free-cancel",
+            "title": "酒店免费取消",
+            "description": "账号权益页显示剩余三次、共四次。适用酒店订单、取消时点及费用处理条件按权益详情，不表示任意订单均可随时无损取消。",
+            "kind": "账号酒店权益",
+            "section": "酒店服务",
+            "quotaRemaining": 3,
+            "quotaTotal": 4,
+            "quotaText": "剩余 3 次／共 4 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "hotel-late-checkout",
+            "title": "酒店延迟退房",
+            "description": "账号权益页显示剩余三次、共四次。需参与酒店及适用订单，具体延迟时段和申请流程以订单权益为准，未推定固定退房时间。",
+            "kind": "账号酒店权益",
+            "section": "酒店服务",
+            "quotaRemaining": 3,
+            "quotaTotal": 4,
+            "quotaText": "剩余 3 次／共 4 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "preferred-hotel-discount",
+            "title": "优享会酒店 8.5 折起",
+            "description": "会员页展示优享会酒店 8.5 折起；仅参与酒店及产品按活动享相应价格，房型、日期和实际到手价以预订结算为准。",
+            "kind": "参与酒店 · 折扣起价",
+            "section": "酒店服务",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "airport-lounge",
+            "title": "机场休息室",
+            "description": "当前服务入口显示剩余零次、共一次，不能据总配置当作仍有一次可用。参与机场、休息室、预约及核验要求以携程服务详情为准。",
+            "kind": "账号出行权益 · 当前无剩余",
+            "section": "机场与铁路",
+            "quotaRemaining": 0,
+            "quotaTotal": 1,
+            "quotaText": "剩余 0 次／共 1 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "airport-fast-security",
+            "title": "机场快速安检",
+            "description": "账号服务页显示剩余两次、共两次。须按携程参与机场及对应服务流程匹配预约或使用，适用机场、航站楼和航班按服务详情，不能直接用于任意机场。",
+            "kind": "账号出行权益",
+            "section": "机场与铁路",
+            "quotaRemaining": 2,
+            "quotaTotal": 2,
+            "quotaText": "剩余 2 次／共 2 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "railway-lounge",
+            "title": "高铁休息室",
+            "description": "会员总览显示总配置两次，实际剩余尚未读到。须按携程参与车站及对应权益产品的下单、预约或核验流程使用，具体站点和服务条件待详情确认。",
+            "kind": "总配置已见 · 剩余待核",
+            "section": "机场与铁路",
+            "quotaTotal": 2,
+            "quotaText": "页面总配置 2 次 · 当前剩余未核",
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "train-online-seat-change",
+            "title": "火车在线换座",
+            "description": "账号页显示在线换座剩余三十次、共三十次。适用车票、班次、办理时段及是否换座成功按服务规则和实际车票情况。",
+            "kind": "账号铁路服务",
+            "section": "机场与铁路",
+            "quotaRemaining": 30,
+            "quotaTotal": 30,
+            "quotaText": "剩余 30 次／共 30 次（核查时）",
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "train-change-refund-support",
+            "title": "火车安心退改",
+            "description": "账号页已读到剩余两次，后半段说明未完整读取，暂不推定总额或境外适用范围。具体服务资格、退改条件及办理流程以权益详情为准。",
+            "kind": "账号铁路服务 · 条件待核",
+            "section": "机场与铁路",
+            "quotaRemaining": 2,
+            "quotaText": "剩余 2 次（核查时）· 总配置未核",
+            "quotaUnit": "次",
+            "scenes": [
+              "出行交通"
+            ]
+          },
+          {
+            "id": "points-cash-and-lottery",
+            "title": "积分抵现与抽奖入口",
+            "description": "积分区提供积分抵现及一积分抽奖入口。抵现受参与产品及规则限制，不是可提现现金；抽奖仅提供参与机会，不保证中奖或获得特定奖品。",
+            "kind": "需积分 · 依活动规则",
+            "section": "积分与活动",
+            "scenes": [
+              "会员服务"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 在本人携程 App 核实当前为钻石贵宾 V5，会员页列二十一项权益。本轮整理十四项核心记录，未逐项遍历全部二十一项或核完条款；金钻灰色锁定项目不列当前可用。",
+          "酒店四项及机场、火车已读余额按核查时“剩余／共”分别记录，不从剩余反推已用次数，也未在页面未注明时推定年度或季度周期。高铁休息室目前仅见总配置两次，余额待核。",
+          "酒店和交通权益须匹配携程参与或带相应权益标识的酒店、车票及服务产品，并按对应下单、预约或核验流程使用；不表示任意酒店或机场均可直接使用。具体流程、网点及使用时段以服务详情为准。",
+          "中国移动合作包的酒店八次及高铁一次另记在移动会员下，不并入携程本体配额；其他平台的携程联名活动也分别记录。",
+          "连续签到额外积分、积分兑换酒店权益两项保留自 2026-11-06 的公开官方积分规则，并单项标为公开来源。积分通用兑换需自行消耗积分，与本次账户显示的酒店会员次数分别理解。",
+          "客服特权、奢华酒店礼遇及行政酒廊显示为金钻解锁，未列为钻石当前可用；机场休息室虽展示总配置一次，当前实际剩余为零。",
+          "账号事实依据本人手机会员页，无可分享账号详情链接；本次未领取、购买、预订或核销。"
+        ],
+        "sources": [
+          {
+            "title": "2026-11-06 公开资料：携程积分说明",
+            "url": "https://pages.ctrip.com/commerce/rewards/pointExplain/pointExplain.html"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "marriott",
@@ -762,35 +1855,50 @@ window.PERKS_CATALOG = [
         "title": "合资格入住额外 25% 积分",
         "description": "按入住获得的基础积分另加25%，适用于合资格消费；不是所有账单金额或活动赠分都额外加成，特殊品牌按条款。",
         "source": "https://www.marriott.com/loyalty/terms/default.mi",
-        "kind": "等级待遇"
+        "kind": "等级待遇",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "welcome-points",
         "title": "每次入住欢迎积分",
         "description": "参与品牌每次入住赠250或500积分，依品牌；不是每晚赠送。StudioRes及部分地区City Express等例外不提供。",
         "source": "https://www.marriott.com/loyalty/terms/default.mi",
-        "kind": "等级待遇"
+        "kind": "等级待遇",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "late-checkout-2pm",
         "title": "申请延迟退房至下午 2 点",
         "description": "退房当天上午向前台申请，须视房态，不保证；度假会品牌、Ritz-Carlton Reserve等部分品牌/物业不适用。",
         "source": "https://www.marriott.com/loyalty/terms/default.mi",
-        "kind": "需申请／视房态"
+        "kind": "需申请／视房态",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "enhanced-room",
         "title": "到店酌情升级客房",
         "description": "入住时依房态为会员本人客房安排更佳景观、楼层等升级；不保证套房，部分品牌/物业排除。丽思卡尔顿不含直通俱乐部客房。",
         "source": "https://www.marriott.com/loyalty/terms/default.mi",
-        "kind": "视房态"
+        "kind": "视房态",
+        "scenes": [
+          "酒店住宿"
+        ]
       },
       {
         "id": "enhanced-wifi",
         "title": "免费增强型 Wi-Fi",
         "description": "参与酒店入住期间，为会员的一间客房提供增强型Wi-Fi；会议室不适用，特殊参与品牌遵循其例外规则。",
         "source": "https://www.marriott.com/loyalty/terms/default.mi",
-        "kind": "等级待遇"
+        "kind": "等级待遇",
+        "scenes": [
+          "酒店住宿"
+        ]
       }
     ],
     "notes": [
@@ -799,7 +1907,90 @@ window.PERKS_CATALOG = [
     "icon": "M",
     "owners": [
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "Marriott Gold Elite",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "bonus-points-25",
+            "title": "合资格入住额外 25% 积分",
+            "description": "按入住获得的基础积分另加25%，适用于合资格消费；不是所有账单金额或活动赠分都额外加成，特殊品牌按条款。",
+            "source": "https://www.marriott.com/loyalty/terms/default.mi",
+            "kind": "等级待遇",
+            "verification": "public",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "welcome-points",
+            "title": "每次入住欢迎积分",
+            "description": "参与品牌每次合资格连续入住赠 250 或 500 积分，按品牌区分，不是每晚赠送。StudioRes 及部分地区 City Express 等例外不提供，具体适用条件按官方条款。",
+            "source": "https://www.marriott.com/loyalty/terms/default.mi",
+            "kind": "等级待遇",
+            "verification": "public",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "late-checkout-2pm",
+            "title": "申请延迟退房至下午 2 点",
+            "description": "退房当天上午向前台申请，须视房态，不保证；度假会品牌、Ritz-Carlton Reserve等部分品牌/物业不适用。",
+            "source": "https://www.marriott.com/loyalty/terms/default.mi",
+            "kind": "需申请／视房态",
+            "verification": "public",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "enhanced-room",
+            "title": "到店酌情升级客房",
+            "description": "入住时依房态为会员本人客房安排更佳景观、楼层等升级；不保证套房，部分品牌/物业排除。丽思卡尔顿不含直通俱乐部客房。",
+            "source": "https://www.marriott.com/loyalty/terms/default.mi",
+            "kind": "视房态",
+            "verification": "public",
+            "scenes": [
+              "酒店住宿"
+            ]
+          },
+          {
+            "id": "enhanced-wifi",
+            "title": "免费增强型 Wi-Fi",
+            "description": "通过合资格万豪官方渠道预订，限会员本人入住并付费的一间客房享增强型 Wi-Fi；会议室除外，参与品牌及物业遵循各自例外规则。",
+            "source": "https://help.marriott.com/s/article/internet-access-benefit-information",
+            "kind": "等级待遇",
+            "verification": "public",
+            "scenes": [
+              "酒店住宿"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 已在本人万豪 App 核实当前等级为“尊贵金卡”。等级礼遇页暂无法加载，重试后仍不可用；以下五项为同日复核的官方公开 Gold Elite 规则，不是本次读取到的个人权益配额。",
+          "公开规则于 2026-11-13 按官网 2026 年 10 月版条款复核；须满足合资格入住、会员登记及渠道要求，品牌、物业、房态和例外条件按现行官方规则。",
+          "Gold Elite 不自动包含免费早餐或行政酒廊。客房升级及申请下午两点延迟退房均须视房态，不作保证；欢迎积分按每次合资格连续入住计算，不是每晚。"
+        ],
+        "sources": [
+          {
+            "title": "2026-11-13 公开复核：万豪旅享家条款（Gold Elite）",
+            "url": "https://www.marriott.com/loyalty/terms/default.mi"
+          },
+          {
+            "title": "万豪 Gold Elite 官方礼遇",
+            "url": "https://www.marriott.com/loyalty/member-benefits/gold.mi"
+          },
+          {
+            "title": "万豪增强型网络服务官方说明",
+            "url": "https://help.marriott.com/s/article/internet-access-benefit-information"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "costco",
@@ -813,21 +2004,31 @@ window.PERKS_CATALOG = [
         "title": "全球门店与美国官网购物",
         "description": "Gold Star 可在全球 Costco 门店及 Costco.com 购买个人自用商品；当地支付、配送及线上账号要求另行适用，不等于美国卡自动开通各国网店。",
         "source": "https://customerservice.costco.com/app/answers/detail/a_id/852",
-        "kind": "持续会籍待遇"
+        "kind": "持续会籍待遇",
+        "scenes": [
+          "购物生活"
+        ]
       },
       {
         "id": "household-card",
         "title": "免费同住家庭副卡",
         "description": "可为1位超过16岁、与主卡人同住同一地址的家庭成员办理免费家庭卡；需单独实名/拍照，可能须提供同址证明，不可直接借用主卡。",
         "source": "https://customerservice.costco.com/app/answers/detail/a_id/853",
-        "kind": "持续会籍待遇"
+        "kind": "持续会籍待遇",
+        "scenes": [
+          "会员服务"
+        ]
       },
       {
         "id": "satisfaction-guarantee",
         "title": "会员与商品满意保证",
         "description": "会员资格与商品适用满意保证，但存在例外和分类退货限制；电子产品等应先查官方退货政策，不应理解为所有商品无限期退货。",
         "source": "https://www.costco.com/f/-/member-privileges-conditions",
-        "kind": "按条件享用"
+        "kind": "按条件享用",
+        "scenes": [
+          "购物生活",
+          "会员服务"
+        ]
       }
     ],
     "notes": [
@@ -857,6 +2058,108 @@ window.PERKS_CATALOG = [
     "icon": "C",
     "owners": [
       "wu"
-    ]
+    ],
+    "accountOverrides": {
+      "wu": {
+        "name": "Costco Gold Star（美国卡）",
+        "checkedAt": "2026-11-13",
+        "verification": "account",
+        "benefits": [
+          {
+            "id": "warehouse-online-shopping",
+            "title": "全球门店与美国官网购物",
+            "description": "Gold Star 可在全球 Costco 门店及 Costco.com 购买个人自用商品；当地支付、配送及线上账号要求另行适用，不等于美国卡自动开通各国网店。",
+            "source": "https://customerservice.costco.com/app/answers/detail/a_id/852",
+            "kind": "持续会籍待遇",
+            "verification": "public",
+            "scenes": [
+              "购物生活"
+            ]
+          },
+          {
+            "id": "household-card",
+            "title": "免费同住家庭副卡",
+            "description": "可为一位年满 16 岁、与主卡人同址同住的家庭成员办理免费家庭卡，须本人拍照并按门店要求核实同址。家庭卡限本人使用，不可转借。",
+            "source": "https://www.costco.com/f/-/member-privileges-conditions",
+            "kind": "持续会籍待遇",
+            "verification": "public",
+            "scenes": [
+              "会员服务"
+            ]
+          },
+          {
+            "id": "satisfaction-guarantee",
+            "title": "会员与商品满意保证",
+            "description": "会员资格及商品适用满意保证；指定电子产品及大家电通常须在收货后 90 天内退货。贵金属、Shop Card、礼券票券等有例外，须按品类规则，并非所有商品无限期可退。",
+            "source": "https://customerservice.costco.com/app/answers/detail/a_id/1191",
+            "kind": "按条件享用",
+            "verification": "public",
+            "scenes": [
+              "购物生活",
+              "会员服务"
+            ]
+          },
+          {
+            "id": "digital-membership-card",
+            "title": "官方 App 数字会员卡入口",
+            "description": "本人可在官方 Costco App 内出示数字会员卡，页面明确提示会员卡截图无效。各地门店是否支持数字卡、本人核验及使用要求须按当地门店规则确认。",
+            "kind": "官方 App 入口 · 截图无效",
+            "source": "https://customerservice.costco.com/app/answers/answer_view/a_id/10294/~/digital-membership-card---general-faqs",
+            "verification": "public",
+            "scenes": [
+              "会员服务"
+            ]
+          },
+          {
+            "id": "member-gas-stations",
+            "title": "会员油站服务（指定地区）",
+            "description": "在设有 Costco 油站的指定地区，有效会员可按站点规则使用并享会员价。油价依地区和时间变化，不是免费加油或固定折扣；支付方式及当地使用条件另按油站规则。",
+            "source": "https://www.costco.com/f/-/gasoline-qanda",
+            "verification": "public",
+            "kind": "地区服务 · 会员价",
+            "scenes": [
+              "出行交通"
+            ]
+          }
+        ],
+        "notes": [
+          "2026-11-13 已在本人 Costco App 的 Account 页面核实为 Gold Star Member，不是 Executive；也看到官方数字卡的截图无效提示。以下公开规则已于同日复核，不是个人账户配额。",
+          "Gold Star 不含 Executive 年度百分之二奖励等专属优惠；新办卡 Shop Card 促销也不是现有持卡人的固定权益。",
+          "全球门店会员购物不等于自动开通各国网店；当地付款、配送、地区服务及数字会员卡支持情况仍按各地规则。",
+          "Costco Travel 美国站仅面向居住美国的会员；持美国 Gold Star 卡不足以确认居住资格，本轮未核实该资格，因此不列为当前可用核心权益。",
+          "商品与会员满意保证受品类及政策例外限制，退货和家庭卡须按官方要求办理；油站仅在设有服务的地区按当地规则使用。"
+        ],
+        "sources": [
+          {
+            "title": "2026-11-13 公开复核：Costco Gold Star 会员",
+            "url": "https://customerservice.costco.com/app/answers/detail/a_id/852"
+          },
+          {
+            "title": "Costco 会员条件与家庭卡规则",
+            "url": "https://www.costco.com/f/-/member-privileges-conditions"
+          },
+          {
+            "title": "Costco 官方退货政策及例外",
+            "url": "https://customerservice.costco.com/app/answers/detail/a_id/1191"
+          },
+          {
+            "title": "Costco 数字会员卡官方常见问题",
+            "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/10294/~/digital-membership-card---general-faqs"
+          },
+          {
+            "title": "Costco 油站官方常见问题",
+            "url": "https://www.costco.com/f/-/gasoline-qanda"
+          },
+          {
+            "title": "Costco 各会员等级差异",
+            "url": "https://customerservice.costco.com/app/answers/detail/a_id/857"
+          },
+          {
+            "title": "Costco Travel 美国站资格说明（未列当前可用）",
+            "url": "https://www.costcotravel.com/info/about-costco-travel"
+          }
+        ]
+      }
+    }
   }
 ];
