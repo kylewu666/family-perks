@@ -1,0 +1,983 @@
+{
+  "owner": "wu",
+  "membership": "支付宝铂金",
+  "checkedAt": "2026-11-13",
+  "status": "记录已浏览卡片与活动；深层条款未核实时只按入口、门槛券或付费优惠归纳，不表示已领取或持有",
+  "readPath": "支付宝 → 我的 → 支付宝会员 → 铂金 → 全部特权 → 各分类",
+  "sharedDisplayedRule": "铂金会员酒店集团会籍直通权益，限领一次；是否为各品牌分别限领一次、申请资格和领取后期限仍需详情确认。",
+  "cards": [
+    {
+      "id": "huazhu",
+      "title": "华住会",
+      "displayedBenefits": [
+        "会员专属折扣",
+        "生日好礼"
+      ],
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "领取与绑定流程",
+        "折扣及生日礼适用条件",
+        "会籍期限及新老会员限制"
+      ]
+    },
+    {
+      "id": "marriott-entry",
+      "title": "直通万豪旅享家（匹配等级待确认）",
+      "displayedBenefits": [
+        "会员专享房价",
+        "餐饮礼遇"
+      ],
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "领取与绑定流程",
+        "参与酒店及房价限制",
+        "餐饮礼遇具体优惠与门槛"
+      ],
+      "note": "主卡未明确匹配等级，深层条款未读，不能据此作为 Gold 会籍依据。老武独立 Marriott Gold Elite 记录保持不变。"
+    },
+    {
+      "id": "jinjiang",
+      "title": "锦江荟",
+      "displayedBenefits": [
+        "新人入会券包",
+        "会员专属折扣",
+        "积分奖励"
+      ],
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "新人认定条件",
+        "券包内容及门槛",
+        "积分奖励比例及适用条件",
+        "领取与绑定流程"
+      ]
+    },
+    {
+      "id": "wanda",
+      "title": "万达酒店万悦会",
+      "displayedBenefits": [
+        "新人入会享 50 元券包",
+        "首住 8 折起"
+      ],
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "新人及首住认定条件",
+        "50 元券包组成及使用门槛",
+        "8 折起适用酒店及房型",
+        "领取与绑定流程"
+      ],
+      "note": "50 元为页面展示的券包标示金额，不视为无门槛现金或每单可减 50 元。"
+    },
+    {
+      "id": "mgm",
+      "title": "美高梅美狮荟",
+      "displayedBenefits": [
+        "新人入会券包",
+        "会员专属房价"
+      ],
+      "displayedClaimRule": "铂金会员酒店集团会籍直通权益，限领一次",
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "新人认定条件",
+        "券包内容和门槛",
+        "专属房价参与酒店及房型",
+        "领取与绑定流程"
+      ]
+    },
+    {
+      "id": "accor",
+      "title": "雅高心悦界",
+      "displayedBenefits": [
+        "会员订房折扣",
+        "餐饮礼遇 9 折"
+      ],
+      "displayedClaimRule": "铂金会员酒店集团会籍直通权益，限领一次",
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "参与酒店和餐厅",
+        "9 折适用项目与不可用日期",
+        "订房折扣的适用房价",
+        "领取与绑定流程"
+      ]
+    },
+    {
+      "id": "fosun-tourism",
+      "title": "复游会",
+      "displayedBenefits": [
+        "可免费升房",
+        "迎宾果盘"
+      ],
+      "displayedClaimRule": "铂金会员酒店集团会籍直通权益，限领一次",
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "匹配等级",
+        "升房是否视房态及房型",
+        "参与酒店及品牌",
+        "果盘提供条件",
+        "领取与绑定流程"
+      ],
+      "note": "仅保留卡片展示措辞，不将“可免费升房”解释为每次入住必定升级。"
+    },
+    {
+      "id": "marina-bay-sands",
+      "title": "滨海湾金沙会员礼",
+      "displayedBenefits": [
+        "会员专享房价",
+        "免费景点门票",
+        "享消费金"
+      ],
+      "displayedClaimRule": "线下兑换权益，终身可领一次",
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "线下兑换地点和流程",
+        "新老会员及身份条件",
+        "门票所含景点及使用限制",
+        "消费金金额和消费门槛",
+        "会员房价适用条件"
+      ],
+      "note": "线下礼遇未完成兑换；不据此承诺无门槛门票或现金。"
+    },
+    {
+      "id": "sands-lifestyle",
+      "title": "金沙旅享优享会员",
+      "displayedBenefits": [
+        "指定客房 5 折",
+        "指定商户购物优惠",
+        "品牌活动及晚宴邀约"
+      ],
+      "displayedClaimRule": "需线下入会，具体条件未读清",
+      "actualMembershipConfirmed": false,
+      "eligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "线下入会地点及资格",
+        "会员等级与升级条件",
+        "5 折适用酒店、客房、日期及价格基准",
+        "指定商户范围",
+        "活动邀约资格和名额"
+      ],
+      "note": "不能作为无条件酒店 5 折或保证获得晚宴邀请的依据。"
+    }
+  ],
+  "additionalObservations": [
+    {
+      "category": "健康服务",
+      "title": "1v1 就医陪诊",
+      "offerType": "付费就医服务会员优惠",
+      "displayedOffers": [
+        "单次四小时",
+        "原价 399 元",
+        "会员优惠 140 元",
+        "259 元购买服务"
+      ],
+      "displayedServiceRules": [
+        "服务时段 07:00—22:00",
+        "主卡写覆盖全国，实际城市及医院以预约页为准"
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "实际可预约城市和医院",
+        "具体陪诊范围",
+        "预约排期及取消规则"
+      ],
+      "note": "未购买，不将主卡全国宣传解释为所有城市医院均保证可预约。与儿童就医优惠合并为正式付费服务条目。"
+    },
+    {
+      "category": "健康服务",
+      "title": "儿童高端就医单次卡",
+      "offerType": "付费就医服务会员优惠",
+      "displayedOffers": [
+        "会员首单优惠 380 元",
+        "首单 1119 元购买服务",
+        "儿童门诊就医一次",
+        "单次就诊一价全包卡"
+      ],
+      "displayedServiceRules": [
+        "需提前一日提交就医需求",
+        "页面会员价标示不限次"
+      ],
+      "claimedOrPurchased": false,
+      "firstOrderEligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "首单优惠资格",
+        "参与城市及医疗机构",
+        "一价全包具体包含与不包含的费用",
+        "服务预约及取消规则"
+      ],
+      "note": "更正为儿童就医单次卡，不是儿童齿科；会员价不限次不等于免费或无限次医疗。未点击购买或提交就医需求，不保存儿童或就医个人信息。"
+    },
+    {
+      "category": "健康服务",
+      "title": "医美护理体验",
+      "displayedOffers": [
+        "光子嫩肤",
+        "水光补水",
+        "皮肤舒敏护理"
+      ],
+      "displayedClaimRules": [
+        "免费医美特权三选一",
+        "铂金活动期间可领一次",
+        "高价值权益一年一次",
+        "需先激活",
+        "激活后 365 天内预约使用一次",
+        "仅限所选门店新客"
+      ],
+      "displayedStatus": "立即激活入口，未点击",
+      "claimedOrPurchased": false,
+      "newCustomerEligibilityConfirmed": false,
+      "unverifiedConditions": [
+        "所选门店新客资格",
+        "当前可预约城市与门店",
+        "具体项目及设备",
+        "实际排期"
+      ],
+      "note": "记录的是服务入口及使用条件，不作医疗项目推荐；不认为全部城市、门店和项目均适用，不记为已领取或已激活。"
+    },
+    {
+      "category": "健康与宠物",
+      "title": "宠物特权入口",
+      "displayedOffers": [
+        "医保看病有保障",
+        "养宠好物 3 折起",
+        "每日抽好礼"
+      ],
+      "displayedActivityPeriod": "2 月 1 日—12 月 31 日",
+      "observedServiceTypes": [
+        "宠物独立专区",
+        "积分商城",
+        "限时秒杀",
+        "抽奖",
+        "独立保障服务"
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "实际可购买或可兑换项目",
+        "所需费用与积分",
+        "抽奖资格及中奖条件",
+        "独立保险或保障的资格、条款及范围"
+      ],
+      "note": "仅记录服务入口和活动类型，不认为铂金赠送宠物医疗险或免费医疗；不保存宠物名字、品种、年龄、积分或个人保险状态。"
+    },
+    {
+      "category": "出行优惠",
+      "title": "滴滴网约车优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 20,
+          "minimumSpendCny": 100
+        }
+      ],
+      "displayedScene": "机场、火车站等指定出行场景，完整范围未读清",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用地点及具体出行场景",
+        "车型及城市",
+        "有效期与叠加规则"
+      ]
+    },
+    {
+      "category": "出行优惠",
+      "title": "代驾优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 6,
+          "minimumSpendCny": null
+        }
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "金额门槛未读清",
+        "适用城市和渠道",
+        "有效期与叠加规则"
+      ]
+    },
+    {
+      "category": "出行优惠",
+      "title": "单车抵扣券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 0.3,
+          "minimumSpendCny": null
+        }
+      ],
+      "displayedClaimRule": "每日一次",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用单车品牌及城市",
+        "券的领取及抵扣条件",
+        "有效期"
+      ]
+    },
+    {
+      "category": "机场与高铁餐饮",
+      "title": "指定场景餐饮优惠",
+      "displayedOffers": [
+        {
+          "brand": "瑞幸咖啡",
+          "discountRate": 0.5
+        },
+        {
+          "brand": "星巴克",
+          "discountRate": 0.9
+        },
+        {
+          "brand": "肯德基",
+          "discountRate": 0.9
+        }
+      ],
+      "displayedScene": "机场、高铁指定场景",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "具体机场、车站和门店",
+        "适用商品及套餐",
+        "领取方式、有效期及叠加规则"
+      ],
+      "note": "不写为全国所有门店通用折扣。"
+    },
+    {
+      "category": "旅行优惠",
+      "title": "飞猪旅行分类的另一个优惠入口",
+      "displayedOffers": [
+        {
+          "item": "机票、酒店、门票通用优惠券",
+          "couponAmountCny": 6,
+          "minimumSpendCny": null
+        },
+        {
+          "item": "境内机票券",
+          "couponAmountCny": 25,
+          "minimumSpendCny": 300
+        },
+        {
+          "item": "酒店券",
+          "couponAmountCny": 18,
+          "minimumSpendCny": 220
+        }
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "6 元通用券金额门槛",
+        "适用产品范围",
+        "有效期与叠加规则"
+      ],
+      "note": "与会员出行礼遇页的 15 元满 800 元机票券、6 元满 159 元券及 2 元满 3 元券是不同券或入口，不合并门槛，也不认为可叠加。"
+    },
+    {
+      "category": "旅行会籍",
+      "title": "春秋航空绿翼会员会籍直通",
+      "displayedOffers": [
+        "新入会后每月票价立减券"
+      ],
+      "claimedOrPurchased": false,
+      "actualMembershipConfirmed": false,
+      "unverifiedConditions": [
+        "新客认定条件",
+        "匹配等级及办理流程",
+        "每月立减券金额、门槛及适用航班",
+        "活动期限"
+      ],
+      "note": "仅保留入口观察，不认定已加入或满足新客资格。"
+    },
+    {
+      "category": "旅行优惠",
+      "title": "携程旅行优惠入口",
+      "displayedOffers": [
+        {
+          "item": "到香港西九龙站火车票",
+          "couponAmountCny": 3,
+          "minimumSpendCny": null
+        },
+        {
+          "item": "火车票券",
+          "couponAmountCny": 5,
+          "minimumSpendCny": null,
+          "validity": "领取后 30 天"
+        },
+        {
+          "item": "酒店折扣券",
+          "discountRate": 0.98,
+          "maximumDiscountCny": 25
+        }
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "具体领取条件",
+        "火车票券金额门槛",
+        "指定车次及酒店范围",
+        "有效期与叠加规则"
+      ],
+      "note": "这是支付宝会员页中的携程活动入口，不据此推断携程钻石会籍自带这些券。"
+    },
+    {
+      "category": "境外上网",
+      "title": "境外流量购卡／充值优惠券",
+      "displayedOffers": [
+        {
+          "item": "购卡券",
+          "couponAmountCny": 2,
+          "minimumSpendCny": 12.9
+        },
+        {
+          "item": "充值券",
+          "couponAmountCny": 6,
+          "minimumSpendCny": 25
+        },
+        {
+          "item": "充值券",
+          "couponAmountCny": 3,
+          "minimumSpendCny": 12
+        }
+      ],
+      "displayedPrerequisite": "页面写购卡后可用，充值券应保留先购卡前提",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "流量卡产品及适用国家地区",
+        "购卡券和充值券的具体使用步骤",
+        "有效期与叠加规则"
+      ],
+      "note": "这些是购卡及充值消费优惠，不是免费流量额度。"
+    },
+    {
+      "category": "出行",
+      "title": "高铁贵宾厅",
+      "displayedTier": "铂金",
+      "displayedClaimRule": "每季度可享一次",
+      "observedQuarter": "10—12 月",
+      "observedRemaining": 1,
+      "observedRemainingText": "本季度剩余一次",
+      "annualDisplayText": "本年度剩余4次",
+      "observedStations": [
+        "杭州东",
+        "深圳北",
+        "上海虹桥",
+        "广州南",
+        "北京西"
+      ],
+      "observedStationExample": {
+        "station": "深圳北",
+        "lounge": "一楼悦途出行休息室",
+        "location": "安检后，A9／A10 检票口中间",
+        "openingHours": "08:00—20:00"
+      },
+      "observedServiceRules": [
+        "单次标准服务三小时，部分站点两小时，以现场为准",
+        "每名成年权益用户可免费携带一名未满六岁儿童",
+        "超过一名儿童按半价另购",
+        "六至十四岁儿童半价另购，十四岁以上全价",
+        "节假日或车站现场限流可能导致部分站点无法提供服务，以现场为准"
+      ],
+      "observedServiceFlow": "找休息厅 → 出示并验证核验码 → 享受服务；详情页“领取特权码”按钮未点击，未领取、未核销。",
+      "upgradeComparison": "页面升级钻石对比为每季度三次，不属于当前铂金额度",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "成人账号特权是否有费用或积分要求",
+        "站点列表后续增减及现场接待情况",
+        "领取及核销的次数扣减时机",
+        "与其他出行礼活动是否共享名额",
+        "儿童年龄区间边界以原始规则及现场为准"
+      ],
+      "note": "站点为当前列表所见，不保证固定全国可用，不推断预约条件。每名成年权益用户携幼规则不等于可免费携成年同行人；不推断成人服务免费或需积分。页面另列“本年度剩余4次”，不与本季度一次相加，当前按季度可领数参考；不与移动、携程名额合并。"
+    },
+    {
+      "category": "出行",
+      "title": "快速安检",
+      "displayedTier": "铂金",
+      "displayedClaimRule": "每月可享一次",
+      "observedRemaining": 1,
+      "observedRemainingText": "服务页显示剩余可用一次",
+      "observedServiceCities": [
+        "杭州"
+      ],
+      "otherCitiesStatus": "其他城市待开启",
+      "observedServiceFlow": "服务页有“领取特权码”按钮，未点击。已读杭州萧山示例：T3/T4 按航司和航站楼区分，需提前到支付宝会员接待点，出示体验券领取快速安检卡和电瓶车券，按该机场使用须知办理。",
+      "upgradeComparison": "页面升级钻石对比为每月三次，不属于当前铂金额度",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "各航司及航站楼的具体适用规则",
+        "是否有费用或积分要求",
+        "月份定义及领取、核销的扣次时机",
+        "是否与 9 积分出行礼的快速安检选项共享名额"
+      ],
+      "note": "可作为账号特权写入正式草稿，当前仅开放杭州萧山机场，未领取特权码；不推断免费或需积分，不与 9 积分出行礼叠加次数。杭州是开放服务城市，不是用户实时位置。"
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "京东寄件优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 3,
+          "minimumSpendCny": 10
+        }
+      ],
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用寄件渠道及服务",
+        "有效期",
+        "商家与叠加限制"
+      ]
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "菜鸟裹裹寄件优惠券",
+      "displayedOffers": [
+        {
+          "service": "尊享寄",
+          "couponAmountCny": 2,
+          "minimumSpendCny": null
+        },
+        {
+          "service": "到柜寄",
+          "couponAmountCny": 3,
+          "minimumSpendCny": null
+        }
+      ],
+      "displayedValidity": "领取后 30 天",
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "金额门槛未展示",
+        "适用网点及寄件渠道",
+        "商家与叠加限制"
+      ]
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "丰巢洗衣／鞋优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 15,
+          "minimumSpendCny": 85
+        }
+      ],
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "洗护项目与服务范围",
+        "有效期",
+        "商家与叠加限制"
+      ]
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "安心生活保洁优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 5,
+          "minimumSpendCny": 49.9
+        }
+      ],
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "服务城市及保洁项目",
+        "有效期",
+        "商家与叠加限制"
+      ]
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "哈啰跑腿优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 5,
+          "minimumSpendCny": 0
+        }
+      ],
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用城市及服务",
+        "有效期",
+        "商家与叠加限制"
+      ],
+      "note": "无门槛是券的使用门槛描述，不是可提现现金。"
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "滴滴货运优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 6.5,
+          "minimumSpendCny": 10
+        }
+      ],
+      "displayedValidity": "领取后 7 天",
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用城市与车型",
+        "商家与叠加限制"
+      ]
+    },
+    {
+      "category": "寄件与生活服务",
+      "title": "货拉拉优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 6,
+          "minimumSpendCny": 0
+        }
+      ],
+      "displayedValidity": "领取后 30 天",
+      "displayedStatus": "展示领取入口",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用城市与车型",
+        "商家与叠加限制"
+      ],
+      "note": "无门槛是券的使用门槛描述，不是可提现现金。"
+    },
+    {
+      "category": "影音娱乐",
+      "title": "优酷 VIP 季卡",
+      "displayedOffer": "限时 35 元",
+      "offerType": "付费会员优惠",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用账号及新老会员资格",
+        "优惠库存",
+        "购买及生效规则"
+      ],
+      "note": "不得描述为免费优酷 VIP。"
+    },
+    {
+      "category": "影音娱乐",
+      "title": "限时剧集观看名额",
+      "offerType": "限时活动名额",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "具体剧集",
+        "领取资格",
+        "名额及观看期限"
+      ]
+    },
+    {
+      "category": "影音娱乐",
+      "title": "淘票票指定新片优惠券",
+      "displayedOffers": [
+        {
+          "film": "戴帽子的猫",
+          "couponAmountCny": 8
+        },
+        {
+          "film": "心迷宫之三重罪",
+          "couponAmountCny": 8
+        }
+      ],
+      "displayedClaimRule": "每周限领一次，领取后 7 天内使用",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "每周限领一次是按影片还是活动合计",
+        "适用影院与场次",
+        "票价门槛及叠加规则"
+      ],
+      "note": "影片及活动随期更新，正式权益不固定写入片名。"
+    },
+    {
+      "category": "餐饮与外卖",
+      "title": "淘宝闪购门槛券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 12,
+          "minimumSpendCny": 35
+        },
+        {
+          "couponAmountCny": 15,
+          "minimumSpendCny": 58
+        }
+      ],
+      "displayedStatus": "显示领取按钮",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用商户及商品",
+        "有效期",
+        "实付门槛计算及配送费规则",
+        "叠加规则"
+      ]
+    },
+    {
+      "category": "餐饮与外卖",
+      "title": "美团外卖门槛券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 18,
+          "minimumSpendCny": 38
+        },
+        {
+          "couponAmountCny": 10,
+          "minimumSpendCny": 28
+        },
+        {
+          "couponAmountCny": 14,
+          "minimumSpendCny": 38
+        }
+      ],
+      "displayedStatus": "显示领取按钮",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用商户及商品",
+        "有效期",
+        "实付门槛计算及配送费规则",
+        "叠加规则"
+      ]
+    },
+    {
+      "category": "餐饮与外卖",
+      "title": "麦当劳套餐优惠",
+      "displayedOffers": [
+        {
+          "item": "人气经典随心配 1+1",
+          "priceCny": null
+        },
+        {
+          "item": "随心配 1+1 三件套",
+          "afterCouponPriceCny": 14.9
+        },
+        {
+          "item": "中薯买一送一",
+          "afterCouponPriceCny": 13.5
+        }
+      ],
+      "offerType": "付费套餐",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用门店及商品选择",
+        "券的领取条件",
+        "优惠期限及结算价格"
+      ],
+      "note": "“买一送一”仍需支付标示套餐价格，不是免费领两份。"
+    },
+    {
+      "category": "购物与生活",
+      "title": "盒马鲜生优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 9,
+          "minimumSpendCny": 129
+        },
+        {
+          "couponAmountCny": 11,
+          "minimumSpendCny": 149
+        },
+        {
+          "couponAmountCny": 12,
+          "minimumSpendCny": 169
+        }
+      ],
+      "displayedClaimRule": "每笔订单仅一张，核销截止 11 月 30 日",
+      "displayedStatus": "显示领取按钮",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "适用门店与商品",
+        "实付门槛计算",
+        "不可用商品及配送范围",
+        "是否可与其他优惠叠加"
+      ]
+    },
+    {
+      "category": "购物与生活",
+      "title": "精选好物：钻铂专属购物红包",
+      "displayedOffer": "最高减 210 元",
+      "displayedClaimRule": "每周一次，须领取券包",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "实际券档及各档金额门槛",
+        "适用商家和商品",
+        "优惠叠加及使用期限"
+      ],
+      "note": "210 元是宣传最高优惠，不是固定到账现金或无门槛 210 元红包。"
+    },
+    {
+      "category": "购物与生活",
+      "title": "会员市集优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 50,
+          "minimumSpendCny": 300
+        }
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "领取入口及库存",
+        "指定商品和商户",
+        "使用期限与叠加规则"
+      ]
+    },
+    {
+      "category": "餐饮与外卖",
+      "title": "古茗优惠券",
+      "displayedOffers": [
+        {
+          "couponAmountCny": 3,
+          "minimumSpendCny": 0,
+          "displayedRule": "无门槛立减"
+        },
+        {
+          "discountRate": 0.8,
+          "displayedRule": "单杯指定饮品 8 折"
+        },
+        {
+          "couponAmountCny": 6,
+          "minimumSpendCny": 25
+        }
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "指定饮品范围",
+        "适用门店",
+        "有效期",
+        "单笔券数及叠加条件"
+      ]
+    },
+    {
+      "category": "购物与生活",
+      "title": "海马体妆造优惠",
+      "displayedOffer": "8.5 折",
+      "offerType": "付费服务折扣",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "门店及服务项目范围",
+        "折扣原价基准",
+        "领取与使用方式",
+        "适用日期及叠加规则"
+      ]
+    },
+    {
+      "category": "生日礼遇",
+      "title": "支付宝会员生日礼遇",
+      "displayedOffers": [
+        "生日皮肤",
+        "88 积分"
+      ],
+      "displayedClaimRule": "生日所在自然月可领取",
+      "displayedStatus": "未到可领取时间",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "具体领取步骤",
+        "礼遇使用期限"
+      ],
+      "note": "只记录领取窗口和当前未开放状态，不保存出生日期；未开放不等于已用完，不设置 quotaRemaining=0。"
+    },
+    {
+      "category": "支付服务",
+      "title": "信用卡还款免手续费额度",
+      "displayedOffers": [
+        "每月 2000 元免还款额度",
+        "超出部分 1 积分可兑 3 元"
+      ],
+      "normalizedMeaning": "指信用卡还款服务的免手续费还款金额额度；积分兑换增加的是免手续费还款额度，不是可替还本金的现金，也不是直接减免等额手续费。",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "免手续费额度的适用账号及渠道",
+        "积分兑换的具体流程及上限",
+        "超过免费额度后的计费规则"
+      ],
+      "note": "仅查看权益卡片及服务说明，未进行还款或兑换，不保留银行卡、账单、余额等信息；不将此项认定为铂金独享。"
+    },
+    {
+      "category": "支付服务",
+      "title": "积分兑换提现／转账到卡免手续费额度",
+      "displayedOffers": [
+        "积分兑换 3 元免费提现额度"
+      ],
+      "displayedRules": [
+        "用于提现或转账到银行卡的免手续费额度",
+        "同一身份证下多个实名账户共享",
+        "积分一经使用不支持退还"
+      ],
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "每份所需积分数量",
+        "兑换上限",
+        "适用交易条件"
+      ],
+      "note": "本处未看到所需积分的具体数量，不能套用信用卡还款的 1 积分兑 3 元比例，也不是兑换现金。"
+    },
+    {
+      "category": "支付服务",
+      "title": "专属会员汇率",
+      "displayedOffers": [
+        "境外线下支付可用",
+        "不限次数"
+      ],
+      "displayedRules": [
+        "境外线下门店使用支付宝扫码付款自动换算",
+        "会员等级不同，汇率优惠不同",
+        "页面排序钻石高于铂金，铂金与黄金相同，高于大众",
+        "汇率实时波动，以实际支付为准",
+        "指定商户额外黑钻汇率券须另行领取"
+      ],
+      "transactionPerformed": false,
+      "unverifiedConditions": [
+        "参与境外门店及支付渠道范围",
+        "支付时实际汇率"
+      ],
+      "note": "不虚构固定省钱幅度、最低汇率或线上适用资格；额外黑钻汇率券不视为铂金自动拥有。"
+    },
+    {
+      "category": "支付服务",
+      "title": "500 万元账户安全险入口",
+      "displayedEligibility": [
+        "黄金及以上会员",
+        "年满 18 岁",
+        "具完全民事行为能力",
+        "合法持有支付宝账户的中国大陆公民"
+      ],
+      "displayedRules": [
+        "未开通者可按页面免费领取 500 万元保额",
+        "其他渠道保额低于 500 万元者可按页面提升",
+        "其他渠道保额高于 500 万元者无法领取",
+        "保险有效期一年",
+        "由蚂蚁保险提供"
+      ],
+      "claimedOrPurchased": false,
+      "actualCoverageConfirmed": false,
+      "unverifiedConditions": [
+        "当前个人投保状态",
+        "实际保障范围",
+        "免责条款及理赔条件",
+        "已有保额恰为 500 万元时是否可领"
+      ],
+      "note": "仅查看领取或提升入口及说明，未开通、提升或查询个人保单；不视为已投保或保证赔付。"
+    },
+    {
+      "category": "支付服务",
+      "title": "信用守护限时特权",
+      "displayedOffers": [
+        "每月 4 次信用体验特权",
+        "查资料风险",
+        "守护信用健康"
+      ],
+      "displayedStatus": "显示领取按钮",
+      "claimedOrPurchased": false,
+      "unverifiedConditions": [
+        "提供服务的主体",
+        "体验查询范围",
+        "领取条件及当月次数计算方式",
+        "活动期限"
+      ],
+      "note": "只记页面宣传与入口，不将其描述为官方征信报告、金融咨询或信用改善保证。"
+    }
+  ],
+  "publicationRecommendation": "酒店九个品牌合并为其他会籍与新客礼入口，匹配等级和资格按各品牌确认；影音、餐饮及其他消费券按活动分类合并。保留门槛及付费性质，不把入口写为永久固定福利、已领优惠或已持有会籍。",
+  "privacyAndScope": "仅保留会员等级和卡片权益文字；不保留账号标识、授权凭据或个人联系信息。",
+  "reviewScope": "全部 44 张主卡已逐项浏览，部分关键详情已读取；本记录不表示全部领取条款、个人资格或实际持有状态均已核实。",
+  "additionalObservationsCount": 38,
+  "reviewPeriod": {
+    "startedAt": "2026-11-12",
+    "completedAt": "2026-11-13"
+  },
+  "accountSnapshotDate": "2026-11-12"
+}

@@ -1,0 +1,899 @@
+{
+  "owner": "wu",
+  "membership": "支付宝铂金",
+  "checkedAt": "2026-11-13",
+  "reviewPeriod": {
+    "startedAt": "2026-11-12",
+    "completedAt": "2026-11-13"
+  },
+  "readPath": "支付宝 → 我的 → 支付宝会员 → 铂金 → 全部特权",
+  "cardCount": 44,
+  "categoryCounts": {
+    "出行": 9,
+    "健康": 5,
+    "酒旅": 12,
+    "影音": 2,
+    "生活": 9,
+    "支付": 4,
+    "快递": 3
+  },
+  "publishedSummaryBenefitCount": 23,
+  "reviewScope": "全部44张主卡已逐项浏览。已读关键详情不代表已核实全部领取条款、新客资格或实际持有状态；主卡和券档观察与复杂会籍待核项目分别标记。",
+  "actionsDuringReview": {
+    "claimedOrActivated": false,
+    "transactionPerformed": false,
+    "codeClaimedOrRedeemed": false,
+    "note": "未代领、兑换、激活、购买、领取特权码或核销。成人口腔已使用为账号原有页面状态，不是本次操作结果。"
+  },
+  "independentMembershipNote": "万豪匹配等级待确认，不能作为Gold依据；老武独立Marriott Gold Elite记录保持不变。不同平台额度分开；不从年度剩余4次反推年度总额。",
+  "cards": [
+    {
+      "number": 1,
+      "id": "travel-gifts",
+      "category": "出行",
+      "title": "会员出行礼遇",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "9积分当期任选一项；酒店红包及优惠券入口",
+      "unverifiedConditions": [
+        "实时库存",
+        "指定服务及叠加条件",
+        "与主卡名额共享关系"
+      ],
+      "coreBenefitIds": [
+        "platinum-travel-points-choice",
+        "platinum-hotel-red-packet",
+        "platinum-fliggy-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 2,
+      "id": "rail-lounge",
+      "category": "出行",
+      "title": "高铁贵宾厅",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "铂金本季度10—12月剩余1次；页面另列本年度剩余4次；已读5站列表及深圳北规则",
+      "unverifiedConditions": [
+        "领码及核销的扣次时机",
+        "现场接待与站点变化"
+      ],
+      "coreBenefitIds": [
+        "platinum-high-speed-rail-lounge"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 3,
+      "id": "fast-security",
+      "category": "出行",
+      "title": "快速安检",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "铂金每月1次，当前剩余1次；城市仅杭州，其他城市待开启",
+      "unverifiedConditions": [
+        "与9积分安检名额共享关系",
+        "领码扣次时机",
+        "具体航司航站楼规则"
+      ],
+      "coreBenefitIds": [
+        "platinum-airport-fast-security"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 4,
+      "id": "didi",
+      "category": "出行",
+      "title": "滴滴",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "网约车满100减20、代驾6元、单车0.3元每日1次",
+      "unverifiedConditions": [
+        "指定出行场景完整范围",
+        "代驾门槛",
+        "具体服务渠道"
+      ],
+      "coreBenefitIds": [
+        "platinum-mobility-connectivity-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 5,
+      "id": "airport-rail-food",
+      "category": "出行",
+      "title": "空铁餐饮",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "指定机场高铁场景：瑞幸5折，星巴克和肯德基9折",
+      "unverifiedConditions": [
+        "具体站点门店与商品",
+        "领取和叠加规则"
+      ],
+      "coreBenefitIds": [
+        "platinum-food-delivery-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 6,
+      "id": "fliggy-travel",
+      "category": "出行",
+      "title": "飞猪旅行",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "6元机酒门票通用券、机票25元满300、酒店18元满220",
+      "unverifiedConditions": [
+        "6元券门槛",
+        "适用产品",
+        "不同入口是否可叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-fliggy-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 7,
+      "id": "spring-airlines",
+      "category": "出行",
+      "title": "春秋航空",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "绿翼会员直通；新入会后每月票价立减券",
+      "unverifiedConditions": [
+        "新客资格",
+        "匹配等级",
+        "券金额门槛和航班",
+        "授权办理流程"
+      ],
+      "coreBenefitIds": [],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 8,
+      "id": "ctrip",
+      "category": "出行",
+      "title": "携程旅行",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "到香港西九龙站火车票减3元、火车5元券领后30天、酒店9.8折封顶25元",
+      "unverifiedConditions": [
+        "具体领取资格",
+        "火车票券门槛",
+        "适用车次酒店"
+      ],
+      "coreBenefitIds": [
+        "platinum-fliggy-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 9,
+      "id": "overseas-data",
+      "category": "出行",
+      "title": "境外流量",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "购卡满12.9减2、充值满25减6或满12减3；充值券需购卡前提",
+      "unverifiedConditions": [
+        "指定流量卡和国家地区",
+        "有效期",
+        "购卡充值具体步骤"
+      ],
+      "coreBenefitIds": [
+        "platinum-mobility-connectivity-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 10,
+      "id": "adult-dental",
+      "category": "健康",
+      "title": "成人口腔",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "洁牙与单颗浅龋补牙二选一，每365天一次；账号原有状态已使用",
+      "unverifiedConditions": [
+        "后续适用机构及服务预约规则"
+      ],
+      "coreBenefitIds": [
+        "platinum-adult-dental-choice"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 11,
+      "id": "pet",
+      "category": "健康",
+      "title": "宠物",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "独立宠物专区：积分商城、促销、抽奖及独立保障入口",
+      "unverifiedConditions": [
+        "商品费用积分",
+        "抽奖条件",
+        "独立保障服务条款"
+      ],
+      "coreBenefitIds": [],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 12,
+      "id": "aesthetic",
+      "category": "健康",
+      "title": "医美",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "免费体验三选一，需激活，激活后365天内约一次，限所选门店新客",
+      "unverifiedConditions": [
+        "实际新客资格",
+        "门店项目设备与排期"
+      ],
+      "coreBenefitIds": [
+        "platinum-aesthetic-care-new-customer-choice"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 13,
+      "id": "child-clinic",
+      "category": "健康",
+      "title": "儿童就医",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "儿童高端就医单次卡首单1119元，提前1日提交需求",
+      "unverifiedConditions": [
+        "首单资格",
+        "城市医院",
+        "一价全包实际包含范围"
+      ],
+      "coreBenefitIds": [
+        "platinum-paid-medical-service-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 14,
+      "id": "medical-companion",
+      "category": "健康",
+      "title": "1v1陪诊",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "单次4小时，原价399元、会员优惠140元、259元购买，服务07—22时",
+      "unverifiedConditions": [
+        "预约城市医院",
+        "具体陪诊范围",
+        "排期取消条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-paid-medical-service-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 15,
+      "id": "atour",
+      "category": "酒旅",
+      "title": "亚朵",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "可领取亚朵联合会员，页面仅称亚朵会员，未称金会员",
+      "unverifiedConditions": [
+        "券量期限",
+        "酒店范围",
+        "领取绑定资格"
+      ],
+      "coreBenefitIds": [
+        "platinum-atour-membership"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 16,
+      "id": "hilton",
+      "category": "酒旅",
+      "title": "希尔顿",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "铂金匹配银会员，钻石匹配金会员；已读银会员礼遇",
+      "unverifiedConditions": [
+        "授权绑定未完成",
+        "实际领取资格及会籍期限",
+        "礼遇完整条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-hilton-silver"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 17,
+      "id": "huazhu",
+      "category": "酒旅",
+      "title": "华住",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "会员专属折扣、生日好礼入口",
+      "unverifiedConditions": [
+        "匹配等级",
+        "领取资格和期限",
+        "折扣生日礼条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 18,
+      "id": "fliggy-f3",
+      "category": "酒旅",
+      "title": "飞猪F3",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "飞猪联合F3，每年可享1次；需授权绑定",
+      "unverifiedConditions": [
+        "授权未完成",
+        "实际领取资格与会籍期限",
+        "服务完整条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-fliggy-f3"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 19,
+      "id": "marriott",
+      "category": "酒旅",
+      "title": "万豪",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "主卡为直通万豪旅享家，列会员房价及餐饮礼遇",
+      "unverifiedConditions": [
+        "匹配等级待确认，不能作为Gold依据",
+        "领取绑定资格和条款"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 20,
+      "id": "jinjiang",
+      "category": "酒旅",
+      "title": "锦江",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "新人券包、会员专属折扣、积分奖励",
+      "unverifiedConditions": [
+        "新客资格",
+        "匹配等级",
+        "券包和积分条款"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 21,
+      "id": "wanda",
+      "category": "酒旅",
+      "title": "万达",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "万悦会新人50元券包、首住8折起",
+      "unverifiedConditions": [
+        "新人和首住资格",
+        "券包门槛",
+        "适用酒店房型"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 22,
+      "id": "mgm",
+      "category": "酒旅",
+      "title": "MGM",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "美高梅美狮荟新人券包、会员专属房价",
+      "unverifiedConditions": [
+        "新人资格",
+        "匹配等级",
+        "券包和房价范围"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 23,
+      "id": "accor",
+      "category": "酒旅",
+      "title": "雅高",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "会员订房折扣、餐饮礼遇9折",
+      "unverifiedConditions": [
+        "匹配等级",
+        "参与酒店餐厅",
+        "折扣适用条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 24,
+      "id": "fosun",
+      "category": "酒旅",
+      "title": "复游",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "主卡列可免费升房、迎宾果盘",
+      "unverifiedConditions": [
+        "匹配等级",
+        "参与酒店",
+        "升房是否视房态",
+        "服务资格"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 25,
+      "id": "marina-bay-sands",
+      "category": "酒旅",
+      "title": "滨海湾金沙",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "房价、景点门票、消费金入口；线下终身可领1次",
+      "unverifiedConditions": [
+        "入会资格",
+        "线下流程",
+        "门票与消费金实际门槛"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 26,
+      "id": "sands",
+      "category": "酒旅",
+      "title": "金沙旅享",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "优享会员指定客房5折、购物优惠、活动晚宴邀约；需线下入会",
+      "unverifiedConditions": [
+        "匹配或升级条件",
+        "指定客房和价格基准",
+        "邀约资格"
+      ],
+      "coreBenefitIds": [
+        "platinum-other-hotel-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 27,
+      "id": "youku",
+      "category": "影音",
+      "title": "优酷",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "VIP季卡限时35元付费优惠，另有剧集名额",
+      "unverifiedConditions": [
+        "新老会员资格",
+        "购买生效条件",
+        "具体剧集和名额"
+      ],
+      "coreBenefitIds": [
+        "platinum-entertainment-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 28,
+      "id": "taopiaopiao",
+      "category": "影音",
+      "title": "淘票票新片",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "两部当期影片各显示8元券；每周限领一次、领后7天使用",
+      "unverifiedConditions": [
+        "每周次数是否按影片或合计",
+        "适用影院场次及门槛"
+      ],
+      "coreBenefitIds": [
+        "platinum-entertainment-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 29,
+      "id": "taobao-flash",
+      "category": "生活",
+      "title": "淘宝闪购",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "12元满35、15元满58券入口",
+      "unverifiedConditions": [
+        "商户商品",
+        "有效期",
+        "门槛计算及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-food-delivery-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 30,
+      "id": "meituan",
+      "category": "生活",
+      "title": "美团",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "18元满38、10元满28、14元满38券入口",
+      "unverifiedConditions": [
+        "商户商品",
+        "有效期",
+        "门槛计算及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-food-delivery-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 31,
+      "id": "mcdonalds",
+      "category": "生活",
+      "title": "麦当劳",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "随心配1+1，三件套券后14.9元，中薯买一送一券后13.5元",
+      "unverifiedConditions": [
+        "门店及商品选择",
+        "领券条件",
+        "有效期和实际结算"
+      ],
+      "coreBenefitIds": [
+        "platinum-food-delivery-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 32,
+      "id": "hema",
+      "category": "生活",
+      "title": "盒马",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "9元满129、11元满149、12元满169；单笔一张，11月30日截止",
+      "unverifiedConditions": [
+        "指定商品与门店",
+        "金额计算和叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-shopping-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 33,
+      "id": "member-market",
+      "category": "生活",
+      "title": "会员市集",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "50元满300优惠券入口",
+      "unverifiedConditions": [
+        "指定商品商家",
+        "领取库存",
+        "有效期及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-shopping-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 34,
+      "id": "curated-goods",
+      "category": "生活",
+      "title": "甄选好物",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "钻铂购物红包每周1次，宣传最高减210元，需领券包",
+      "unverifiedConditions": [
+        "实际券档与门槛",
+        "适用商品商家",
+        "有效期"
+      ],
+      "coreBenefitIds": [
+        "platinum-shopping-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 35,
+      "id": "guming",
+      "category": "生活",
+      "title": "古茗",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "减3元无门槛、指定饮品单杯8折、6元满25券",
+      "unverifiedConditions": [
+        "门店饮品",
+        "有效期",
+        "单笔券数与叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-food-delivery-offers"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 36,
+      "id": "birthday",
+      "category": "生活",
+      "title": "生日礼",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "生日皮肤和88积分，生日自然月可领；当前未到领取时间",
+      "unverifiedConditions": [
+        "具体领取步骤及礼遇有效期"
+      ],
+      "coreBenefitIds": [
+        "platinum-birthday-gift"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 37,
+      "id": "haimati",
+      "category": "生活",
+      "title": "海马体",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "妆造8.5折付费服务",
+      "unverifiedConditions": [
+        "适用门店项目",
+        "原价基准",
+        "日期及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-lifestyle-discounts"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 38,
+      "id": "repayment",
+      "category": "支付",
+      "title": "信用卡还款",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "每月2000元免手续费还款金额额度，1积分可兑3元额外额度",
+      "unverifiedConditions": [
+        "实际剩余",
+        "适用渠道",
+        "兑换上限与计费条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-credit-card-repayment-fee-quota"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 39,
+      "id": "featured-services",
+      "category": "支付",
+      "title": "特色服务",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "积分兑换免费提现额度；500万元账户安全险领取或提升入口",
+      "unverifiedConditions": [
+        "提现所需积分及上限",
+        "当前投保状态",
+        "保单保障及领取资格"
+      ],
+      "coreBenefitIds": [
+        "platinum-withdrawal-fee-quota-exchange",
+        "platinum-account-security-insurance-entry"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 40,
+      "id": "credit-protection",
+      "category": "支付",
+      "title": "信用守护",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡已浏览，深层条款待核",
+      "observedSummary": "每月4次信用体验特权入口",
+      "unverifiedConditions": [
+        "服务主体和具体范围",
+        "领取条件",
+        "不据此认定官方征信报告"
+      ],
+      "coreBenefitIds": [],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 41,
+      "id": "member-fx",
+      "category": "支付",
+      "title": "专属汇率",
+      "mainCardViewed": true,
+      "detailReviewStatus": "关键详情已查看",
+      "observedSummary": "境外线下支付宝扫码会员汇率，不限次数；实时变化",
+      "unverifiedConditions": [
+        "支持商户",
+        "实际支付汇率",
+        "额外黑钻券须另领"
+      ],
+      "coreBenefitIds": [
+        "platinum-overseas-offline-exchange-rate"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 42,
+      "id": "parcel",
+      "category": "快递",
+      "title": "寄件",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "京东3元满10；菜鸟尊享寄2元、到柜寄3元；相关洗护保洁券",
+      "unverifiedConditions": [
+        "菜鸟门槛",
+        "服务范围",
+        "各券有效期及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-delivery-moving-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 43,
+      "id": "local-delivery",
+      "category": "快递",
+      "title": "同城",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "哈啰跑腿5元无门槛券入口",
+      "unverifiedConditions": [
+        "适用城市服务",
+        "有效期及叠加"
+      ],
+      "coreBenefitIds": [
+        "platinum-delivery-moving-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    },
+    {
+      "number": 44,
+      "id": "moving",
+      "category": "快递",
+      "title": "拉货搬家",
+      "mainCardViewed": true,
+      "detailReviewStatus": "主卡及券档已查看，完整条款待核",
+      "observedSummary": "滴滴货运6.5元满10领后7天；货拉拉6元无门槛领后30天",
+      "unverifiedConditions": [
+        "城市车型及服务范围",
+        "叠加条件"
+      ],
+      "coreBenefitIds": [
+        "platinum-delivery-moving-coupons"
+      ],
+      "agentClaimOrActivationPerformed": false,
+      "agentTransactionPerformed": false,
+      "agentCodeRedemptionPerformed": false
+    }
+  ],
+  "accountSnapshotDate": "2026-11-12"
+}
