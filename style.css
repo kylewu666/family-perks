@@ -6,3 +6,7 @@
 .quota{margin:0 18px 12px 55px;padding:9px 12px;background:#edf4e9;color:#305a3e;border-radius:9px;font-size:13px;line-height:1.65;font-weight:600}.quota.exhausted{background:#fff1e9;color:#a95532}.benefit-section{margin:15px 0 13px;font-size:17px}
 
 .note-details{margin-top:9px;border-top:1px solid #d8dfd0}.note-details summary{min-height:44px;padding:11px 0;cursor:pointer;font-weight:600;color:#205b48}.note-details summary:focus-visible{outline:2px solid #205b48;outline-offset:3px;border-radius:4px}.note-details[open] summary{margin-bottom:5px}.note-details p{margin:9px 0;overflow-wrap:anywhere}
+
+.benefit-rules{margin:0 18px 12px 55px;border-top:1px solid #edf0e9;font-size:13px;line-height:1.8}.benefit-rules summary{min-height:44px;padding:10px 0;cursor:pointer;color:#205b48;font-weight:600}.benefit-rules summary:focus-visible{outline:2px solid #205b48;outline-offset:3px;border-radius:4px}.benefit-rules ul{margin:0 0 14px;padding-left:18px;overflow-wrap:anywhere}.benefit-rules li+li{margin-top:9px}
+
+.app-source{font-size:14px;line-height:1.6}.app-source small{display:block;margin-top:4px}
