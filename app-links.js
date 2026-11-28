@@ -16,15 +16,11 @@
     ],
     "androidPackage": "com.jingdong.app.mall",
     "member": {
-      "ios": {
-        "url": "https://linkst.m.jd.com/ul/ul.action?openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%253A%252F%252Fplus.m.jd.com%252F%22%7D",
-        "kind": "member",
-        "label": "打开PLUS会员页"
-      },
+      "ios": null,
       "android": {
         "url": "openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%253A%252F%252Fplus.m.jd.com%252F%22%7D",
         "kind": "member",
-        "label": "打开PLUS会员页"
+        "label": "尝试打开PLUS会员页"
       }
     },
     "home": {
@@ -44,7 +40,8 @@
     },
     "guide": "京东 App → 我的 → PLUS会员。具体权益在PLUS页内查找。",
     "help": {
-      "harmony": "先进入京东官方打开页，再选择打开App；鸿蒙版目标页面支持以App实际显示为准。"
+      "harmony": "先进入京东官方打开页，再选择打开App；鸿蒙版目标页面支持以App实际显示为准。",
+      "ios": "可打开京东App；请从“我的 → PLUS会员”进入，当前设备未能稳定直达会员页。"
     }
   },
   "taobao": {
