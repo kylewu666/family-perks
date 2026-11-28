@@ -1,0 +1,814 @@
+{
+  "checkedAt": "2026-11-28",
+  "scope": "会员与权益App跳转入口；不更改权益事实、领取状态或已使用记录。",
+  "method": "官方公开网页、脚本和域名关联配置；设备实测情况逐项记录，不将配置存在等同于实机打开成功。",
+  "deviceTests": [],
+  "entries": {
+    "jd": {
+      "appName": "京东",
+      "schemes": [
+        "openapp.jdmobile:"
+      ],
+      "httpsHosts": [
+        "linkst.m.jd.com",
+        "wqs.jd.com"
+      ],
+      "androidPackage": "com.jingdong.app.mall",
+      "member": {
+        "ios": {
+          "url": "https://linkst.m.jd.com/ul/ul.action?openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%253A%252F%252Fplus.m.jd.com%252F%22%7D",
+          "kind": "member",
+          "label": "打开PLUS会员页"
+        },
+        "android": {
+          "url": "openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%253A%252F%252Fplus.m.jd.com%252F%22%7D",
+          "kind": "member",
+          "label": "打开PLUS会员页"
+        }
+      },
+      "home": {
+        "ios": {
+          "url": "openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22HomePage%22%7D",
+          "kind": "home"
+        },
+        "android": {
+          "url": "openApp.jdMobile://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22HomePage%22%7D",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://wqs.jd.com/downloadApp/openApp.html",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "京东 App → 我的 → PLUS会员。具体权益在PLUS页内查找。",
+      "help": {
+        "harmony": "先进入京东官方打开页，再选择打开App；鸿蒙版目标页面支持以App实际显示为准。"
+      }
+    },
+    "taobao": {
+      "appName": "淘宝",
+      "schemes": [
+        "tbopen:"
+      ],
+      "httpsHosts": [
+        "b.mashort.cn",
+        "h5.m.taobao.com"
+      ],
+      "androidPackage": "com.taobao.taobao",
+      "home": {
+        "ios": {
+          "url": "tbopen://m.taobao.com/tbopen/index.html?action=ali.open.nav&module=h5&bootImage=0&h5Url=https%3A%2F%2Fm.taobao.com%2F",
+          "kind": "home"
+        },
+        "android": {
+          "url": "tbopen://m.taobao.com/tbopen/index.html?action=ali.open.nav&module=h5&bootImage=0&h5Url=https%3A%2F%2Fm.taobao.com%2F",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://h5.m.taobao.com/bcec/downloadTaobao.html",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "淘宝 App → 我的淘宝 → 88VIP／会员中心。官方网页按钮为88VIP权益规则，不能办理领取。",
+      "help": {
+        "harmony": "先打开淘宝官方引导页；鸿蒙版是否能接收跳转，以App实际支持为准。"
+      }
+    },
+    "jd-finance": {
+      "appName": "京东金融",
+      "schemes": [
+        "jdmobile:"
+      ],
+      "httpsHosts": [
+        "m.jr.jd.com"
+      ],
+      "androidPackage": "com.jd.jrapp",
+      "home": {
+        "ios": {
+          "url": "jdmobile://",
+          "kind": "home"
+        },
+        "android": {
+          "url": "jdmobile://",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://m.jr.jd.com/helppage/downApp/",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "京东金融 App → 我的 → 会员／会员权益，查看当前等级。",
+      "help": {
+        "harmony": "京东金融鸿蒙版的直接打开方式尚未确认，可使用官方引导页或官方网页。"
+      }
+    },
+    "meituan": {
+      "appName": "美团",
+      "schemes": [
+        "imeituan:"
+      ],
+      "httpsHosts": [
+        "www.meituan.com"
+      ],
+      "androidPackage": "com.sankuai.meituan",
+      "home": {
+        "ios": {
+          "url": "imeituan://www.meituan.com/home",
+          "kind": "home"
+        },
+        "android": {
+          "url": "imeituan://www.meituan.com/home",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://www.meituan.com/mobile/download/meituan",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "美团 App → 我的 → 美团会员，查看当前等级和对应权益。",
+      "help": {
+        "harmony": "先进入官方引导页；鸿蒙版是否能接收跳转，以App实际支持为准。"
+      }
+    },
+    "alipay": {
+      "appName": "支付宝",
+      "schemes": [
+        "alipays:"
+      ],
+      "httpsHosts": [
+        "ds.alipay.com"
+      ],
+      "androidPackage": "com.eg.android.AlipayGphone",
+      "home": {
+        "ios": {
+          "url": "alipays://platformapi/startapp?appId=20000001",
+          "kind": "home"
+        },
+        "android": {
+          "url": "alipays://platformapi/startapp?appId=20000001",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://ds.alipay.com/",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "支付宝 App → 我的 → 支付宝会员 → 等级特权，查看当前等级权益。",
+      "help": {
+        "harmony": "先进入官方引导页；鸿蒙版是否能接收跳转，以App实际支持为准。"
+      }
+    },
+    "dianping": {
+      "appName": "大众点评",
+      "schemes": [
+        "dianping:"
+      ],
+      "httpsHosts": [
+        "m.dianping.com"
+      ],
+      "androidPackage": "com.dianping.v1",
+      "home": {
+        "ios": {
+          "url": "dianping://home",
+          "kind": "home"
+        },
+        "android": {
+          "url": "dianping://home",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://m.dianping.com/",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "大众点评 App → 我的 → 会员等级；V等级与橙V／VIP资格分别查看。",
+      "help": {
+        "harmony": "先进入官方引导页；鸿蒙版是否能接收跳转，以App实际支持为准。"
+      }
+    },
+    "mobile": {
+      "appName": "中国移动",
+      "schemes": [],
+      "httpsHosts": [
+        "h.app.coc.10086.cn",
+        "touch.10086.cn"
+      ],
+      "home": {
+        "common": {
+          "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html",
+          "kind": "handoff"
+        }
+      },
+      "guide": "中国移动 App → 我的 → 全球通·金卡专享；也可以在App内搜索“全球通”。",
+      "benefits": {
+        "hotel-discount": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fqqt.cmicrwx.cn%2F2016tyjf%2Fqqtxly%2Fres%2Fwap%2Findex.html%3FsspId%3D66033%26isReplace%3D1%23%2Fhome%2Fhotel",
+              "kind": "benefit",
+              "label": "打开酒店权益页"
+            }
+          },
+          "web": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+          "guide": "中国移动 App → 全球通·金卡专享 → 酒店权益，核对适用酒店、房型和具体服务。"
+        },
+        "hotel-coupon": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fqqt.cmicrwx.cn%2F2016tyjf%2Fqqtxly%2Fres%2Fwap%2Findex.html%3FsspId%3D66033%26isReplace%3D1%23%2Fhome%2Fhotel",
+              "kind": "benefit",
+              "label": "打开酒店权益页"
+            }
+          },
+          "web": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+          "guide": "中国移动 App → 全球通·金卡专享 → 酒店权益，核对适用酒店、房型和具体服务。"
+        },
+        "hotel-breakfast": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fqqt.cmicrwx.cn%2F2016tyjf%2Fqqtxly%2Fres%2Fwap%2Findex.html%3FsspId%3D66033%26isReplace%3D1%23%2Fhome%2Fhotel",
+              "kind": "benefit",
+              "label": "打开酒店权益页"
+            }
+          },
+          "web": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+          "guide": "中国移动 App → 全球通·金卡专享 → 酒店权益，核对适用酒店、房型和具体服务。"
+        },
+        "hotel-late-checkout": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fqqt.cmicrwx.cn%2F2016tyjf%2Fqqtxly%2Fres%2Fwap%2Findex.html%3FsspId%3D66033%26isReplace%3D1%23%2Fhome%2Fhotel",
+              "kind": "benefit",
+              "label": "打开酒店权益页"
+            }
+          },
+          "web": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+          "guide": "中国移动 App → 全球通·金卡专享 → 酒店权益，核对适用酒店、房型和具体服务。"
+        },
+        "hotel-upgrade": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fqqt.cmicrwx.cn%2F2016tyjf%2Fqqtxly%2Fres%2Fwap%2Findex.html%3FsspId%3D66033%26isReplace%3D1%23%2Fhome%2Fhotel",
+              "kind": "benefit",
+              "label": "打开酒店权益页"
+            }
+          },
+          "web": "https://qqt.cmicrwx.cn/2016tyjf/qqtxly/res/wap/index.html?sspId=66033&isReplace=1#/home/hotel",
+          "guide": "中国移动 App → 全球通·金卡专享 → 酒店权益，核对适用酒店、房型和具体服务。"
+        },
+        "roaming-5gb": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fwww.10086.cn%2Froaming%2Fyewu%2Fqqtzs%2F",
+              "kind": "benefit",
+              "label": "打开国漫权益页"
+            }
+          },
+          "web": "https://www.10086.cn/roaming/yewu/qqtzs/",
+          "guide": "中国移动 App → 全球通·金卡专享 → 国漫权益；领取、转赠与激活按本人账号规则操作。"
+        },
+        "roaming-gift": {
+          "route": {
+            "common": {
+              "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fwww.10086.cn%2Froaming%2Fyewu%2Fqqtzs%2F",
+              "kind": "benefit",
+              "label": "打开国漫权益页"
+            }
+          },
+          "web": "https://www.10086.cn/roaming/yewu/qqtzs/",
+          "guide": "中国移动 App → 全球通·金卡专享 → 国漫权益；领取、转赠与激活按本人账号规则操作。"
+        },
+        "airport-lounge": {
+          "guide": "中国移动 App → 全球通·金卡专享，查找机场／高铁贵宾休息室。全国、广东及合作入口分别核对。"
+        },
+        "railway-lounge": {
+          "guide": "中国移动 App → 全球通·金卡专享，查找机场／高铁贵宾休息室。全国、广东及合作入口分别核对。"
+        },
+        "hongkong-lounge": {
+          "guide": "中国移动 App → 全球通·金卡专享，查找机场／高铁贵宾休息室。全国、广东及合作入口分别核对。"
+        },
+        "ctrip-railway-lounge": {
+          "guide": "中国移动 App → 全球通·金卡专享，查找机场／高铁贵宾休息室。全国、广东及合作入口分别核对。"
+        },
+        "lounge-member-purchase": {
+          "guide": "中国移动 App → 全球通·金卡专享，查找机场／高铁贵宾休息室。全国、广东及合作入口分别核对。"
+        },
+        "star-day-benefit-choice": {
+          "guide": "中国移动 App → 全球通·金卡专享 → 星动日。具体领取、签到或任务需本人在活动页确认。"
+        },
+        "star-day-sign-in": {
+          "guide": "中国移动 App → 全球通·金卡专享 → 星动日。具体领取、签到或任务需本人在活动页确认。"
+        },
+        "star-day-blind-box": {
+          "guide": "中国移动 App → 全球通·金卡专享 → 星动日。具体领取、签到或任务需本人在活动页确认。"
+        }
+      }
+    },
+    "ctrip": {
+      "appName": "携程旅行",
+      "schemes": [
+        "ctrip:"
+      ],
+      "httpsHosts": [
+        "m.ctrip.com"
+      ],
+      "androidPackage": "ctrip.android.view",
+      "home": {
+        "ios": {
+          "url": "ctrip://wireless",
+          "kind": "home"
+        },
+        "android": {
+          "url": "ctrip://wireless",
+          "kind": "home"
+        },
+        "harmony": {
+          "url": "https://m.ctrip.com/html5/mkt/centerpage/download/",
+          "kind": "handoff",
+          "label": "官方App入口"
+        }
+      },
+      "guide": "携程旅行 App → 我的 → 会员中心／钻石会员。",
+      "help": {
+        "harmony": "先进入携程官方引导页；原生鸿蒙版能否接收此处跳转，以App实际支持为准。"
+      }
+    },
+    "marriott": {
+      "appName": "万豪旅享家",
+      "schemes": [],
+      "httpsHosts": [
+        "app.marriott.com",
+        "marriott.app.link"
+      ],
+      "home": {
+        "ios": {
+          "url": "https://app.marriott.com/VsUQqWPxjFb",
+          "kind": "home"
+        },
+        "android": {
+          "url": "https://app.marriott.com/VsUQqWPxjFb",
+          "kind": "home"
+        }
+      },
+      "guide": "万豪旅享家 App → 账户 → 您的级别 → 尊贵金卡，查看酒店、航空和租车礼遇。",
+      "help": {
+        "harmony": "万豪App在原生鸿蒙上的打开方式尚未确认，可使用官方网页；已安装时也可按路径查看。"
+      }
+    },
+    "costco": {
+      "appName": "Costco 美国",
+      "schemes": [],
+      "httpsHosts": [
+        "www.costco.com"
+      ],
+      "androidPackage": "com.costco.app.android",
+      "home": {
+        "ios": {
+          "url": "https://www.costco.com/",
+          "kind": "home"
+        },
+        "android": {
+          "url": "https://www.costco.com/",
+          "kind": "home"
+        }
+      },
+      "guide": "美国 Costco App → Account，查看自己的Gold Star会员卡和会员服务。",
+      "help": {
+        "ios": "Costco官网与App使用同一地址，手机可能按系统偏好打开App或网页；电子卡仍需在App内查看。",
+        "android": "Costco官网与App使用同一地址，手机可能按系统偏好打开App或网页；电子卡仍需在App内查看。",
+        "harmony": "美国Costco App在原生鸿蒙上的打开方式尚未确认，可使用官方网页。"
+      }
+    }
+  },
+  "limitations": [
+    "原生App、App内H5与官方引导页分别标注；不把公开规则页当作个人会员中心。",
+    "每次跳转都由用户主动点击，不自动领取、付款、关联账号或定时跳转。",
+    "App中使用手机当前已登录账号，不会按家享中的家庭成员自动切换。",
+    "原生鸿蒙与兼容Android的华为系统分别处理；未确认的接收能力使用官方入口或网页。",
+    "Costco同一官网域名可被App接管，普通网页无法保证两个按钮分别强制留在App或浏览器。"
+  ],
+  "officialSources": {
+    "shopping": [
+      {
+        "url": "https://wq.360buyimg.com/js/common/dest/wq.imk.downloadAppPlugin.min.js",
+        "kind": "官方CDN公开脚本",
+        "discoveredFrom": "https://opendoc.jd.com/jd-jssdk/v4/jm-redirect.html",
+        "facts": [
+          "商城scheme、默认HomePage/H5 m路由及编码",
+          "linkst.m.jd.com/ul/ul.action?拼接",
+          "Android和Harmony映射"
+        ]
+      },
+      {
+        "url": "https://g.alicdn.com/mtb/lib-smb-wake/0.0.90/wake.js",
+        "kind": "官方CDN公开脚本",
+        "discoveredFrom": [
+          "https://main.m.taobao.com/",
+          "https://g.alicdn.com/dinamic/h5-tb-home/3.3.45/index.min.js",
+          "https://g.alicdn.com/mtb/lib-smartbanner-plus-loader/smartbanner-loader.js"
+        ],
+        "facts": [
+          "tbopen H5导航格式",
+          "UL smburl封装",
+          "Android package"
+        ],
+        "ageBoundary": "固定SDK版本0.0.90，由目前移动首页引用链发现；不能等同官方承诺所有外域PWA均可调用。"
+      },
+      {
+        "url": "https://mse.jd.com/downloadcpt/1.3.7/JdjrAutoJumpJrapp.js",
+        "kind": "官方SDK公开脚本",
+        "discoveredFrom": [
+          "https://m.jr.jd.com/integrate/download/html/",
+          "https://m.jr.jd.com/mjractivity/data_source_100000291.js",
+          "https://m.jr.jd.com/spe/downloadApp/index.html?id=2063&contentParam=100001645"
+        ],
+        "facts": [
+          "jdmobile scheme",
+          "金融iOS Universal Link替换路径",
+          "Android package"
+        ],
+        "ageBoundary": "下载页部分素材较旧，当前仍引用1.3.7 SDK；未给V1路由。"
+      }
+    ],
+    "life": {
+      "meituan": [
+        {
+          "url": "https://web-vip.meituan.com/new-growth",
+          "kind": "official-page",
+          "observed": "当前响应是“升级美团”引导页，其HTML直接引用guide.a52fea6b.js和vendor.1292d445.js；这不能作为当前会员中心地址。"
+        },
+        {
+          "url": "https://s3.meituan.net/static-prod01/com.sankuai.mttouchweb.app.imeituan-files/assets/vendor.1292d445.js",
+          "kind": "official-public-script",
+          "evidenceExcerpt": "schemePrefix:\"imeituan://www.meituan.com/web?url=\",homeScheme:\"imeituan://www.meituan.com/home\"",
+          "observed": "同一meituan配置含browserDownload ios/android；wechatDownload Android指向com.sankuai.meituan。"
+        },
+        {
+          "url": "https://source.meituan.com/meituan-member",
+          "kind": "official-membership-information",
+          "evidenceExcerpt": "美团会员业务线活动聚合页",
+          "observed": "公开会员活动信息聚合，不是用户已登录权益页；活动含不同等级、期限和邀约限制。"
+        }
+      ],
+      "alipay": [
+        {
+          "url": "https://ds.alipay.com/",
+          "kind": "official-download/landing-page",
+          "observed": "官方下载入口返回支付宝官方页面，内联资源清单包含ali-callapp.5f179d22c.js。"
+        },
+        {
+          "url": "https://gw.alipayobjects.com/render/p/yuyan/180020010000000069/ali-callapp.5f179d22c.js",
+          "kind": "official-public-script",
+          "evidenceExcerpt": "e||(n=\"alipays://platformapi/startapp?appId=20000001\")",
+          "observed": "getSchemeUrl默认首页协议；同脚本ALIPAY_PACKAGE_NAME为com.eg.android.AlipayGphone。"
+        },
+        {
+          "url": "https://developer.huawei.com/consumer/cn/forum/topic/0201199624872032319",
+          "kind": "official-developer-forum",
+          "observed": "2025-11开发者问答讨论alipays://platformapi/startApp在鸿蒙WebView中应交由openLink；不提供支付宝会员专属route。"
+        }
+      ],
+      "dianping": [
+        {
+          "url": "https://m.dianping.com/",
+          "kind": "official-page",
+          "observed": "当前官网HTML直接加载826-48741761d3c40f72.js；页面的common按钮使用公开home配置。"
+        },
+        {
+          "url": "https://m.dianping.com/usergrowth/mconfig/get?pageKey=home&mSource=default",
+          "kind": "official-public-get-config",
+          "evidenceExcerpt": "\"code\":200; \"launchKey\":\"common\"; \"launchAppUrl\":\"dianping://home\"",
+          "observed": "返回成功、enableLaunch=true；同配置含iOS和Android下载页。"
+        },
+        {
+          "url": "https://s0.meituan.net/static-prod01/com.sankuai.growthweb.dpmobile/_next/static/chunks/826-48741761d3c40f72.js",
+          "kind": "official-public-script",
+          "evidenceExcerpt": "w={dianping:\"com.dianping.v1\"}",
+          "observed": "拉端库验证dianping://前缀；对OpenHarmony的fallback使用com.sankuai.dianping；iOS universal-link模板为https://link.dianping.com/universal-link?schema=encodeURIComponent(scheme)。"
+        },
+        {
+          "url": "https://kf.dianping.com/csCenter/app/questions/17374",
+          "kind": "official-help",
+          "observed": "官方把会员等级和VIP申请分开；页面含2019年旧D币说明，不应把旧说明当V5当前完整权益。"
+        }
+      ],
+      "mobile": [
+        {
+          "url": "https://touch.10086.cn/",
+          "kind": "official-entry",
+          "observed": "重定向到https://h.app.coc.10086.cn/activity/transit/transferDownload.html?sellerId=2136995FW1210100015；官方中国移动APP拉端页。无需把sellerId复制成自有营销标记。"
+        },
+        {
+          "url": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html",
+          "kind": "official-launch-page",
+          "evidenceExcerpt": "这是中国移动APP拉端页的骨架屏",
+          "observed": "HTML直接引用202611261版本index/common/transferDownload脚本；按钮调用官方APPWAKEUP。"
+        },
+        {
+          "url": "https://res.app.coc.10086.cn/activity/transit/js/common-202611261.js",
+          "kind": "official-public-script",
+          "evidenceExcerpt": "IOS:'cn.10086.app',ANDROID:'com.greenpoint.android.mc10086.activity',HARMONY:'com.chinamobile.cmcc'",
+          "observed": "包名明确区分三平台。"
+        },
+        {
+          "url": "https://res.app.coc.10086.cn/activity/transit/js/transferDownload-202611261.js",
+          "kind": "official-public-script",
+          "observed": "initAPPWAKEUP实例使用isWxOpenLaunchApp；请求/下载逻辑ST=2 iOS、10 Harmony、1 Android，自动适配不应手写统一包。"
+        },
+        {
+          "url": "https://www.10086.cn/roaming/yewu/qqtzs/",
+          "kind": "official-globalpass-rights-page",
+          "evidenceExcerpt": "登录查看您的全球通专属国漫权益",
+          "observed": "公开规则列金卡5GB国漫流量及领取、转赠、激活条件；仅打开网页不自动领取或开通漫游。"
+        },
+        {
+          "url": "https://res.app.coc.10086.cn/activity/transit/js/index-202611261.js",
+          "kind": "official-public-launch-library",
+          "observed": "库的dealUrlData将iOS使用url=、Harmony使用targetUrl=；Android构造com.greenpoint://android.mc10086.activity。直接scheme还含随机跟踪字段，推荐交给官方中转生成，不自行模拟。"
+        }
+      ]
+    },
+    "travel": [
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "ctrip-current-awaken-page",
+        "url": "https://m.ctrip.com/mkt/app/awaken/middlepage",
+        "type": "official-public-page-source",
+        "finding": "官网唤起中转页加载下列同站官方CDN的现行middlepage.js。通用入口页，不是会员中心。",
+        "limits": [
+          "未在手机上打开；未访问订单、登录或调用REST接口。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "ctrip-current-awaken-script",
+        "url": "https://webresource.c-ctrip.com/NFES/mktmiddlepageawaken/1793779106977/_next/static/chunks/pages/middlepage.js",
+        "type": "official-public-script",
+        "finding": "默认appUrl多处明写ctrip://wireless；脚本另识别iPhone/Android/openharmony。",
+        "shortEvidence": "r=u(\"appUrl\")||\"ctrip://wireless\"",
+        "metadata": {
+          "bytes": 92993,
+          "revisionToken": "1793779106977"
+        },
+        "limits": [
+          "只证明现行官网的App通用唤起用法，不证明钻石会员中心或任意H5可直达。",
+          "识别OpenHarmony不等于已实测Harmony原生App注册同一scheme。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "ctrip-official-download",
+        "url": "https://m.ctrip.com/html5/mkt/centerpage/download/",
+        "type": "official-public-page-source",
+        "finding": "提供Android、iPhone及HarmonyOS下载按钮；公开源码给出iOS商店号379395415及原生HarmonyOS包com.ctrip.harmonynext。",
+        "observedLinks": [
+          "itms-apps://itunes.apple.com/cn/app/id379395415?mt=8",
+          "store://appgallery.huawei.com/app/detail?id=com.ctrip.harmonynext"
+        ],
+        "limits": [
+          "两项都是下载/商店入口，不是已装App或会员中心入口。",
+          "未请求页面里的版本配置REST接口；不保存渠道/临时统计参数。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "ctrip-ios-association",
+        "url": "https://m.ctrip.com/.well-known/apple-app-site-association",
+        "type": "official-public-association-json",
+        "finding": "当前AASA仅见/html5/you/*关联；不能用此证明m.ctrip.com首页或未知会员路径为Universal Link。",
+        "metadata": {
+          "productionAppIdAsPublished": "977B5X7GSZ.ctrip.com",
+          "allowedPaths": [
+            "/html5/you/*"
+          ],
+          "bytes": 287
+        },
+        "limits": [
+          "AASA含其他生产/内部ID，本次只摘录一个公开生产条目；未读取安装包entitlement。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": "2026-09-07",
+        "id": "ctrip-android-official-store",
+        "url": "https://play.google.com/store/apps/details?id=ctrip.android.view",
+        "type": "official-publisher-store-listing",
+        "finding": "携程旅行官方Google Play条目包名ctrip.android.view；商店条目不是会员页深链。"
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-app-official-cta",
+        "url": "https://www.marriott.com/marriott-brands/mobile-app.mi",
+        "type": "official-public-page-source",
+        "finding": "官网Download the App按钮精确href为https://app.marriott.com/VsUQqWPxjFb；官方说明App可管理账号、查看礼遇。",
+        "observedLinks": [
+          "https://app.marriott.com/VsUQqWPxjFb"
+        ],
+        "limits": [
+          "按钮为通用App入口，不是Gold会员页；无登录或账号操作。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-app-public-redirect",
+        "url": "https://app.marriott.com/VsUQqWPxjFb",
+        "type": "official-public-redirect-readonly",
+        "finding": "官网入口重定向同一路径marriott.app.link；iPhone浏览器标识返回App Store 455004730，Android标识返回intent://open，fragment中scheme=marriott、package=com.marriott.mrt。",
+        "observedCanonicalRedirect": "https://marriott.app.link/VsUQqWPxjFb",
+        "observedStoreUrl": "https://apps.apple.com/app/id455004730",
+        "observedAndroidIntentParts": {
+          "hostOrPath": "open",
+          "scheme": "marriott",
+          "package": "com.marriott.mrt",
+          "hasBrowserFallback": true
+        },
+        "limits": [
+          "使用公开HTTP读取和设备浏览器标识，不是在手机执行。",
+          "临时_p、link_click_id、_branch_referrer等未保存，也不将桌面返回的nullopen错误字符串当协议。",
+          "Android的marriott://open是根据服务器intent的scheme及目标提取的净化候选；未实测，不外推iOS注册。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-app-ios-association",
+        "url": "https://app.marriott.com/.well-known/apple-app-site-association",
+        "type": "official-public-association-json",
+        "finding": "官方CTA域名绑定iOS正式App GZDDXE66N4.com.marriott.iphoneprod，通配路径允许；/e/*及$web_only=true明确排除。",
+        "metadata": {
+          "productionAppId": "GZDDXE66N4.com.marriott.iphoneprod",
+          "pathWildcardAllowed": true,
+          "excludedPaths": [
+            "/e/*"
+          ],
+          "excludedQuery": [
+            {
+              "$web_only": "true"
+            },
+            {
+              "%24web_only": "true"
+            }
+          ],
+          "bytes": 1366
+        },
+        "limits": [
+          "关联配置是服务端证据，未实测已安装App的设备处理或PWA上下文。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-app-android-association",
+        "url": "https://app.marriott.com/.well-known/assetlinks.json",
+        "type": "official-public-association-json",
+        "finding": "官方CTA域名声明handle_all_urls并绑定Android正式包com.marriott.mrt及发布签名。",
+        "metadata": {
+          "productionPackage": "com.marriott.mrt",
+          "relation": "delegate_permission/common.handle_all_urls",
+          "bytes": 335
+        },
+        "limits": [
+          "不证明每个App版本的manifest和设备验证状态。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-branch-ios-association",
+        "url": "https://marriott.app.link/.well-known/apple-app-site-association",
+        "type": "official-public-association-json",
+        "finding": "重定向域名绑定同一iOS正式App，通配允许；排除项同官方CTA域名。",
+        "metadata": {
+          "productionAppId": "GZDDXE66N4.com.marriott.iphoneprod",
+          "bytes": 1366
+        }
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-branch-android-association",
+        "url": "https://marriott.app.link/.well-known/assetlinks.json",
+        "type": "official-public-association-json",
+        "finding": "重定向域名绑定Android正式包com.marriott.mrt及发布签名。",
+        "metadata": {
+          "productionPackage": "com.marriott.mrt",
+          "bytes": 335
+        }
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "marriott-gold-web-fallback",
+        "url": "https://www.marriott.com/loyalty/member-benefits/gold.mi",
+        "type": "official-public-benefits-web-page",
+        "finding": "现有项目的Gold官方公开礼遇网页；可独立提供网页入口，不能标成已核实App Gold直达。"
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "costco-us-ios-association",
+        "url": "https://www.costco.com/.well-known/apple-app-site-association",
+        "type": "official-public-association-json",
+        "finding": "美国官网绑定iOS正式App MCL67DL73Q.com.costco.costco；最终有通配路径允许，另有结账、登出等排除。",
+        "metadata": {
+          "productionAppId": "MCL67DL73Q.com.costco.costco",
+          "pathWildcardAllowed": true,
+          "excludedPaths": [
+            "/Checkout*",
+            "/VendorIntegration*",
+            "/ProductDisplay*",
+            "/CheckOutCmd*",
+            "/SinglePageCheckoutView*",
+            "/LinkYourMembershipInterruptView*",
+            "/OAuthLogonCmd",
+            "/Logoff*",
+            "/jobs.html",
+            "/employee-website.html"
+          ],
+          "bytes": 2624
+        },
+        "limits": [
+          "未读取安装包entitlement或实测App处理；不把调试包当用户目标。",
+          "通配不证明数字会员卡页面路由存在。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "costco-us-android-association",
+        "url": "https://www.costco.com/.well-known/assetlinks.json",
+        "type": "official-public-association-json",
+        "finding": "美国官网handle_all_urls关联Android正式包com.costco.app.android和发布签名。",
+        "metadata": {
+          "productionPackage": "com.costco.app.android",
+          "relation": "delegate_permission/common.handle_all_urls",
+          "bytes": 631
+        },
+        "limits": [
+          "未实测手机默认打开设置或App manifest；调试包排除。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": "页面构建标记11/27/2026 10:38:42 PM",
+        "id": "costco-us-app-page",
+        "url": "https://www.costco.com/f/-/costco-app",
+        "type": "official-public-app-page",
+        "finding": "美国官网App页列App Store/Google Play，说明App内数字卡及Account页入口；未公布数字卡独立深链。",
+        "observedLinks": [
+          "https://apps.apple.com/us/app/costco/id535509415",
+          "https://play.google.com/store/apps/details?id=com.costco.app.android"
+        ],
+        "limits": [
+          "锁屏快捷卡设置涉及权限，未代设；只保留正常打开App后查看卡的导航。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": "06/19/2026; Version20.0",
+        "id": "costco-us-dmc-help",
+        "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/10294/loc/en_US",
+        "type": "official-public-help",
+        "finding": "数字卡须有效会籍、受支持iOS/Android手机、Costco.com账号并验证会籍；不支持平板。App内Card/Account的实际名称随版本，需本人已登录验证。",
+        "limits": [
+          "重新安装或换机可能涉及数字卡转移限制；本任务不重装、不转移、不验证或登录。",
+          "没有读到纯HarmonyOS美国版App或独立数字卡scheme。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "apple-universal-link-platform-doc",
+        "url": "https://developer.apple.com/documentation/Xcode/allowing-apps-and-websites-to-link-to-your-content",
+        "type": "official-platform-documentation",
+        "finding": "Universal Link须双向关联和App处理；未装App通常打开网页；Safari同域继续网页，跨域点击才可能进入App。",
+        "limits": [
+          "服务端AASA存在不足以替代实机验证。"
+        ]
+      },
+      {
+        "checkedAt": "2026-11-28",
+        "publishedOrUpdatedAsRead": null,
+        "id": "android-app-link-platform-doc",
+        "url": "https://developer.android.com/training/app-links/verify-applinks",
+        "type": "official-platform-documentation",
+        "finding": "App Link需安装包声明与域名assetlinks验证，最终行为依设备验证和用户设置。",
+        "limits": [
+          "本次不在手机运行验证命令，也不改默认打开方式。"
+        ]
+      }
+    ]
+  }
+}
